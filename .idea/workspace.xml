@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9aa4189e-792b-4af9-81a2-19cf995ff922" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/angular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/blender.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/bxl-play-store.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/clover_icon_pack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/coolapk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/css-3-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/dart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/dribbble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/exit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/flutter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/html5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/icon_pack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/java.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/language-kotlin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/material-design.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/open_design.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/overwatch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/project_rclock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/qq.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/typescript.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26bX3lq4L37yzqcGImtsteCT2si" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Markdown" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/js" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="ts.external.directory.path" value="C:\Users\shadowmeld\AppData\Roaming\npm\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\js" />
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\img" />
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\data" />
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src" />
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\ShadowmeldHome\src\scripts" />
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\ShadowmeldHome\src\home" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9aa4189e-792b-4af9-81a2-19cf995ff922" name="Changes" comment="" />
+      <created>1647693064554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647693064554</updated>
+      <workItem from="1647693066106" duration="3994000" />
+      <workItem from="1647787421697" duration="5447000" />
+      <workItem from="1647951294294" duration="5832000" />
+      <workItem from="1647960087906" duration="3414000" />
+      <workItem from="1648124387772" duration="4556000" />
+      <workItem from="1649128168817" duration="320000" />
+      <workItem from="1650458489917" duration="9849000" />
+      <workItem from="1650553171360" duration="2929000" />
+      <workItem from="1650680840301" duration="12404000" />
+      <workItem from="1650698756883" duration="2170000" />
+      <workItem from="1650711348172" duration="7960000" />
+      <workItem from="1650720617241" duration="11730000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/data/skill.js" />
+        <option value="$PROJECT_DIR$/src/data/skill.js.map" />
+        <option value="$PROJECT_DIR$/src/home/skill-bar.js.map" />
+        <option value="$PROJECT_DIR$/src/home/skill-bar.js" />
+        <option value="$PROJECT_DIR$/src/home/test.js" />
+        <option value="$PROJECT_DIR$/src/home/project-tiles.js" />
+        <option value="$PROJECT_DIR$/src/home/project-tiles.js.map" />
+        <option value="$PROJECT_DIR$/src/data/markdown.js" />
+        <option value="$PROJECT_DIR$/src/data/markdown.js.map" />
+        <option value="$PROJECT_DIR$/src/data/project.js" />
+        <option value="$PROJECT_DIR$/src/data/project.js.map" />
+        <option value="$PROJECT_DIR$/src/home/home.js.map" />
+        <option value="$PROJECT_DIR$/src/home/home.js" />
+        <option value="$PROJECT_DIR$/src/home/jump-icons.js.map" />
+        <option value="$PROJECT_DIR$/src/home/jump-icons.js" />
+        <option value="$PROJECT_DIR$/src/data/social.js.map" />
+        <option value="$PROJECT_DIR$/src/data/social.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

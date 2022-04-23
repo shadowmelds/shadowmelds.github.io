@@ -1,0 +1,20 @@
+# Project exclude paths
+/dist/
+/node_modules/
+/src/data/markdown.js
+/src/data/markdown.js.map
+/src/data/project.js
+/src/data/project.js.map
+/src/data/skill.js
+/src/data/skill.js.map
+/src/data/social.js
+/src/data/social.js.map
+/src/home/home.js
+/src/home/home.js.map
+/src/home/jump-icons.js
+/src/home/jump-icons.js.map
+/src/home/project-tiles.js
+/src/home/project-tiles.js.map
+/src/home/skill-bar.js
+/src/home/skill-bar.js.map
+/src/home/test.js

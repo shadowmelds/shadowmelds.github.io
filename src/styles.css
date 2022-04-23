@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/material_fonts/MaterialIcons-Regular.ttf);
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(assets/fonts/material_fonts/MaterialIconsOutlined-Regular.otf) format("opentype");
+}
+body {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  background: rgba(66, 185, 131, 0.2);
+  opacity: 0.2;
+  border-radius: 8px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: var(--primary-color);
+}
+
+.light, .light-mode, :root {
+  --primary-color: #42B983;
+  --text-shadow-size: 2px;
+  --background-values: 255,255,255;
+  --background: #fff;
+  --primary: #f6f9fe;
+  --toolbar: rgba(235,240,251,.75);
+  --toolbar-opaque: #ebf0fb;
+  --toolbar-shadow-a: rgba(22,41,86,.08);
+  --toolbar-shadow-b: rgba(22,41,86,.06);
+  --toolbar-shadow-c: rgba(22,41,86,.2);
+  --toolbar-highlight: rgba(45,82,171,.08);
+  --accent-animoji: #d7e1f7;
+  --accent-lighter: #88a4e6;
+  --accent-light: #6085de;
+  --accent: #3867d6;
+  --accent-dark: #2d52ab;
+  --accent-darker: #223e80;
+  --on-accent: #fff;
+  --text-primary: rgba(9,17,34,.95);
+  --text-secondary: rgba(9,17,34,.8);
+  --text-tertiary: rgba(9,17,34,.6);
+  --divider-alpha: 0.12;
+  --divider-opaque: 9,17,34;
+  --divider: rgba(var(--divider-opaque),var(--divider-alpha,0.12));
+  --card-base: 56,103,214;
+  --card-shadow-opacity: 0.12;
+  --card-shadow: rgba(var(--card-base),var(--card-shadow-opacity));
+  --card-shadow-border-opacity: 0.2;
+  --card-shadow-border: rgba(var(--card-base),var(--card-shadow-border-opacity));
+  --shadow-color: 8,15,30;
+  --shadow-color-full: rgba(var(--shadow-color),var(--card-shadow-opacity));
+  --shadow-strength: 0.1;
+  --shadow-sm-color: rgba(var(--shadow-color),calc(var(--shadow-strength) + 0.15));
+  --shadow-sm: 0 1px 2px 0 var(--shadow-sm-color);
+  --shadow-color-a: rgba(var(--shadow-color),calc(var(--shadow-strength) + 0.03));
+  --shadow-color-b: rgba(var(--shadow-color),calc(var(--shadow-strength) + 0.05));
+  --shadow: 0 3px 5px -2px var(--shadow-color-a),0 7px 14px -5px var(--shadow-color-b);
+  --gradient-brand: var(--accent);
+  --gradient-blue: #247aae;
+  --gradient-green: #1a9956;
+  --gradient-yellow: #c69227;
+  --gradient-orange: #c86827;
+  --gradient-red: #bc2f48;
+  --gradient-purple: #7a4cbb;
+  --text-shadow-brand: var(--accent-lighter);
+  --text-shadow-blue: #81c1e9;
+  --text-shadow-green: #79d9a6;
+  --text-shadow-yellow: #fad483;
+  --text-shadow-orange: #fcb483;
+  --text-shadow-red: #f3899c;
+  --text-shadow-purple: #b898e3;
+  --projects-card-text-shadow: rgba(var(--background-values),0.7);
+  --blog-card-color: rgba(var(--background-values),0.85);
+  --blog-card-color-hover: rgba(var(--background-values),0.95);
+  --blog-card-text-shadow: rgba(var(--background-values),0.5);
+  --scrollbar-bg-color: var(--accent-light);
+  --scrollbar-thumb-color: #f2f5fc;
+  --base-font-size: 1rem;
+  --font-3xl: calc(var(--base-font-size)*2.5);
+  --font-2xl: calc(var(--base-font-size)*2.25);
+  --font-xl: calc(var(--base-font-size)*2);
+  --font-lg: calc(var(--base-font-size)*1.75);
+  --font-md: calc(var(--base-font-size)*1.5);
+  --font-sm: calc(var(--base-font-size)*1.25);
+  --font-xs: var(--base-font-size);
+  --font-2xs: calc(var(--base-font-size)*0.925);
+  --font-3xs: calc(var(--base-font-size)*0.85);
+  --toolbar-height: 56px;
+}
+
+/*# sourceMappingURL=styles.css.map */
