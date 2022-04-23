@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9aa4189e-792b-4af9-81a2-19cf995ff922" name="Changes" comment="Commit" />
+    <list default="true" id="9aa4189e-792b-4af9-81a2-19cf995ff922" name="Changes" comment="Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Markdown" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/home" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
@@ -50,11 +53,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\home" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\js" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\img" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\data" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src" />
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\ShadowmeldHome\src\scripts" />
@@ -97,7 +100,7 @@
       <workItem from="1650680840301" duration="12404000" />
       <workItem from="1650698756883" duration="2170000" />
       <workItem from="1650711348172" duration="7960000" />
-      <workItem from="1650720617241" duration="12360000" />
+      <workItem from="1650720617241" duration="12721000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1650732723462</created>
@@ -106,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650732723462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit">
+      <created>1650733191595</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650733191595</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit">
+      <created>1650733362024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650733362024</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
