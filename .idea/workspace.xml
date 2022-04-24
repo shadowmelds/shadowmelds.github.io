@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9aa4189e-792b-4af9-81a2-19cf995ff922" name="Changes" comment="Commit">
+    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shadowmeld-home.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/blog-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/blog-style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/blog-style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/home-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/home-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home-style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/home-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="SCSS File" />
-        <option value="tsconfig.json" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-        <option value="TypeScript File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,8 +29,8 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="26bX3lq4L37yzqcGImtsteCT2si" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="28F9CyuJYGsOcOWqnyPQ5cvzBGM" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -36,94 +38,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Markdown" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/home" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
-    <property name="ts.external.directory.path" value="C:\Users\shadowmeld\AppData\Roaming\npm\node_modules\typescript\lib" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/tsc.cmd" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="actions.on.save" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\home" />
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\js" />
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\img" />
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\data" />
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\ShadowmeldHome\src\scripts" />
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\ShadowmeldHome\src\home" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9aa4189e-792b-4af9-81a2-19cf995ff922" name="Changes" comment="" />
-      <created>1647693064554</created>
+      <changelist id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="" />
+      <created>1650801343479</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1647693064554</updated>
-      <workItem from="1647693066106" duration="3994000" />
-      <workItem from="1647787421697" duration="5447000" />
-      <workItem from="1647951294294" duration="5832000" />
-      <workItem from="1647960087906" duration="3414000" />
-      <workItem from="1648124387772" duration="4556000" />
-      <workItem from="1649128168817" duration="320000" />
-      <workItem from="1650458489917" duration="9849000" />
-      <workItem from="1650553171360" duration="2929000" />
-      <workItem from="1650680840301" duration="12404000" />
-      <workItem from="1650698756883" duration="2170000" />
-      <workItem from="1650711348172" duration="7960000" />
-      <workItem from="1650720617241" duration="12721000" />
+      <updated>1650801343479</updated>
+      <workItem from="1650801347593" duration="1452000" />
     </task>
-    <task id="LOCAL-00001" summary="Commit">
-      <created>1650732723462</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1650732723462</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Commit">
-      <created>1650733191595</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1650733191595</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Commit">
-      <created>1650733362024</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1650733362024</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,21 +66,26 @@
       <list>
         <option value="$PROJECT_DIR$/src/data/skill.js" />
         <option value="$PROJECT_DIR$/src/data/skill.js.map" />
-        <option value="$PROJECT_DIR$/src/home/skill-bar.js.map" />
         <option value="$PROJECT_DIR$/src/home/skill-bar.js" />
+        <option value="$PROJECT_DIR$/src/home/skill-bar.js.map" />
+        <option value="$PROJECT_DIR$/src/home/skill-button.js" />
+        <option value="$PROJECT_DIR$/src/home/skill-button.js.map" />
         <option value="$PROJECT_DIR$/src/home/test.js" />
+        <option value="$PROJECT_DIR$/src/home/test.js.map" />
+        <option value="$PROJECT_DIR$/src/home/test2.js" />
+        <option value="$PROJECT_DIR$/src/home/test2.js.map" />
+        <option value="$PROJECT_DIR$/src/home/jump-icons.js" />
+        <option value="$PROJECT_DIR$/src/home/jump-icons.js.map" />
+        <option value="$PROJECT_DIR$/src/home/home.js" />
+        <option value="$PROJECT_DIR$/src/home/home.js.map" />
         <option value="$PROJECT_DIR$/src/home/project-tiles.js" />
         <option value="$PROJECT_DIR$/src/home/project-tiles.js.map" />
         <option value="$PROJECT_DIR$/src/data/markdown.js" />
         <option value="$PROJECT_DIR$/src/data/markdown.js.map" />
         <option value="$PROJECT_DIR$/src/data/project.js" />
         <option value="$PROJECT_DIR$/src/data/project.js.map" />
-        <option value="$PROJECT_DIR$/src/home/home.js.map" />
-        <option value="$PROJECT_DIR$/src/home/home.js" />
-        <option value="$PROJECT_DIR$/src/home/jump-icons.js.map" />
-        <option value="$PROJECT_DIR$/src/home/jump-icons.js" />
-        <option value="$PROJECT_DIR$/src/data/social.js.map" />
         <option value="$PROJECT_DIR$/src/data/social.js" />
+        <option value="$PROJECT_DIR$/src/data/social.js.map" />
       </list>
     </option>
   </component>
@@ -162,14 +101,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-    <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
