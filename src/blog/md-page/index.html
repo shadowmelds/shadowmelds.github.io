@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="md-page.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+    <script src="../../assets/js/svg-inject.js"></script>
+</head>
+<body>
+
+<header class="navbar">
+    <div class="app-container">
+        <nav>
+            <a class="navbar-title" href="#">
+                <img src="../../assets/img/shadowmeld.png" alt="ShadowmeldIcon" class="logo">
+                <span>这儿是影遁 🤪</span>
+            </a>
+
+            <!--            <img id="mobile-cta" class="mobile-menu" src="../assets/img/menu.svg" alt="Open Navigation">-->
+
+            <!--            <img id="mobile-exit" class="mobile-menu-exit" src="../assets/img/exit.svg" alt="Close Navigation">-->
+
+            <ul class="theme-mode">
+                <li class="tab">
+                    <button name="Enable dark theme" title="启用深色主题" aria-label="启用深色主题" class="css-a9tx65"><svg viewBox="0 0 24 24" role="presentation" style="width: 1.5rem; height: 1.5rem;"><path d="M12 22h-.9c-2.7-.2-5.1-1.5-6.8-3.6-1.7-2.1-2.5-4.7-2.3-7.3.5-4.8 4.3-8.7 9.1-9.1.4 0 .8.2 1 .5.2.3.2.8-.1 1.1-1 1.3-1.3 2.9-1.1 4.5s1.1 3 2.4 3.9c2.1 1.6 5 1.6 7.1 0 .3-.2.7-.3 1.1-.1.3.2.5.6.5 1-.2 2.7-1.5 5.1-3.6 6.8-1.8 1.5-4 2.3-6.4 2.3zM9.3 4.4c-2.9 1-5 3.7-5.3 6.8-.2 2.1.4 4.2 1.8 5.9s3.3 2.7 5.4 2.9c2.1.2 4.2-.4 5.9-1.8 1.1-.9 1.9-2.1 2.4-3.4-2.5.9-5.3.5-7.5-1.1-1.7-1.3-2.8-3.1-3.2-5.3-.1-1.4 0-2.7.5-4z" style="fill: currentcolor;"></path></svg></button>
+                </li>
+            </ul>
+
+            <ul class="tabs">
+                <li class="tab"><a href="../../home/"><span class="emoji">🙋</span>关于</a></li>
+                <li class="tab current"><a href=""><span class="emoji">📝</span>博客</a></li>
+                <li class="tab"><a href="#"><span class="emoji">🌄</span>相册</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section>
+
+    <div class="app-container">
+        <div class="md-content" [innerHtml] = "content | app">
+
+        </div>
+    </div>
+
+</section>
+
+<script src="../../assets/js/mdpage.js"></script>
+</body>
+</html>

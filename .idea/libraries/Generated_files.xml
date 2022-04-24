@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/src/blog/blog-timeline.js" />
+        <item url="file://$PROJECT_DIR$/src/blog/blog.js" />
+        <item url="file://$PROJECT_DIR$/src/blog/md-page/md-page.js" />
+        <item url="file://$PROJECT_DIR$/src/data/markdowns.js" />
+        <item url="file://$PROJECT_DIR$/src/home/home.js" />
+        <item url="file://$PROJECT_DIR$/src/home/test.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/src/blog/blog-timeline.js" />
+      <root url="file://$PROJECT_DIR$/src/blog/blog.js" />
+      <root url="file://$PROJECT_DIR$/src/blog/md-page/md-page.js" />
+      <root url="file://$PROJECT_DIR$/src/data/markdowns.js" />
+      <root url="file://$PROJECT_DIR$/src/home/home.js" />
+      <root url="file://$PROJECT_DIR$/src/home/test.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

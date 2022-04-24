@@ -4,9 +4,6 @@
     "target": "es6",
     "sourceMap": true
   },
-  "files": [
-    "src/home/skill-bar.ts",
-  ],
   "exclude": [
     "node_modules",
   ],

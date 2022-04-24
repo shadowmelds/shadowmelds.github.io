@@ -2,21 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/js/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/js/mdpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/Uses.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/compose_flip_clock.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/fix_node_sass_install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/images/2021-12-30_082722.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/images/20220109225129.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/images/Screenshot_20220110-20442.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/images/flip_clock_demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/images/icon_shadowmeld.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/shadowmeld_info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20170613_123953440.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20170614_123118566.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20180426_114741.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20180426_165436.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20180428_094739.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20180627_103420.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20181003_133128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20181004_104638.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20181211_155115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20190425_151145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20190702_183428..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20190729_132766.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20191001_063830.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/IMG_20191129_191733.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/blog-timeline.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/blog.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/md-page/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/md-page/markdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/md-page/markdown.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/md-page/markdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blog/blog-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/blog-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blog/blog-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/blog-style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blog/blog-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/blog-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/markdowns.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/markdowns.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/skill-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/skill-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/skill-button.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/skill-button.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/test.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/test.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/test2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/test2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/test2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/test2.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,22 +89,49 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/home" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\home" />
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\blog\md-page" />
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\docs" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650801343479</updated>
       <workItem from="1650801347593" duration="1452000" />
-      <workItem from="1650804847225" duration="4030000" />
+      <workItem from="1650804847225" duration="13456000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1650804893219</created>
@@ -118,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650809109141</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit">
+      <created>1650809461976</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650809461976</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +236,19 @@
         <option value="$PROJECT_DIR$/src/data/project.js.map" />
         <option value="$PROJECT_DIR$/src/data/social.js" />
         <option value="$PROJECT_DIR$/src/data/social.js.map" />
+        <option value="$PROJECT_DIR$/src/blog/blog.js" />
+        <option value="$PROJECT_DIR$/src/blog/blog.js.map" />
+        <option value="$PROJECT_DIR$/src/data/markdowns.js" />
+        <option value="$PROJECT_DIR$/src/data/photos.js.map" />
+        <option value="$PROJECT_DIR$/src/data/photo.js" />
+        <option value="$PROJECT_DIR$/src/data/markdowns.js.map" />
+        <option value="$PROJECT_DIR$/src/data/photos.js" />
+        <option value="$PROJECT_DIR$/src/data/photo.js.map" />
+        <option value="$PROJECT_DIR$/src/blog/blog-timeline.js" />
+        <option value="$PROJECT_DIR$/src/blog/blog-timeline.js.map" />
+        <option value="$PROJECT_DIR$/src/blog/md-page/md-page.js" />
+        <option value="$PROJECT_DIR$/src/blog/md-page/md-page.js.map" />
+        <option value="$PROJECT_DIR$/src/home/home.js" />
       </list>
     </option>
   </component>
@@ -165,5 +267,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
