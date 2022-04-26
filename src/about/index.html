@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../../styles.css">
-    <link rel="stylesheet" href="md-page.css">
-    <link rel="stylesheet" href="../../base.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../bulma/css/bulma.css">
+    <link rel="stylesheet" href="about-style.css">
+    <link rel="stylesheet" href="../base.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
-    <script src="../../assets/js/svg-inject.js"></script>
+    <script src="../assets/js/svg-inject.js"></script>
 </head>
 <body>
-
 <div id="__next">
     <header>
         <div class="app-container">
             <nav class="navbar">
-                <a class="navbar-title" href="../../home/">
-                    <img src="../../assets/img/shadowmeld.png" alt="ShadowmeldIcon" class="logo">
+                <a class="navbar-title" href="../home/">
+                    <img src="../assets/img/shadowmeld.png" alt="ShadowmeldIcon" class="logo">
                     <span>这儿是影遁 🤪</span>
                 </a>
 
@@ -32,23 +32,24 @@
                 </ul>
 
                 <ul class="tabs">
-                    <li class="tab"><a href="../../about/"><span class="emoji">🙋</span>关于</a></li>
-                    <li class="tab current"><a href="../../blog/"><span class="emoji">📝</span>博客</a></li>
-                    <li class="tab"><a href="../../photo"><span class="emoji">🌄</span>相册</a></li>
+                    <li class="tab current"><a href="../about/"><span class="emoji">🙋</span>关于</a></li>
+                    <li class="tab"><a href="../blog/"><span class="emoji">📝</span>博客</a></li>
+                    <li class="tab"><a href="../photo/"><span class="emoji">🌄</span>相册</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section>
-
+        <section class="still-developing">
             <div class="app-container">
-                <div class="md-content" [innerHtml] = "content | app">
-
+                <div class="developing-card-cta card">
+                    <div id="preview">
+                        <h2>本页面正在开发中.. </h2>
+                    </div>
+                    <p>尽请期待 😂😂</p>
                 </div>
             </div>
-
         </section>
     </main>
 
@@ -74,6 +75,7 @@
     </footer>
 </div>
 
-<script src="/dist/mdpage.js"></script>
+<script src="/dist/base.js"></script>
+
 </body>
 </html>

@@ -1,5 +1,5 @@
 # Project exclude paths
-/dist/
+#/dist/
 /node_modules/
 /src/data/markdown.js
 /src/data/markdown.js.map

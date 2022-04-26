@@ -5,7 +5,8 @@ module.exports = {
     entry: {
         home: ['./src/home/home.js', './src/index.js', './src/home/skill-bar.js', './src/home/jump-icons.js', './src/home/skill-button.js', './src/home/project-tiles.js', './src/home/test.js', './src/home/test2.js'],
         blog: ['./src/blog/blog.js'],
-        mdpage: ['./src/blog/md-page/md-page.js']
+        mdpage: ['./src/blog/md-page/md-page.js'],
+        base: ['./src/base.js']
     },
     output: {
         path: path.resolve(__dirname, "./dist"),
