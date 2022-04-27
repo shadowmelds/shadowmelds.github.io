@@ -25,12 +25,12 @@ export class JumpIconsComponent {
 
     socialList(): void {
         this.social = [
-            {name: 'Twitter', url: 'https://twitter.com/Googleyeahs', icon: '../assets/icons/twitter.svg'},
-            {name: 'Instagram', url: 'https://www.instagram.com/andrewmartin791/', icon: '../assets/icons/instagram.svg'},
-            {name: 'Coolapk', url: 'http://www.coolapk.com/u/620606', icon: '../assets/icons/coolapk.svg'},
-            {name: 'PlayStore', url: 'https://play.google.com/store/apps/dev?id=6609504255163731953', icon: '../assets/icons/bxl-play-store.svg'},
-            {name: 'QQ', url: 'tencent://Message/?Uin=2530767709&websiteName=q-zone.qq.com&Menu=yes', icon: '../assets/icons/qq.svg'},
-            {name: 'Github', url: 'https://github.com/hujincan', icon: '../assets/icons/github.svg'}
+            {name: 'Twitter', url: 'https://twitter.com/Googleyeahs', icon: '/src/assets/icons/twitter.svg'},
+            {name: 'Instagram', url: 'https://www.instagram.com/andrewmartin791/', icon: '/src/assets/icons/instagram.svg'},
+            {name: 'Coolapk', url: 'http://www.coolapk.com/u/620606', icon: '/src/assets/icons/coolapk.svg'},
+            {name: 'PlayStore', url: 'https://play.google.com/store/apps/dev?id=6609504255163731953', icon: '/src/assets/icons/bxl-play-store.svg'},
+            {name: 'QQ', url: 'tencent://Message/?Uin=2530767709&websiteName=q-zone.qq.com&Menu=yes', icon: '/src/assets/icons/qq.svg'},
+            {name: 'Github', url: 'https://github.com/hujincan', icon: '/src/assets/icons/github.svg'}
         ];
     }
 

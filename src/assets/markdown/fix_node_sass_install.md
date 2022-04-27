@@ -15,7 +15,7 @@
 
 首先去官网查看了一下版本介绍：
 
-![node-sass官网](/assets/markdown/images/2021-12-30_082722.png "截图")
+![node-sass官网](/src/assets/markdown/images/2021-12-30_082722.png "截图")
 
 我先尝试将版本升为最高的 7.0.1，报错变成Python no can run、以及 需要最新的Visual Studio。我尝试安装了2.7、3.1的 Python 和 Visual Studio，报错依旧不变，依然报错。
 

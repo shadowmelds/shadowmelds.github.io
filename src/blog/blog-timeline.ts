@@ -31,7 +31,7 @@ export class BlogTimelineComponent {
 
             let singleBlogCta = timeline2020.querySelector('#single-blog-cta')
             let singleBlog = singleBlogAnchor2020.cloneNode(true) as HTMLAnchorElement
-            singleBlog.href = `md-page/`;
+            singleBlog.href = `md-page/#/${md.id}`;
             (singleBlog.querySelector('#image-layout') as HTMLDivElement).style.backgroundImage = `url('${md.image}')`;
             (singleBlog.querySelector('.title.mat-h4') as HTMLHeadingElement).textContent = md.title;
             (singleBlog.querySelector('.date') as HTMLParagraphElement).textContent = md.date;
@@ -46,7 +46,7 @@ export class BlogTimelineComponent {
         for (let md of this.markdowns2021) {
             let singleBlogCta = timeline2021.querySelector('#single-blog-cta')
             let singleBlog = singleBlogAnchor2021.cloneNode(true) as HTMLAnchorElement
-            singleBlog.href = `md-page/`;
+            singleBlog.href = `md-page/#/${md.id}`;
             (singleBlog.querySelector('#image-layout') as HTMLDivElement).style.backgroundImage = `url('${md.image}')`;
             (singleBlog.querySelector('.title.mat-h4') as HTMLHeadingElement).textContent = md.title;
             (singleBlog.querySelector('.date') as HTMLParagraphElement).textContent = md.date;
@@ -60,7 +60,7 @@ export class BlogTimelineComponent {
         for (let md of this.markdowns2022) {
             let singleBlogCta = timeline2022.querySelector('#single-blog-cta')
             let singleBlog = singleBlogAnchor2022.cloneNode(true) as HTMLAnchorElement
-            singleBlog.href = `md-page/`;
+            singleBlog.href = `md-page/#/${md.id}`;
             (singleBlog.querySelector('#image-layout') as HTMLDivElement).style.backgroundImage = `url('${md.image}')`;
             (singleBlog.querySelector('.title.mat-h4') as HTMLHeadingElement).textContent = md.title;
             (singleBlog.querySelector('.date') as HTMLParagraphElement).textContent = md.date;

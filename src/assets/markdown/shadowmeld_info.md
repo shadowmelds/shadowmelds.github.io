@@ -1,4 +1,4 @@
-![代表头像](../../assets/markdown/images/icon_shadowmeld.png "Shadowmeld")
+![代表头像](/src/assets/markdown/images/icon_shadowmeld.png "Shadowmeld")
 
 ### 「个人简介」
 

@@ -7,12 +7,15 @@ export class MdPageComponent {
     content: string;
 
     onInit(): void {
-        this.getId();
+        let url = window.location.hash
+        let id = url.substring(url.lastIndexOf('/') + 1, url.length)
+        console.log(id)
+        this.getId(id)
+        window.addEventListener('hashchange', this.myRender)
     }
 
-    getId(): void {
-        const id = -1; // 获取地址栏的id
-        if (id === -1) {
+    getId(id: string): void {
+        if (id === '-1') {
             this.initMarkdown('../../assets/markdown/shadowmeld_info.md');
         } else {
             this.initMarkdown(this.markdowns[id].url);
@@ -44,6 +47,12 @@ export class MdPageComponent {
                 }
             };
         }
+    }
+
+    myRender(): void {
+        let url = window.location.hash
+        let id = url.substring(url.lastIndexOf('/'), url.length)
+        this.getId(id)
     }
 }
 

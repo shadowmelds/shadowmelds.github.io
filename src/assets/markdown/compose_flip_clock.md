@@ -8,13 +8,13 @@ Google 其实很早就发布了 Compose 测试版，不过去年也终于上了�
 
 我这个时钟项目目前还是完成了翻页时钟的组件，有了这个组件做翻页时钟就只是App逻辑需要实现了，因为我还在学习Angular，而且需要更多时间去做前，还不知道能不能坚持完成这个项目。所以先在这里写一写如何做这样一个简单的Demo。
 
-![演示Gif](/assets/markdown/images/flip_clock_demo.gif "Gif")
+![演示Gif](/src/assets/markdown/images/flip_clock_demo.gif "Gif")
 
 ### 实现思路
 
 首先我先去Google了一下翻页时钟的动画，看看翻页时钟究竟是如何做`翻页`这个动作的。就是大概上图那样的演示效果图，我的空间思维不怎么好，所以通过绘画辅助来看看翻页究竟是怎样的一个过程：
 
-![简易原理图](/assets/markdown/images/20220109225129.png "简易原理图")
+![简易原理图](/src/assets/markdown/images/20220109225129.png "简易原理图")
 
 分析：最简单的单个翻页组件需要四个单独的绘制，在上图左侧标出了四个序号代表四个单独的绘制部分，因为数字在变化的过程中四个块显示的数字是不一样的。原理图右侧是动画时四个块应该何时显示A，何时显示B有一个清晰的描述：
 
@@ -273,7 +273,7 @@ fun FlipClockComponent(
 
 好了，当然如果我们想真正的控制这个FlipClockComponent 像最上面那张Gif展示的样子，我们还需要写一些两个简单的按钮来实现控制。所以先不管ViewModel了，先把控制按钮和这个Component展示出来吧：
 
-![效果图](/assets/markdown/images/Screenshot_20220110-20442.png "简易原理图")
+![效果图](/src/assets/markdown/images/Screenshot_20220110-20442.png "简易原理图")
 
 新建**ClockScreen.kt**
 

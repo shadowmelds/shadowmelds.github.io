@@ -2,10 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/base.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/mdpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mdpage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/blog-timeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/blog-timeline.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/md-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/markdowns.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/markdowns.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/jump-icons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/jump-icons.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/photo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/photo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +78,7 @@
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\global" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\js" />
     </key>
   </component>
@@ -91,7 +109,8 @@
       <updated>1650801343479</updated>
       <workItem from="1650801347593" duration="1452000" />
       <workItem from="1650804847225" duration="14396000" />
-      <workItem from="1650980979558" duration="8724000" />
+      <workItem from="1650980979558" duration="8903000" />
+      <workItem from="1651068385329" duration="2817000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1650804893219</created>
@@ -184,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650988915706</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit">
+      <created>1650989814879</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650989814879</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,8 +227,6 @@
         <option value="$PROJECT_DIR$/src/home/test.js.map" />
         <option value="$PROJECT_DIR$/src/home/test2.js" />
         <option value="$PROJECT_DIR$/src/home/test2.js.map" />
-        <option value="$PROJECT_DIR$/src/home/jump-icons.js" />
-        <option value="$PROJECT_DIR$/src/home/jump-icons.js.map" />
         <option value="$PROJECT_DIR$/src/home/home.js" />
         <option value="$PROJECT_DIR$/src/home/home.js.map" />
         <option value="$PROJECT_DIR$/src/home/project-tiles.js" />
@@ -226,8 +250,6 @@
         <option value="$PROJECT_DIR$/src/blog/md-page/md-page.js" />
         <option value="$PROJECT_DIR$/src/blog/md-page/md-page.js.map" />
         <option value="$PROJECT_DIR$/src/home/home.js" />
-        <option value="$PROJECT_DIR$/src/base.js" />
-        <option value="$PROJECT_DIR$/src/base.js.map" />
       </list>
     </option>
   </component>

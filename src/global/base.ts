@@ -1,4 +1,4 @@
-import {JumpIconsComponent} from "./home/jump-icons";
+import {JumpIconsComponent} from "./jump-icons";
 
 init();
 
