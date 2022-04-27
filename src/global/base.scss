@@ -63,7 +63,7 @@ ul {
 }
 
 section, header {
-  padding: 1em 2em;
+  padding: 1em 1em;
 }
 
 .divider {
@@ -113,6 +113,25 @@ main {
   padding: 0 1rem;
 }
 
+.back-posts-list {
+  font-weight: 500;
+  font-size: 18px;
+  display: inline-block;
+  color: var(--accent);
+  align-self: flex-start;
+  margin-bottom: 0.4rem;
+  margin-left: 0.4rem;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+  }
+}
+
 .still-developing {
 
   .developing-card-cta {
@@ -139,7 +158,6 @@ main {
   padding-left: 32px;
   padding-right: 32px;
   width: 100%; }
-
 
 .mobile-menu, .mobile-menu-exit {
   display: none;

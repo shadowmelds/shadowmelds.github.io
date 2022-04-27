@@ -23,10 +23,25 @@ export class MdPageComponent {
     }
 
     initMarkdown(url): void {
+        const hljs = require('highlight.js');
         const md = require('markdown-it')({
             html: true,
             linkify: true,
-            typographer: true
+            typographer: true,
+            highlight: function (str, lang) {
+                // 添加这两行才能正确显示 <>
+                // str = str.replace(/&lt;/g, "<");
+                // str = str.replace(/&gt;/g, ">");
+                if (lang && hljs.getLanguage(lang)) {
+                    try {
+                        return '<pre class="hljs"><code>' +
+                            hljs.highlight(str, { language: lang, ignoreIllegals: true }).value +
+                            '</code></pre>';
+                    } catch (__) {}
+                }
+
+                return '<pre class="hljs"><code>' + md.utils.escapeHtml(str) + '</code></pre>';
+            }
         }).use(require('markdown-it-deflist'));
 
         let xmlhttp: XMLHttpRequest;

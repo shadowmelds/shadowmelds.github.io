@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
+    "highlight.js": "^11.5.1",
     "markdown-it": "^13.0.0",
     "markdown-it-deflist": "^2.1.0"
   },

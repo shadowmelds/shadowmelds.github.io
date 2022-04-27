@@ -2,27 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/md-page/androidstudio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/mdpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mdpage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog-timeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/blog-timeline.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blog/md-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/md-page/markdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/markdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/markdowns.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/markdowns.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/jump-icons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/jump-icons.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/photo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/blog/md-page" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -71,10 +63,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\blog\md-page" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\js" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\home" />
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\blog\md-page" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -110,7 +102,7 @@
       <workItem from="1650801347593" duration="1452000" />
       <workItem from="1650804847225" duration="14396000" />
       <workItem from="1650980979558" duration="8903000" />
-      <workItem from="1651068385329" duration="2817000" />
+      <workItem from="1651068385329" duration="5770000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1650804893219</created>
@@ -210,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650989814879</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="commit">
+      <created>1651071321745</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651071321745</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

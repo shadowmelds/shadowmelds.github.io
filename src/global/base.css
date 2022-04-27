@@ -55,7 +55,7 @@ ul {
 }
 
 section, header {
-  padding: 1em 2em;
+  padding: 1em 1em;
 }
 
 .divider {
@@ -101,6 +101,24 @@ main {
   width: 100%;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+.back-posts-list {
+  font-weight: 500;
+  font-size: 18px;
+  display: inline-block;
+  color: var(--accent);
+  align-self: flex-start;
+  margin-bottom: 0.4rem;
+  margin-left: 0.4rem;
+  text-decoration: none;
+}
+.back-posts-list:hover {
+  cursor: pointer;
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
 }
 
 .still-developing .developing-card-cta {
