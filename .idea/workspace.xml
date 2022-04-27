@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/markdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/markdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/md-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/base.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/photo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/photo/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +101,7 @@
       <workItem from="1650801347593" duration="1452000" />
       <workItem from="1650804847225" duration="14396000" />
       <workItem from="1650980979558" duration="8903000" />
-      <workItem from="1651068385329" duration="6180000" />
+      <workItem from="1651068385329" duration="11088000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1650804893219</created>
@@ -205,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651074364392</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="commit">
+      <created>1651074719591</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1651074719591</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

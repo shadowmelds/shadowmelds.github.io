@@ -159,19 +159,16 @@ main {
   padding-right: 32px;
   width: 100%; }
 
-.mobile-menu, .mobile-menu-exit {
-  display: none;
-}
-
 .navbar {
   box-sizing: border-box;
   margin: 2em auto;
-  border-radius: 1em;
+  padding: 1em;
+  border-radius: .6em;
   display: grid;
   grid-template-rows: minmax(0, 1fr);
   grid-template-columns: auto 1fr auto;
   grid-auto-rows: min-content;
-  grid-auto-flow: row dense;
+  //grid-auto-flow: row dense;
   position: unset;
   height: auto;
   width: auto;
@@ -200,26 +197,40 @@ main {
       padding: 0;
       max-height: 42px;
       max-width: 42px;
-    }
 
-    .css-a9tx65{
-      border: none;
-      background: none;
-      min-height: 42px;
-      min-width: 42px;
-    }
-    &:hover {
-      font-weight: bold;
-      background-color: var(--toolbar-highlight);
+      .action-icon{
+        border: none;
+        background: none;
+        min-height: 42px;
+        min-width: 42px;
+        border-radius: 8px;
+
+        &:hover {
+          font-weight: bold;
+          background-color: var(--toolbar-highlight);
+        }
+      }
+
+      .mobile-menu {
+        path {
+          d:path("M 3 6 H 21 V 8 H 3 V 6 M 3 11 H 21 V 13 H 3 V 11 M 3 16 H 21 V 18 H 3 V 16 Z");
+        }
+      }
+
+      .menu-btn-exit {
+        path {
+          d: path("M6.4 19 5 17.6 10.6 12 5 6.4 6.4 5 12 10.6 17.6 5 19 6.4 13.4 12 19 17.6 17.6 19 12 13.4Z");
+        }
+      }
     }
   }
 
   ul.tabs {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
     gap: 0.5rem;
-    justify-content: flex-end;
-    display: flex;
+    justify-content: flex-start;
+    display: none;
 
     li {
       display: inline-block;
@@ -243,6 +254,10 @@ main {
         }
       }
     }
+  }
+
+  ul.menu-btn-exit {
+    display: flex;
   }
 
   a.navbar-title {
@@ -299,124 +314,21 @@ main {
 //普通桌面端
 @media only screen and (min-width: 768px) {
 
-  .mobile-menu, .mobile-menu-exit {
-    display: none;
-  }
-
   .navbar {
-    box-sizing: border-box;
-    margin: 2em auto;
-    padding: 1em;
-    border-radius: .6em;
-    display: grid;
-    grid-template-rows: minmax(0, 1fr);
-    grid-template-columns: auto 1fr auto;
-    grid-auto-rows: min-content;
     grid-auto-flow: row dense;
-    position: unset;
-    height: auto;
-    width: auto;
-    background-color: var(--md-sys-color-inverse-on-surface);
-    box-shadow: 0 0.5em 1em -0.125em rgb(0 0 0 / 16%);
-    color: var(--md-sys-color-on-surface-variant);
-
-    img.logo {
-      width: 2em;
-      height: 2em;
-      border-radius: 50%;
-    }
 
     ul.theme-mode {
-      gap: 0;
-      grid-column-start: 3;
-      grid-column-end: 4;
-      justify-content: flex-end;
-      display: inline-flex;
-      align-items: center;
-      border-radius: 8px;
 
-      li {
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-        max-height: 42px;
-        max-width: 42px;
-      }
-
-      .css-a9tx65{
-        border: none;
-        background: none;
-        min-height: 42px;
-        min-width: 42px;
-      }
-      &:hover {
-        font-weight: bold;
-        background-color: var(--toolbar-highlight);
+      .css-16pk4gl {
+        display: none;
       }
     }
 
     ul.tabs {
       grid-column-start: 2;
       grid-column-end: 3;
-      gap: 0.5rem;
       justify-content: flex-end;
       display: flex;
-
-      li {
-        display: inline-block;
-
-        a {
-          color: var(--text-secondary);
-          font-size: 1rem;
-          margin: 0 .2em;
-          padding: 0.7em 1em;
-          text-decoration: none;
-          transition: all 0.25s ease-in-out;
-          pointer-events: auto;
-          border-radius: 8px;
-          border: none;
-          box-sizing: border-box;
-          display: inline-flex;
-
-          &:hover {
-            font-weight: bold;
-            background-color: var(--toolbar-highlight);
-          }
-        }
-      }
-    }
-
-    a.navbar-title {
-      text-align: center;
-      display: inline-flex;
-      align-items: center;
-      text-decoration: none;
-      padding: 0 0.8em;
-      color: var(--text-secondary);
-      margin: 0 .2em;
-      transition: all 0.25s ease-in-out;
-      pointer-events: auto;
-      border-radius: 8px;
-      border: none;
-      box-sizing: border-box;
-
-      span {
-        font-size: 1em;
-        padding: 0 0 0 0.8em;
-        color: var(--text-secondary);
-      }
-
-      &:hover {
-        font-weight: bold;
-        background-color: var(--toolbar-highlight);
-      }
-    }
-    a.navbar-title {
-    }
-
-    // 选中的 tab
-    .tabs li.current a {
-      background-color: var(--toolbar-highlight);
     }
   }
 }
