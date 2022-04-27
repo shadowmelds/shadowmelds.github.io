@@ -159,6 +159,7 @@
 }
 
 .md-content code {
+  font: 500 20px/32px Roboto, Helvetica Neue, sans-serif;
   word-break: break-word;
   color: #EA6900;
   line-height: 1;
