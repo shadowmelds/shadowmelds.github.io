@@ -1,8 +1,4 @@
 @charset "UTF-8";
-.features .app-container {
-  display: flex;
-  justify-content: space-between;
-}
 .features img.info-logo {
   width: 8em;
   height: 8em;
@@ -207,6 +203,9 @@
   color: #3A414E;
 }
 
+.projects .project-cta {
+  display: flow-root;
+}
 .projects .project-icon {
   align-self: center;
   width: 64px;
@@ -259,6 +258,23 @@
 }
 .projects .list-item .list {
   color: #333;
+}
+
+@media only screen and (min-width: 596px) {
+  .features .app-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .features .app-container .info-logo {
+    order: 1;
+    align-self: flex-end;
+  }
+  .features .app-container .hello {
+    order: 1;
+  }
+  .features .app-container .text {
+    order: 2;
+  }
 }
 
 /*# sourceMappingURL=home-style.css.map */

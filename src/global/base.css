@@ -100,7 +100,7 @@ main {
   flex: 1;
   width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 0;
 }
 
 .back-posts-list {
@@ -145,6 +145,10 @@ main {
   padding-left: 32px;
   padding-right: 32px;
   width: 100%;
+}
+
+.navbar > * {
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .navbar {

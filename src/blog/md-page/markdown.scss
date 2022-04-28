@@ -139,7 +139,7 @@
 
 .md-content li {
   //font-family: ".萍方-简", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
-  font-size: inherit;
+  font-size: 0.9rem;
   line-height: 1.6rem;
   word-spacing: 0.05rem;
   margin: 0.4em 0;
@@ -171,7 +171,7 @@
 
 .md-content p, .md-content ul, .md-content ol {
   //font-family: ".萍方-简", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 1.6rem;
   word-spacing: 0.05rem;
 }
@@ -198,6 +198,21 @@
   font-size: 15px;
   border-radius: 3px;
   border: 1px solid #eee;
+
+  ol {
+    list-style: none;
+    padding-left: 0;
+    counter-reset: my-badass-counter;
+
+    li {
+      margin: 0;
+    }
+  }
+  ol > li:before {
+    content: counter(my-badass-counter);
+    padding-right: 2em;
+    counter-increment: my-badass-counter;
+  }
 }
 
 .md-content pre code {
@@ -206,12 +221,12 @@
   font-weight: 400;
   display: block;
   overflow-x: auto;
-  padding: 0.5em 1em;
   border-radius: .8em;
   color: #eceff1;
   background-color: #073042;
   line-height: 1.5;
   white-space: pre;
+  padding: 0.5em 1em;
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;

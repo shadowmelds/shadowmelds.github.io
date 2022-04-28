@@ -110,7 +110,7 @@ main {
   width: 100%;
   //max-width: 768px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 0;
 }
 
 .back-posts-list {
@@ -158,6 +158,10 @@ main {
   padding-left: 32px;
   padding-right: 32px;
   width: 100%; }
+
+.navbar > * {
+  transition: all 0.3s ease-in-out 0s;
+}
 
 .navbar {
   box-sizing: border-box;

@@ -6,11 +6,6 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
 
 .features {
 
-  .app-container {
-    display: flex;
-    justify-content: space-between;
-  }
-
   img.info-logo {
     width: 8em;
     height: 8em;
@@ -212,6 +207,10 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
 
 .projects {
 
+  .project-cta {
+    display: flow-root;
+  }
+
   .project-icon {
     align-self: center;
     width: 64px;
@@ -275,5 +274,26 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
   .list-item .list {
     color: #333;
   }
+}
 
+
+//普通桌面端
+@media only screen and (min-width: 596px) {
+  .features {
+    .app-container {
+      display: flex;
+      justify-content: space-between;
+
+      .info-logo {
+        order: 1;
+        align-self: flex-end;
+      }
+      .hello {
+        order: 1;
+      }
+      .text {
+        order: 2;
+      }
+    }
+  }
 }
