@@ -17,13 +17,18 @@ export class MdPageComponent {
     getId(id: string): void {
         if (id === '-1') {
             this.initMarkdown('../../assets/markdown/shadowmeld_info.md');
+            document.getElementById('tab-about').classList.add('current');
+            document.getElementById('tab-blog').classList.remove('current');
         } else {
+            document.getElementById('tab-about').classList.remove('current');
+            document.getElementById('tab-blog').classList.add('current');
             this.initMarkdown(this.markdowns[id].url);
         }
     }
 
     initMarkdown(url): void {
         const hljs = require('highlight.js');
+
         const md = require('markdown-it')({
             html: true,
             linkify: true,

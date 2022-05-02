@@ -50,7 +50,7 @@ export class ProjectTilesComponent {
             // 双行
             this.projects = [
                 {icon: '../assets/img/project_shadowmeld_site.png', name: 'ShadowmeldHome', content: '本网站的开源地址',
-                    url: 'https://github.com/shadowmelds/shadowmeld-home'}
+                    url: 'https://github.com/shadowmelds/shadowmelds.github.io'}
             ];
             this.projectsTwo = [
                 {icon: '../assets/img/project_shadowmeld_site.png', name: 'ShadowmeldWebsite', content: '本网站的旧版本开源地址',
@@ -60,7 +60,7 @@ export class ProjectTilesComponent {
             // 单行
             this.projects = [
                 {icon: '../assets/img/project_shadowmeld_site.png', name: 'ShadowmeldHome', content: '本网站的开源地址',
-                    url: 'https://github.com/shadowmelds/shadowmeld-home'},
+                    url: 'https://github.com/shadowmelds/shadowmelds.github.io'},
                 {icon: '../assets/img/project_shadowmeld_site.png', name: 'ShadowmeldWebsite', content: '本网站的旧版本开源地址',
                     url: 'https://github.com/shadowmelds/AndrewHomeSite'}
             ];
