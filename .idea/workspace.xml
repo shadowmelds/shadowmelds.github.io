@@ -2,64 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/assets/js/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/010.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/011.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/012.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/014.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/016.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/018.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/021.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/022.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/023.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/025.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/026.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/photos/027.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/photo/photo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/photo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mdpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mdpage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20170613_123953440.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20170614_123118566.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20180426_114741.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20180426_165436.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20180428_094739.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20180627_103420.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20181003_133128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20181004_104638.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20181211_155115.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20190425_151145.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20190702_183428..jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20190729_132766.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20191001_063830.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/photos/IMG_20191129_191733.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/photos.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/photos.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/project-tiles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/project-tiles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/photo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/photo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/photo/photo-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/photo-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/photo/photo-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/photo-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/photo/photo-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +46,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -150,7 +94,8 @@
       <workItem from="1651068385329" duration="11333000" />
       <workItem from="1651081008392" duration="265000" />
       <workItem from="1651155766420" duration="6620000" />
-      <workItem from="1651494111185" duration="8167000" />
+      <workItem from="1651494111185" duration="8655000" />
+      <workItem from="1651504217592" duration="698000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1650804893219</created>
@@ -292,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651162456091</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="commit">
+      <created>1651503667858</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1651503667858</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
