@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+.md-content {
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 30px 15px 40px;
+  color: var(--text-secondary);
+}
 .md-content kbd {
   padding: 0 .29412em;
   border-radius: .3rem;
@@ -23,25 +29,25 @@
   text-decoration: none;
   font-size: 18px;
 }
-
-.md-content h1, .md-content h2, .md-content h3, .md-content h4, .md-content h5, .md-content h6 {
-  //font-family: ".萍方-简", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
-  -webkit-font-smoothing: initial;
-  color: #34495e;
-  line-height: 1.35;
-  font-variant-numeric: lining-nums;
-  font-weight: bold;
-  padding: 0;
+.md-content h1, .md-content h2, .md-content h3, .md-content h4, .md-content strong {
+  font-weight: 600;
 }
+//.md-content h1, .md-content h2, .md-content h3, .md-content h4, .md-content h5, .md-content h6 {
+//  //font-family: ".萍方-简", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
+//  -webkit-font-smoothing: initial;
+//  color: #cc0f35;
+//  line-height: 1.35;
+//  font-variant-numeric: lining-nums;
+//  font-weight: 600;
+//  padding: 0;
+//}
 
 .md-content p {
   //font-family: ".萍方-简", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
- font-family: "Roboto Mono", sans sans-serif;
+ font-family: 'Roboto Mono',Source Sans Pro,Helvetica Neue,Arial,sans-serif;
   padding: 0;
   margin: 1.2em 0;
-  color: #34495e;
   box-sizing: border-box;
-  font-size: 16px;
 }
 
 .md-content h1 {
@@ -85,10 +91,10 @@
 }
 
 .md-content h3 {
-  margin-top: 1.4em;
-  margin-bottom: 0.6em;
-  font-size: 1.6em;
-  font-weight: bold;
+  margin: 40px 0 0.6rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
 }
 
 .md-content h4 {
@@ -142,7 +148,7 @@
   font-size: 0.9rem;
   line-height: 1.6rem;
   word-spacing: 0.05rem;
-  margin: 0.4em 0;
+  margin: 1.2em 0;
 }
 
 @font-face {
@@ -171,7 +177,6 @@
 
 .md-content p, .md-content ul, .md-content ol {
   //font-family: ".萍方-简", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
-  font-size: 1rem;
   line-height: 1.6rem;
   word-spacing: 0.05rem;
 }
@@ -181,21 +186,23 @@
   overflow-y: hidden;
   overflow-x: auto;
   margin: 2em 0 2em 0;
-  background-color: transparent;
-  padding: 0;
+  padding: 0 1.4rem;
+  border-radius: .8em;
+  background-color: #073042;
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
 }
 
 .md-content code {
-  font: 500 20px/32px Roboto,Helvetica Neue,sans-serif;
+  font-family: 'Roboto Mono',Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+  font-weight: 500;
+  font-size: .8rem;
   word-break: break-word;
   color: #EA6900;
   line-height: 1;
   vertical-align: middle;
-  margin: 0 3px;
-  font-size: 15px;
+  margin: 0 2px;
   border-radius: 3px;
   border: 1px solid #eee;
 
@@ -217,16 +224,14 @@
 
 .md-content pre code {
   font-family: "Roboto Mono", sans-serif, monospace;
-  font-size: 14px;
   font-weight: 400;
   display: block;
   overflow-x: auto;
-  border-radius: .8em;
   color: #eceff1;
-  background-color: #073042;
+  border: none;
   line-height: 1.5;
   white-space: pre;
-  padding: 0.5em 1em;
+  padding: 2.2em 5px;
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;

@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/src/data/photos.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/photos.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/mdpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mdpage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/photo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/md-page/markdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/markdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/markdowns.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/markdowns.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/photo/photo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/photo/photo.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="SCSS File" />
         <option value="TypeScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -94,7 +102,8 @@
       <workItem from="1651081008392" duration="265000" />
       <workItem from="1651155766420" duration="6620000" />
       <workItem from="1651494111185" duration="8655000" />
-      <workItem from="1651504217592" duration="1158000" />
+      <workItem from="1651504217592" duration="1735000" />
+      <workItem from="1651549733387" duration="4740000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1650804893219</created>
@@ -250,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651504925253</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="commit">
+      <created>1651505428062</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1651505428062</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

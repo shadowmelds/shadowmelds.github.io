@@ -54,10 +54,13 @@ export class PhotosComponent {
     }
 
     imgbox(obj, i): void {
+
+        let width = (document.getElementById('img_wrap') as HTMLDivElement).clientWidth
+        console.log('w' + width)
         const imgSrc = $(obj).find('img').attr('src');
         this.getImageWidth(imgSrc, (w, h) => {
             $(obj).find('i').css({'padding-bottom': h / w * 100 + '%'});
-            $(obj).css({ flexGrow: (w * 100) / h, flexBasis: (w * 240) / h + 'px' });
+            $(obj).css({ flexGrow: (w * 100) / h, flexBasis: (w * (width * 0.3)) / h + 'px' });
             if (i === 1 && this.isLoading) {
                 this.isLoading = false;
             }
