@@ -16,6 +16,7 @@
   right: 0;
   bottom: 0;
   margin: auto;
+  z-index: 1;
 }
 .photo-cta .is-display {
   display: flex;
@@ -23,14 +24,21 @@
 .photo-cta .photo-preview {
   max-height: 82%;
   max-width: 86%;
+  width: min-content;
   margin-top: 4em;
   border-radius: 6px;
   box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
 }
-.photo-cta .photo-description {
+.photo-cta .photo-text {
   color: white;
   font-size: 16px;
   margin-top: 1em;
+}
+.photo-cta .photo-text .photo-description {
+  margin-right: 20px;
+}
+.photo-cta .photo-text p {
+  display: inline;
 }
 .photo-cta .mat-h2 {
   margin-top: 1.6em;

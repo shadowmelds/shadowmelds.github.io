@@ -33,6 +33,7 @@ export class PhotosComponent {
         this.photo = photo;
         (document.getElementById('dialog-preview') as HTMLDivElement).classList.add('is-display');
         (document.getElementById('photo-preview') as HTMLImageElement).src = this.photo.url;
+        (document.getElementById('photo-date') as HTMLParagraphElement).textContent = '拍摄日期：' + this.photo.date;
         (document.getElementById('photo-description') as HTMLParagraphElement).textContent = photo.description;
     }
 

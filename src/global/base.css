@@ -1,33 +1,5 @@
-:root {
-  --toolbar-highlight: rgba(45,82,171,.08);
-  --md-sys-color-primary: #6c4ea2;
-  --md-sys-color-on-primary: #ffffff;
-  --md-sys-color-primary-container: #ecdcff;
-  --md-sys-color-on-primary-container: #250059;
-  --md-sys-color-secondary: #635b70;
-  --md-sys-color-on-secondary: #ffffff;
-  --md-sys-color-secondary-container: #eadef8;
-  --md-sys-color-on-secondary-container: #1f182b;
-  --md-sys-color-tertiary: #7e525d;
-  --md-sys-color-on-tertiary: #ffffff;
-  --md-sys-color-tertiary-container: #ffd9e2;
-  --md-sys-color-on-tertiary-container: #32101b;
-  --md-sys-color-error: #ba1b1b;
-  --md-sys-color-error-container: #ffdad4;
-  --md-sys-color-on-error: #ffffff;
-  --md-sys-color-on-error-container: #410001;
-  --md-sys-color-background: #fffbfc;
-  --md-sys-color-on-background: #1d1b1f;
-  --md-sys-color-surface: #fffbfc;
-  --md-sys-color-on-surface: #1d1b1f;
-  --md-sys-color-surface-variant: #e7e0eb;
-  --md-sys-color-on-surface-variant: #49454e;
-  --md-sys-color-outline: #7a757e;
-  --md-sys-color-inverse-on-surface: #f5eff4;
-}
-
 body {
-  background: white;
+  background-color: #fefbfd;
   margin: 0;
   font: 400 14px/20px Roboto, Helvetica Neue, sans-serif;
   box-sizing: inherit;
@@ -41,6 +13,10 @@ header {
 p {
   margin: 0;
   padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  color: var(--text-primary);
 }
 
 h2 {
@@ -163,9 +139,8 @@ main {
   position: unset;
   height: auto;
   width: auto;
-  background-color: var(--md-sys-color-inverse-on-surface);
+  background-color: #ede9f1;
   box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.16);
-  color: var(--md-sys-color-on-surface-variant);
 }
 .navbar img.logo {
   width: 2em;

@@ -137,8 +137,8 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
     box-sizing: border-box;
   }
   .timeline-box > hr {
-    margin: 0px;
-    height: 1px;
+    margin: 0;
+    height: 2px;
     border: none;
     background-color: var(--divider);
     box-sizing: content-box;
@@ -165,8 +165,8 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
 
   .mat-h4 {
     margin: 1.4rem 1.2rem 0.8rem 1.2rem;
-    color: #161D2D;
-    line-height:26px;
+    font-weight: 500;
+    line-height: 1.2;
   }
 
   .mat-h2 {
