@@ -1,7 +1,7 @@
 body {
   background-color: #fefbfd;
   margin: 0;
-  font: 400 14px/20px Roboto, Helvetica Neue, sans-serif;
+  font-family: Roboto, Source Sans Pro, Helvetica Neue, Arial, sans-serif;
   box-sizing: inherit;
 }
 

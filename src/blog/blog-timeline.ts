@@ -88,7 +88,8 @@ export class BlogTimelineComponent {
         let dirMd1 =  document.getElementById('dir-md1') as HTMLLIElement
         let dirMd2 =  document.getElementById('dir-md2') as HTMLLIElement
 
-        for (let md of this.markdownAll) {
+        for(var i=this.markdownAll.length-1;i>=0;i--){
+            let md = this.markdownAll[i]
             let li1 = (dirMd1.cloneNode(true) as HTMLLIElement)
             let li2 = (dirMd2.cloneNode(true) as HTMLLIElement)
             let a1 = li1.querySelector('a') as HTMLAnchorElement
@@ -100,7 +101,6 @@ export class BlogTimelineComponent {
             dirCta1.appendChild(li1)
             dirCta2.appendChild(li2)
         }
-
         dirMd1.remove()
         dirMd2.remove()
     }

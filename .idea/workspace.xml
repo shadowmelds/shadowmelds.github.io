@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="新增博客目录">
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/commands.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/enjoy_linux_gnome.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/images/2022-01-30-21-45-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/images/commands.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/images/proxy_set.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/images/system_up.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/proxy_set.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/system_up.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/mdpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mdpage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/blog-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/blog-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/blog-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/markdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/markdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/blog-timeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/blog-timeline.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/markdowns.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/markdowns.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,19 +62,21 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown\images" />
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\photos" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\js" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\blog\md-page" />
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown\images" />
+      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\global" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\js" />
     </key>
@@ -112,7 +117,9 @@
       <workItem from="1651549733387" duration="5668000" />
       <workItem from="1651580869731" duration="12999000" />
       <workItem from="1651645845103" duration="17048000" />
-      <workItem from="1651666644335" duration="4436000" />
+      <workItem from="1651666644335" duration="4552000" />
+      <workItem from="1651671587867" duration="11000" />
+      <workItem from="1651675040584" duration="3847000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1650804893219</created>
@@ -296,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651663660436</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="新增博客目录">
+      <created>1651671336496</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1651671336496</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
