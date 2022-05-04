@@ -225,12 +225,10 @@
 }
 
 .md-content hr {
-  display: block;
-  text-align: left;
-  margin: 1em 0;
   border: none;
+  border-bottom: 1px solid #eee;
+  margin: 2em 0;
   height: 1px;
-  background: #999;
 }
 
 .md-content table {
