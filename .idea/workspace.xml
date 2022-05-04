@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="新增博客目录">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/markdown/enjoy_linux_gnome.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/enjoy_linux_gnome.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/markdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/markdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/md-page/md-page.css.map" afterDir="false" />
-    </list>
+    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +102,7 @@
       <workItem from="1651671587867" duration="11000" />
       <workItem from="1651675040584" duration="4204000" />
       <workItem from="1651679733296" duration="205000" />
-      <workItem from="1651680240440" duration="162000" />
+      <workItem from="1651680240440" duration="227000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1650804893219</created>
@@ -313,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651679890831</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="update">
+      <created>1651680456329</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1651680456329</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +374,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
     <MESSAGE value="新增博客目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增博客目录" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -58,7 +58,7 @@ export const MARKDOWNS_2021: Markdown[] = [
 ];
 
 export const MARKDOWNS_2020: Markdown[] = [
-  { id: 3, url: '/src/assets/markdown/Uses.md', image: '/src/assets/photos/012.jpg', title: '我使用了哪些工具？',
+  { id: 1, url: '/src/assets/markdown/Uses.md', image: '/src/assets/photos/012.jpg', title: '我使用了哪些工具？',
     content: '了解我使用哪些软件和设备',
     date: '2020.8.31', timeline: 2020}
 ];
