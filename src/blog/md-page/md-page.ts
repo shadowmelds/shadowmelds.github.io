@@ -106,11 +106,11 @@ export class MdPageComponent {
 
 
         let mdCta = document.querySelector('.md-content') as HTMLDivElement;
-        let h1s = mdCta.querySelectorAll("h1, h2, h3");
+        let h1s = mdCta.querySelectorAll("h1, h2, h3, h4, h5");
         var i;
         for (i = 0; i < h1s.length; i++) {
             let heading = h1s[i] as HTMLHeadingElement;
-            heading.id = `dir-${i}`;
+            heading.id = `anchor-${i}`;
 
             let li1 = (dirMd1.cloneNode(true) as HTMLLIElement);
             let li2 = (dirMd2.cloneNode(true) as HTMLLIElement);
@@ -118,8 +118,8 @@ export class MdPageComponent {
             let a2 = li2.querySelector('a') as HTMLAnchorElement;
             a1.textContent = heading.innerText;
             a2.textContent = heading.innerText;
-            a1.href = `#dir-${i}`;
-            a2.href = `#dir-${i}`;
+            a1.href = `#anchor-${i}`;
+            a2.href = `#anchor-${i}`;
             dirCta1.appendChild(li1);
             dirCta2.appendChild(li2);
         }
