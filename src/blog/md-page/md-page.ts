@@ -1,4 +1,5 @@
 import {MARKDOWNS_ALL} from "../../data/markdowns";
+import * as jQuery from "../../assets/js/jquery-3.6.0.min";
 
 export class MdPageComponent {
 
@@ -80,6 +81,8 @@ export class MdPageComponent {
                     const result = md.render(mdContent);
                     this.content = result;
                     document.querySelector('.md-content').insertAdjacentHTML('afterbegin', result);
+
+                    this.initDir()
                 }
             };
         }
@@ -90,6 +93,40 @@ export class MdPageComponent {
         let id = url.substring(url.lastIndexOf('/'), url.length)
         this.getId(id)
     }
+
+    initDir(): void {
+
+        // 加载目录
+
+        let dirCta1 = (document.getElementById('dir-cta1') as HTMLDivElement).querySelector('ul') as HTMLUListElement;
+        let dirCta2 = (document.getElementById('dir-cta2') as HTMLDivElement).querySelector('ul') as HTMLUListElement;
+
+        let dirMd1 =  document.getElementById('dir-md1') as HTMLLIElement;
+        let dirMd2 =  document.getElementById('dir-md2') as HTMLLIElement;
+
+
+        let mdCta = document.querySelector('.md-content') as HTMLDivElement;
+        let h1s = mdCta.querySelectorAll("h1, h2, h3");
+        var i;
+        for (i = 0; i < h1s.length; i++) {
+            let heading = h1s[i] as HTMLHeadingElement;
+            heading.id = `dir-${i}`;
+
+            let li1 = (dirMd1.cloneNode(true) as HTMLLIElement);
+            let li2 = (dirMd2.cloneNode(true) as HTMLLIElement);
+            let a1 = li1.querySelector('a') as HTMLAnchorElement;
+            let a2 = li2.querySelector('a') as HTMLAnchorElement;
+            a1.textContent = heading.innerText;
+            a2.textContent = heading.innerText;
+            a1.href = `#dir-${i}`;
+            a2.href = `#dir-${i}`;
+            dirCta1.appendChild(li1);
+            dirCta2.appendChild(li2);
+        }
+
+        dirMd1.remove()
+        dirMd2.remove()
+    }
 }
 
 init();
@@ -97,4 +134,11 @@ init();
 function init() {
     let mdPage = new MdPageComponent();
     mdPage.onInit()
+
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+        });
+    });
 }

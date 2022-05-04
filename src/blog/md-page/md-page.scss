@@ -5,3 +5,60 @@
 $skill-primary:#3DDC84 !default;
 $skill-primary-dark:#23A65D !default;
 $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000, 0.02) !default;
+
+.blog-content {
+  min-width: fit-content;
+}
+
+.app-container {
+  margin: unset;
+}
+
+.dir-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dir {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 10%;
+  left: 1em;
+  margin: 0 auto;
+  align-self: flex-start;
+
+  .dir-cta {
+    background-color: #fff;
+    border-width: 2px;
+    box-shadow: 0 0 0 0.125em #e1e2e4;
+    padding: 1em 1em;
+    border-radius: 0.5em;
+    display: inline-block;
+
+    ul {
+      list-style-type: none;
+
+      a {
+        text-decoration: none;
+        display: block;
+        padding: 0.5em;
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+.placeholder {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1250px) {
+
+  .dir-layout {
+    display: unset;
+  }
+  .dir {
+    display: none;
+  }
+
+}
