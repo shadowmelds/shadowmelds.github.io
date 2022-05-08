@@ -261,6 +261,22 @@
   left: 1em;
   margin: 0 auto;
   align-self: flex-start;
+  /* 设置滚动条的样式 */
+  /* 滚动槽 */
+  /* 滚动条滑块 */
+}
+.dir ::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+}
+.dir ::-webkit-scrollbar-track {
+  background: var(--divider);
+  opacity: 0.2;
+  border-radius: 8px;
+}
+.dir ::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #c7c7c7;
 }
 .dir .dir-cta {
   border-width: 2px;
@@ -268,6 +284,9 @@
   padding: 1em 1em;
   border-radius: 0.5em;
   display: inline-block;
+  overflow: auto;
+  height: inherit;
+  max-height: inherit;
 }
 .dir .dir-cta ul {
   list-style-type: none;
@@ -275,8 +294,7 @@
 .dir .dir-cta ul a {
   text-decoration: none;
   display: block;
-  padding: 0.5em;
-  font-size: 1.2em;
+  padding: 0.4em;
   color: var(--text-primary);
 }
 

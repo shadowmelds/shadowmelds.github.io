@@ -264,6 +264,7 @@
   .features .app-container {
     display: flex;
     justify-content: space-between;
+    gap: 1em;
   }
   .features .app-container .info-logo {
     order: 1;
