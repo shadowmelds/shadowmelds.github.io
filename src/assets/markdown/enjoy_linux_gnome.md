@@ -36,7 +36,7 @@ sudo apt-get install fcitx-googlepinyin
 使用ibus，也不错
 智能拼音，颜值高。配合插件 ibus font可调整候选词大小简直完美，但是中文词汇和字的排序非常难受。
 
-### 翻墙软件安装
+### 代理安装
 
 推荐Clash for Windows Linux版本。
 
