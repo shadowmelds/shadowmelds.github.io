@@ -36,10 +36,10 @@ datatool "<OW 目录>" mode "<输出目录>" "arguments"
 1. 清单将显示您可以提取的可用英雄/物品/皮肤（您不需要任何输出目录或参数）。
 2. 提取将提取文件，因此如果您要提取特定内容，则需要一个输出文件夹和参数。
 
-请注意，如果目录路径中有空格，则需要在路径周围加上引号。这方面的一个例子是datatool
+请注意，如果目录路径中有空格，则需要在路径周围加上引号。这方面的一个例子是
 
 ```
-d:\Overwatch extract-maps "E:\Overwatch maps"。
+datatool D:\OverwatchData\Overwatch extract-maps "D:\OverwatchData\Datatool output"
 ```
 ---
 
@@ -88,7 +88,7 @@ datatool D:\OverwatchData\Overwatch list-unlocks
 
 列出所有地图数据：datatool D:\OverwatchData\Overwatch list-maps
 
-导出地图：datatool D:\OverwatchData\Datatool outputD:\3D\Datatool output" "地图名"
+导出地图：datatool D:\OverwatchData\Datatool extract-maps "D:\OverwatchData\Datatool output" "地图名"
 ```
 
 所有文件都将转换为最容易进一步使用的格式（Blender）
