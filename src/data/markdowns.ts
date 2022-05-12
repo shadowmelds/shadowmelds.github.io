@@ -26,10 +26,16 @@ export const MARKDOWNS_ALL: Markdown[] = [
     date: '2020.2.28', timeline: 2022},
   { id: 7, url: '/src/assets/markdown/system_up.md', image: '/src/assets/markdown/images/system_up.jpg', title: '💻 提升各操作系统体验的技巧',
     content: '一些小小的细节可以极大的提升操作系统使用体验',
-    date: '2020.3.21', timeline: 2022}
+    date: '2020.3.21', timeline: 2022},
+  { id: 8, url: '/src/assets/markdown/ow_import.md', image: '/src/assets/markdown/images/ow_import.jpg', title: '守望先锋游戏模型导入 Blender',
+    content: '守望先锋英雄模型以及动画导入至Blender的小教程',
+    date: '2020.5.12', timeline: 2022}
 ];
 
 export const MARKDOWNS_2022: Markdown[] = [
+  { id: 8, url: '/src/assets/markdown/ow_import.md', image: '/src/assets/markdown/images/ow_import.jpg', title: '守望先锋游戏模型导入 Blender',
+    content: '守望先锋英雄模型以及动画导入至Blender的小教程',
+    date: '2020.5.12', timeline: 2022},
   { id: 7, url: '/src/assets/markdown/system_up.md', image: '/src/assets/markdown/images/system_up.jpg', title: '💻 提升各操作系统体验的技巧',
     content: '一些小小的细节可以极大的提升操作系统使用体验',
     date: '2020.3.21', timeline: 2022},
