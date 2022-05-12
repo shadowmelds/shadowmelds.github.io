@@ -59,7 +59,7 @@ cd D:\OverwatchData\toolchain-release
 1. 首先要做的是使用list-heroes模式列出所有角色及其能力，因为DataTool需要使用与角色/地图列表中出现的名称完全相同的名称。
 
 ```
-datatool D:\OverwatchData\Overwatch list-unlocks
+datatool D:\OverwatchData\Overwatch list-heroes
 ```
 
 你将会在命令行得到以下数据：
