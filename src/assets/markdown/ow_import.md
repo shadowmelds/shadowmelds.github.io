@@ -88,7 +88,7 @@ datatool D:\OverwatchData\Overwatch list-heroes
 
 列出所有地图数据：datatool D:\OverwatchData\Overwatch list-maps
 
-导出地图：datatool D:\OverwatchData\Datatool extract-maps "D:\OverwatchData\Datatool output" "地图名"
+导出地图：datatool D:\OverwatchData\Overwatch extract-maps "D:\OverwatchData\Datatool output" "地图名"
 ```
 
 所有文件都将转换为最容易进一步使用的格式（Blender）
