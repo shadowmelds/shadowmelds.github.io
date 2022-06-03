@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="update" />
+    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/music163.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/jump-icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/jump-icons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/jump-icons.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/jump-icons.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/jump-icons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/jump-icons.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/icons" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -54,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\icons" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown\images" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\photos" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\js" />
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\blog\md-page" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown\images" />
@@ -119,6 +128,8 @@
       <workItem from="1652532182594" duration="71000" />
       <workItem from="1653132663392" duration="97000" />
       <workItem from="1654042892369" duration="75000" />
+      <workItem from="1654251704401" duration="569000" />
+      <workItem from="1654264352159" duration="859000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1650804893219</created>
@@ -449,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654042956268</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="update">
+      <created>1654251746401</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1654251746401</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
