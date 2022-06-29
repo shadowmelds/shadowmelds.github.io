@@ -12,6 +12,7 @@
         <item url="file://$PROJECT_DIR$/src/global/jump-icons.js" />
         <item url="file://$PROJECT_DIR$/src/home/home.js" />
         <item url="file://$PROJECT_DIR$/src/home/project-tiles.js" />
+        <item url="file://$PROJECT_DIR$/src/home/skill-button.js" />
         <item url="file://$PROJECT_DIR$/src/home/test.js" />
         <item url="file://$PROJECT_DIR$/src/photo/photo.js" />
       </sourceFilesUrls>
@@ -27,6 +28,7 @@
       <root url="file://$PROJECT_DIR$/src/global/jump-icons.js" />
       <root url="file://$PROJECT_DIR$/src/home/home.js" />
       <root url="file://$PROJECT_DIR$/src/home/project-tiles.js" />
+      <root url="file://$PROJECT_DIR$/src/home/skill-button.js" />
       <root url="file://$PROJECT_DIR$/src/home/test.js" />
       <root url="file://$PROJECT_DIR$/src/photo/photo.js" />
     </CLASSES>

@@ -12,6 +12,18 @@ git config --global user.name shadowmelds
 git config --global user.email hujincan15369@Gmail.com
 ```
 
+Git 常用命令
+```
+查看项目状态
+git status
+
+添加所有文件的变更
+git add .
+
+添加为安全目录
+git config --global --add safe.directory 'Path'
+```
+
 NodeJS 更改源
 
 ```

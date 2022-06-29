@@ -11,10 +11,17 @@
 
 - Bulma 
 
-### Gitee
+### 同步至Gitee：
 
 [shadowmelds.gitee.io](https://shadowmelds.gitee.io)
 
 ```
 git push gitee master
+```
+
+### 环境配置
+
+```
+npm install -g typescript
+npm install -g sass
 ```
