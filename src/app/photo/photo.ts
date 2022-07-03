@@ -1,38 +1,65 @@
-import {PHOTOS} from "../data/photos";
 import {Photo} from "../data/photo";
 import * as $ from '../res/js/jquery-3.6.0.min.js';
 
 export class PhotosComponent {
 
-    photos = PHOTOS;
     photo: Photo = null;
     isLoading = true;
 
-
     onInit(): void {
         (document.getElementById('dialog-preview') as HTMLDivElement).addEventListener('click', () => this.clearPhoto());
-        this.updateHTML();
-        this.imageView();
+        this.loadPhotos("/src/assets/json/photos.json");
     }
 
-    updateHTML(): void {
+    loadPhotos(url): void {
+
+        let xmlHttp: XMLHttpRequest;
+        if (window.XMLHttpRequest) {
+            xmlHttp = new XMLHttpRequest();
+        } else {
+            console.log('浏览器不支持');
+        }
+
+        if (xmlHttp != null) {
+            xmlHttp.open('get',url, true)
+            // xmlHttp.responseType = 'json';
+            xmlHttp.send();
+            xmlHttp.onload = () => {
+                if (xmlHttp.status === 200) {
+                    this.layoutPhotos(xmlHttp.responseText)
+                }
+            }
+        }
+    }
+
+    layoutPhotos(json) {
+
+        let photos = JSON.parse(json)
         let originImgX = document.getElementById('img_x');
         let parent = document.getElementById('img_wrap');
 
-        for (let photo of this.photos) {
+        for (let photo of photos['photos'].reverse()) {
             let imgX = originImgX.cloneNode(true) as HTMLDivElement;
-            (imgX.querySelector('img') as HTMLImageElement).src = photo.url;
+            (imgX.querySelector('img') as HTMLImageElement).src = photos['baseUrl'] + photo.photoUrl;
 
-            imgX.addEventListener('click', () => this.clickPhoto(photo));
+            imgX.addEventListener('click', () => this.clickPhoto(
+                {
+                    photoUrl: photos['baseUrl'] + photo.photoUrl,
+                    description: photo.description,
+                    date: photo.date
+                }
+            ));
             parent.appendChild(imgX);
         }
         originImgX.remove();
+
+        this.imageView();
     }
 
     clickPhoto(photo: Photo): void {
         this.photo = photo;
         (document.getElementById('dialog-preview') as HTMLDivElement).classList.add('is-display');
-        (document.getElementById('photo-preview') as HTMLImageElement).src = this.photo.url;
+        (document.getElementById('photo-preview') as HTMLImageElement).src = this.photo.photoUrl;
         (document.getElementById('photo-date') as HTMLParagraphElement).textContent = '拍摄日期：' + this.photo.date;
         (document.getElementById('photo-description') as HTMLParagraphElement).textContent = photo.description;
     }

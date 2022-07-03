@@ -1,21 +1,41 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MdPageComponent = void 0;
-var markdowns_1 = require("../../data/markdowns");
 var jQuery = require("../../res/js/jquery-3.6.0.min");
 var MdPageComponent = /** @class */ (function () {
     function MdPageComponent() {
-        this.markdowns = markdowns_1.MARKDOWNS_ALL;
     }
     MdPageComponent.prototype.onInit = function () {
         var url = window.location.hash;
-        var id = url.substring(url.lastIndexOf('/') + 1, url.length);
-        console.log(id);
-        this.getId(id);
+        this.year = url.substring(url.lastIndexOf('#/') + 2, url.lastIndexOf('/'));
+        this.id = parseInt(url.substring(url.lastIndexOf('/') + 1, url.length));
+        this.loadMarkdowns("/src/assets/json/markdowns.json");
         window.addEventListener('hashchange', this.myRender);
     };
-    MdPageComponent.prototype.getId = function (id) {
-        if (id === '-1') {
+    MdPageComponent.prototype.loadMarkdowns = function (url) {
+        var _this = this;
+        var xmlHttp;
+        if (window.XMLHttpRequest) {
+            xmlHttp = new XMLHttpRequest();
+        }
+        else {
+            console.log('浏览器不支持');
+        }
+        if (xmlHttp != null) {
+            xmlHttp.open('get', url, true);
+            // xmlHttp.responseType = 'json';
+            xmlHttp.send();
+            xmlHttp.onload = function () {
+                if (xmlHttp.status === 200) {
+                    _this.getId(xmlHttp.responseText);
+                }
+            };
+        }
+    };
+    MdPageComponent.prototype.getId = function (json) {
+        var markdowns = JSON.parse(json);
+        console.log(markdowns['markdowns'][this.year]);
+        if (this.year === "2021" && this.id === 0) {
             this.initMarkdown('/src/assets/markdown/shadowmeld_info.md');
             document.getElementById('tab-about').classList.add('current');
             document.getElementById('tab-blog').classList.remove('current');
@@ -23,7 +43,7 @@ var MdPageComponent = /** @class */ (function () {
         else {
             document.getElementById('tab-about').classList.remove('current');
             document.getElementById('tab-blog').classList.add('current');
-            this.initMarkdown(this.markdowns[id].url);
+            this.initMarkdown(markdowns['baseUrl'] + markdowns['markdowns'][this.year][this.id].url);
         }
     };
     MdPageComponent.prototype.initMarkdown = function (url) {

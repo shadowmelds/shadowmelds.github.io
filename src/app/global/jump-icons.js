@@ -39,76 +39,57 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.JumpIconsComponent = void 0;
 var JumpIconsComponent = /** @class */ (function () {
     function JumpIconsComponent() {
-        var _this = this;
-        this.asyncCheck = function (getter, checkSize, timeout) {
-            if (checkSize === void 0) { checkSize = 100; }
-            if (timeout === void 0) { timeout = 1000; }
-            return __awaiter(_this, void 0, void 0, function () {
-                return __generator(this, function (_a) {
-                    return [2 /*return*/, new Promise(function (x) {
-                            var check = function (num) {
-                                if (num === void 0) { num = 0; }
-                                var target = getter();
-                                if (target !== undefined && target !== null) {
-                                    x(target);
-                                }
-                                else if (num > timeout / checkSize) { // 超时
-                                    x(target);
-                                }
-                                else {
-                                    setTimeout(function () { return check(++num); }, checkSize);
-                                }
-                            };
-                            check();
-                        })];
-                });
-            });
-        };
     }
     JumpIconsComponent.prototype.onInit = function () {
-        this.socialList();
         this.pathColor();
-        this.updateHTML();
+        this.loadSocials("/src/assets/json/socials.json");
     };
-    JumpIconsComponent.prototype.updateHTML = function () {
+    JumpIconsComponent.prototype.socialList = function (json) {
         var socialLogoElement = document.getElementById('social-logo-layout');
         var parent = document.getElementById('flex-horizontal');
-        for (var _i = 0, _a = this.social; _i < _a.length; _i++) {
-            var value = _a[_i];
-            var socialLogo = socialLogoElement.cloneNode(true);
-            socialLogo.querySelector('#icon').href = value.url;
-            socialLogo.querySelector('.social-logo').src = value.icon;
-            parent.appendChild(socialLogo);
+        if (json != null) {
+            var socials = JSON.parse(json);
+            for (var _i = 0, _a = socials['socials']; _i < _a.length; _i++) {
+                var value = _a[_i];
+                var socialLogo = socialLogoElement.cloneNode(true);
+                socialLogo.querySelector('#icon').href = value.url;
+                socialLogo.querySelector('.social-logo').src = socials['baseUrl'] + value.icon;
+                parent.appendChild(socialLogo);
+            }
         }
         socialLogoElement.remove();
     };
-    JumpIconsComponent.prototype.socialList = function () {
-        this.social = [
-            { name: 'Instagram', url: 'https://www.instagram.com/andrewmartin791/', icon: '/src/assets/icons/instagram.svg' },
-            { name: 'Coolapk', url: 'http://www.coolapk.com/u/620606', icon: '/src/assets/icons/coolapk.svg' },
-            { name: 'PlayStore', url: 'https://play.google.com/store/apps/dev?id=6609504255163731953', icon: '/src/assets/icons/bxl-play-store.svg' },
-            { name: 'Github', url: 'https://github.com/shadowmelds', icon: '/src/assets/icons/github.svg' },
-            { name: '网易云音乐', url: 'https://music.163.com/#/user/home?id=280851189', icon: '/src/assets/icons/music163.svg' }
-        ];
-    };
     JumpIconsComponent.prototype.pathColor = function () {
         return __awaiter(this, void 0, void 0, function () {
-            var path, paths, style, sheet;
+            var style, sheet;
             return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0: return [4 /*yield*/, this.asyncCheck(function () { return document.querySelector('path'); })];
-                    case 1:
-                        path = _a.sent();
-                        paths = document.querySelectorAll('path');
-                        style = document.createElement('style');
-                        document.head.appendChild(style);
-                        sheet = style.sheet;
-                        // tslint:disable-next-line:prefer-for-of
-                        sheet.insertRule('.social-logo:hover path{fill: white;}');
-                        return [2 /*return*/];
-                }
+                style = document.createElement('style');
+                document.head.appendChild(style);
+                sheet = style.sheet;
+                sheet.insertRule('.social-logo:hover path{fill: white;}');
+                return [2 /*return*/];
             });
         });
+    };
+    JumpIconsComponent.prototype.loadSocials = function (url) {
+        var _this = this;
+        var xmlHttp;
+        if (window.XMLHttpRequest) {
+            xmlHttp = new XMLHttpRequest();
+        }
+        else {
+            console.log('浏览器不支持');
+        }
+        if (xmlHttp != null) {
+            xmlHttp.open('get', url, true);
+            // xmlHttp.responseType = 'json';
+            xmlHttp.send();
+            xmlHttp.onload = function () {
+                if (xmlHttp.status === 200) {
+                    _this.socialList(xmlHttp.responseText);
+                }
+            };
+        }
     };
     return JumpIconsComponent;
 }());

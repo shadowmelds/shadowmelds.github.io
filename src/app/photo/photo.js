@@ -37,12 +37,10 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PhotosComponent = void 0;
-var photos_1 = require("../data/photos");
 var $ = require("../res/js/jquery-3.6.0.min.js");
 var PhotosComponent = /** @class */ (function () {
     function PhotosComponent() {
         var _this = this;
-        this.photos = photos_1.PHOTOS;
         this.photo = null;
         this.isLoading = true;
         this.asyncCheck = function (getter, checkSize, timeout) {
@@ -73,29 +71,54 @@ var PhotosComponent = /** @class */ (function () {
     PhotosComponent.prototype.onInit = function () {
         var _this = this;
         document.getElementById('dialog-preview').addEventListener('click', function () { return _this.clearPhoto(); });
-        this.updateHTML();
-        this.imageView();
+        this.loadPhotos("/src/assets/json/photos.json");
     };
-    PhotosComponent.prototype.updateHTML = function () {
+    PhotosComponent.prototype.loadPhotos = function (url) {
         var _this = this;
+        var xmlHttp;
+        if (window.XMLHttpRequest) {
+            xmlHttp = new XMLHttpRequest();
+        }
+        else {
+            console.log('浏览器不支持');
+        }
+        if (xmlHttp != null) {
+            xmlHttp.open('get', url, true);
+            // xmlHttp.responseType = 'json';
+            xmlHttp.send();
+            xmlHttp.onload = function () {
+                if (xmlHttp.status === 200) {
+                    _this.layoutPhotos(xmlHttp.responseText);
+                }
+            };
+        }
+    };
+    PhotosComponent.prototype.layoutPhotos = function (json) {
+        var _this = this;
+        var photos = JSON.parse(json);
         var originImgX = document.getElementById('img_x');
         var parent = document.getElementById('img_wrap');
         var _loop_1 = function (photo) {
             var imgX = originImgX.cloneNode(true);
-            imgX.querySelector('img').src = photo.url;
-            imgX.addEventListener('click', function () { return _this.clickPhoto(photo); });
+            imgX.querySelector('img').src = photos['baseUrl'] + photo.photoUrl;
+            imgX.addEventListener('click', function () { return _this.clickPhoto({
+                photoUrl: photos['baseUrl'] + photo.photoUrl,
+                description: photo.description,
+                date: photo.date
+            }); });
             parent.appendChild(imgX);
         };
-        for (var _i = 0, _a = this.photos; _i < _a.length; _i++) {
+        for (var _i = 0, _a = photos['photos'].reverse(); _i < _a.length; _i++) {
             var photo = _a[_i];
             _loop_1(photo);
         }
         originImgX.remove();
+        this.imageView();
     };
     PhotosComponent.prototype.clickPhoto = function (photo) {
         this.photo = photo;
         document.getElementById('dialog-preview').classList.add('is-display');
-        document.getElementById('photo-preview').src = this.photo.url;
+        document.getElementById('photo-preview').src = this.photo.photoUrl;
         document.getElementById('photo-date').textContent = '拍摄日期：' + this.photo.date;
         document.getElementById('photo-description').textContent = photo.description;
     };

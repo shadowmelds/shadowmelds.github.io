@@ -2,34 +2,30 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/src/blog/blog-timeline.js" />
-        <item url="file://$PROJECT_DIR$/src/blog/blog.js" />
-        <item url="file://$PROJECT_DIR$/src/blog/md-page/md-page.js" />
-        <item url="file://$PROJECT_DIR$/src/data/markdowns.js" />
-        <item url="file://$PROJECT_DIR$/src/data/photo.js" />
-        <item url="file://$PROJECT_DIR$/src/data/photos.js" />
-        <item url="file://$PROJECT_DIR$/src/global/base.js" />
-        <item url="file://$PROJECT_DIR$/src/global/jump-icons.js" />
-        <item url="file://$PROJECT_DIR$/src/home/home.js" />
-        <item url="file://$PROJECT_DIR$/src/home/project-tiles.js" />
-        <item url="file://$PROJECT_DIR$/src/home/skill-button.js" />
-        <item url="file://$PROJECT_DIR$/src/home/test.js" />
-        <item url="file://$PROJECT_DIR$/src/photo/photo.js" />
+        <item url="file://$PROJECT_DIR$/src/app/blog/blog-timeline.js" />
+        <item url="file://$PROJECT_DIR$/src/app/blog/md-page/md-page.js" />
+        <item url="file://$PROJECT_DIR$/src/app/data/photo.js" />
+        <item url="file://$PROJECT_DIR$/src/app/data/skill.js" />
+        <item url="file://$PROJECT_DIR$/src/app/global/jump-icons.js" />
+        <item url="file://$PROJECT_DIR$/src/app/home/project-tiles.js" />
+        <item url="file://$PROJECT_DIR$/src/app/home/skill-bar.js" />
+        <item url="file://$PROJECT_DIR$/src/app/home/skill-button.js" />
+        <item url="file://$PROJECT_DIR$/src/app/photo/photo.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/src/app/blog/blog.js" />
       <root url="file://$PROJECT_DIR$/src/app/blog/blog-timeline.js" />
+      <root url="file://$PROJECT_DIR$/src/app/blog/blog.js" />
       <root url="file://$PROJECT_DIR$/src/app/blog/md-page/md-page.js" />
       <root url="file://$PROJECT_DIR$/src/app/data/markdowns.js" />
-      <root url="file://$PROJECT_DIR$/src/app/data/photos.js" />
       <root url="file://$PROJECT_DIR$/src/app/data/photo.js" />
-      <root url="file://$PROJECT_DIR$/src/app/global/jump-icons.js" />
+      <root url="file://$PROJECT_DIR$/src/app/data/skill.js" />
       <root url="file://$PROJECT_DIR$/src/app/global/base.js" />
-      <root url="file://$PROJECT_DIR$/src/app/home/test.js" />
-      <root url="file://$PROJECT_DIR$/src/app/home/project-tiles.js" />
-      <root url="file://$PROJECT_DIR$/src/app/home/skill-button.js" />
+      <root url="file://$PROJECT_DIR$/src/app/global/jump-icons.js" />
       <root url="file://$PROJECT_DIR$/src/app/home/home.js" />
+      <root url="file://$PROJECT_DIR$/src/app/home/project-tiles.js" />
+      <root url="file://$PROJECT_DIR$/src/app/home/skill-bar.js" />
+      <root url="file://$PROJECT_DIR$/src/app/home/skill-button.js" />
       <root url="file://$PROJECT_DIR$/src/app/photo/photo.js" />
     </CLASSES>
     <JAVADOC />

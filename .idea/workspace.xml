@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/app/res/bulma/bulma.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/json/markdowns.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/json/photos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/json/projects.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/json/skill-button.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/json/socials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/markdown/images/012.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/markdown/images/shadowmeld.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/base.js" afterDir="false" />
@@ -17,161 +9,32 @@
       <change beforePath="$PROJECT_DIR$/dist/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/mdpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mdpage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/photo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about/about-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about/about-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about/about-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/blog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/jquery-3.6.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/js/jquery-3.6.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/svg-inject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/js/svg-inject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog-timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-timeline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog-timeline.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-timeline.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog-timeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-timeline.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/androidstudio-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/androidstudio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/markdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/markdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/markdown.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/markdown.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/markdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/markdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/md-page/md-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/bulma.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/css/bulma-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/css/bulma-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/css/bulma-rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/css/bulma-rtl.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/css/bulma-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/css/bulma-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/css/bulma.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/css/bulma.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/css/bulma.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/css/bulma.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/css/bulma.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/css/bulma.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/base/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/base/_all.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/base/animations.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/base/animations.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/base/generic.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/base/generic.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/base/helpers.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/base/helpers.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/base/minireset.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/base/minireset.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/_all.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/breadcrumb.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/breadcrumb.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/card.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/card.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/dropdown.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/dropdown.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/level.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/level.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/menu.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/menu.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/message.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/message.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/modal.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/modal.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/navbar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/navbar.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/pagination.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/pagination.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/panel.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/panel.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/components/tabs.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/components/tabs.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/_all.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/box.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/box.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/button.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/container.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/container.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/content.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/content.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/form.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/icon.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/icon.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/image.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/image.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/notification.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/notification.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/other.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/other.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/progress.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/progress.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/table.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/table.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/tag.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/tag.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/elements/title.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/elements/title.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/form/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/form/_all.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/form/checkbox-radio.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/form/checkbox-radio.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/form/file.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/form/file.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/form/input-textarea.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/form/input-textarea.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/form/select.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/form/select.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/form/shared.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/form/shared.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/form/tools.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/form/tools.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/grid/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/grid/_all.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/grid/columns.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/grid/columns.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/grid/tiles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/grid/tiles.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/helpers/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/helpers/_all.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/helpers/color.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/helpers/color.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/helpers/flexbox.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/helpers/flexbox.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/helpers/float.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/helpers/float.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/helpers/other.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/helpers/other.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/helpers/overflow.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/helpers/overflow.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/helpers/position.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/helpers/position.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/helpers/spacing.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/helpers/spacing.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/helpers/typography.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/helpers/typography.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/helpers/visibility.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/helpers/visibility.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/layout/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/layout/_all.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/layout/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/layout/footer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/layout/hero.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/layout/hero.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/layout/section.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/layout/section.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/utilities/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/utilities/_all.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/utilities/animations.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/utilities/animations.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/utilities/controls.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/utilities/controls.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/utilities/derived-variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/utilities/derived-variables.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/utilities/extends.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/utilities/extends.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/utilities/functions.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/utilities/functions.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/utilities/initial-variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/utilities/initial-variables.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bulma/sass/utilities/mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/bulma/sass/utilities/mixins.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/markdown.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/markdown.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/markdowns.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/markdowns.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/markdowns.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/markdowns.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/markdowns.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/markdowns.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/photo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/photo.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/photo.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/photo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/photo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/photos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/photos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/photos.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/photos.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/photos.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/photos.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/project.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/project.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/skill.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/skill.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/social.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/social.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global/base.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global/base.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global/jump-icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/jump-icons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global/jump-icons.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/jump-icons.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global/jump-icons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/jump-icons.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/project-tiles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/project-tiles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/skill-bar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/skill-bar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/skill-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/skill-button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/skill-button.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/skill-button.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/skill-button.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/skill-button.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/test.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/test2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/test2.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/test2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/photo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/photo-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/photo-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/photo.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo/photo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/scripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-timeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-timeline.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-timeline.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-timeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-timeline.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/photo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/photo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/photos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/photos.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/photos.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/skill.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/skill.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/global/jump-icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/jump-icons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/global/jump-icons.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/jump-icons.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/global/jump-icons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/jump-icons.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/project-tiles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/project-tiles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/skill-bar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/skill-bar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/skill-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/skill-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/skill-button.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/skill-button.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/skill-button.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/skill-button.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/photo/photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/photo/photo.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/photo/photo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/markdowns.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/markdowns.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/photos.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/photos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/skill-button.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/skills.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/socials.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/socials.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,19 +69,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "NewWatcherDialog.advanced.open": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Skills/Develop/Frontend/ShadowmeldProjects/Active/shadowmeld-home/src/assets/markdown/images",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;NewWatcherDialog.advanced.open&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Skills/Develop/Frontend/ShadowmeldProjects/Active/shadowmeld-home/src/assets/markdown/images&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown\images" />
@@ -297,14 +160,8 @@
       <workItem from="1656277321260" duration="548000" />
       <workItem from="1656457745113" duration="3390000" />
       <workItem from="1656689414788" duration="1483000" />
-      <workItem from="1656812991321" duration="13186000" />
-    </task>
-    <task id="LOCAL-00003" summary="commit">
-      <created>1650807221051</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1650807221051</updated>
+      <workItem from="1656812991321" duration="13291000" />
+      <workItem from="1656852095050" duration="14371000" />
     </task>
     <task id="LOCAL-00004" summary="commit">
       <created>1650807611256</created>
@@ -642,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656461507168</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="update">
+      <created>1656836078244</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1656836078244</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

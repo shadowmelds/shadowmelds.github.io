@@ -4,80 +4,83 @@ import {Skill} from "../data/skill";
 export class ChipSkillButtonComponent {
 
     skillBar = new SkillBarComponent();
+    skills: Skill[] = [];
 
-    selectSkill(skill: Skill): void {
-        this.selectedSkill = skill;
+    selectSkill(skill): void {
         console.log("OnClick");
         this.skillBar.setSkillBar(skill)
     }
-    skills: Skill[];
-    selectedSkill: Skill;
 
     onInit(): void {
-        this.getSkills();
-        this.displaySkillButtons();
-        this.setSkillStyle();
-        this.selectSkill(this.skills[0])
+        this.loadSkills("/src/assets/json/skills.json");
     }
 
-    displaySkillButtons(): void {
-        let originButton = document.getElementById('skill')
+    loadSkills(url) {
+        let xmlHttp: XMLHttpRequest;
+        if (window.XMLHttpRequest) {
+            xmlHttp = new XMLHttpRequest();
+        } else {
+            console.log('浏览器不支持');
+        }
+
+        if (xmlHttp != null) {
+            xmlHttp.open('get',url, true)
+            // xmlHttp.responseType = 'json';
+            xmlHttp.send();
+            xmlHttp.onload = () => {
+                if (xmlHttp.status === 200) {
+                    this.displaySkillButtons(xmlHttp.responseText)
+                }
+            }
+        }
+    }
+    displaySkillButtons(json): void {
+        let originButton = document.getElementById('skill');
         let parent = document.getElementById('skills-cta');
-        for (let skill of this.skills) {
-            let button = originButton.cloneNode(true) as HTMLButtonElement
 
-            button.classList.add(`skill-${skill.id}`);
-            console.log(skill.id);
-            console.log(skill.icon);
-            (button.querySelector('.img-icon') as HTMLImageElement).src = skill.icon;
-            let buttonText = (button.querySelector('.button-text') as HTMLSpanElement);
-            buttonText.style.color = skill.titleColor;
-            buttonText.textContent = skill.title
+        if (json != null) {
+            const skills = JSON.parse(json);
+            for (let skill of skills['skills']) {
+                this.skills[skill.id] = {
+                    id: skill.id,
+                    title: skill.title,
+                    icon: skills['baseUrl'] + skill.icon,
+                    primary: skill.primary,
+                    iconColor: skill.iconColor,
+                    rating: skill.rating,
+                    titleColor: this.styleMethod02(skill.primary)
+                }
 
-            button.addEventListener('click', () => this.selectSkill(skill));
+                let button = originButton.cloneNode(true) as HTMLButtonElement
 
-            parent.appendChild(button);
+                button.classList.add(`skill-${skill.id}`);
+                (button.querySelector('.img-icon') as HTMLImageElement).src = skills['baseUrl'] + skill.icon;
+                let buttonText = (button.querySelector('.button-text') as HTMLSpanElement);
+                buttonText.style.color = this.skills[skill.id].titleColor;
+                buttonText.textContent = skill.title
 
+                button.addEventListener('click', () => this.selectSkill(this.skills[skill.id]));
+
+                parent.appendChild(button);
+
+                this.setSkillStyle(skill);
+            }
+            originButton.remove()
+            this.selectSkill(skills[0])
         }
-        originButton.remove()
     }
 
-    getSkills(): void {
-        this.skills = [
-            {id: 0, title: 'Android', icon: '/src/assets/icons/android.svg', primary: '#3DDC84', primaryDark: '#23A65D',
-                titleColor: this.styleMethod02('#3DDC84'), rating: 70},
-            {id: 1, title: 'Material Design', icon: '/src/assets/icons/material-design.svg', primary: '#6717F6', primaryDark: '#3f1dcb',
-                titleColor: this.styleMethod02('#6717F6'), rating: 30},
-            {id: 2, title: 'Kotlin', icon: '/src/assets/icons/language-kotlin.svg', primary: '#6779F6', primaryDark: '#26418f',
-                titleColor: this.styleMethod02('#26418f'), rating: 63},
-            {id: 3, title: 'Java', icon: '/src/assets/icons/java.svg', primary: '#ED8B17', primaryDark: '#c77800',
-                titleColor: this.styleMethod02('#c77800'), rating: 60},
-            {id: 4, title: 'TypeScript', icon: '/src/assets/icons/typescript.svg', primary: '#007ACC', primaryDark: '#004ba0',
-                titleColor: this.styleMethod02('#007ACC'), rating: 19},
-            {id: 5, title: 'CSS3', icon: '/src/assets/icons/css-3-logo.svg', primary: '#1B84C2', primaryDark: '#004ba0',
-                titleColor: this.styleMethod02('#1B84C2'), rating: 26},
-            {id: 6, title: 'HTML5', icon: '/src/assets/icons/html5.svg', primary: '#EA6228', primaryDark: '#c43e00',
-                titleColor: this.styleMethod02('#EA6228'), rating: 24},
-            {id: 7, title: 'Overwatch', icon: '/src/assets/icons/overwatch.svg', primary: '#FA9C1E', primaryDark: '#c67c17',
-                titleColor: this.styleMethod02('#FA9C1E'), rating: 48},
-            {id: 8, title: 'Blender', icon: '/src/assets/icons/blender.svg', primary: '#E87C0D', primaryDark: '#b4600a',
-                titleColor: this.styleMethod02('#E87C0D'), rating: 12},
-        ];
-    }
-
-    setSkillStyle(): void {
-        for (const value of this.skills) {
-            const style = document.createElement('style');
-            document.head.appendChild(style);
-            const sheet = style.sheet;
-            sheet.insertRule(`.skills-cta .skill.skill-${value.id}{background-color: ${this.skills[value.id].primary};}`);
-            sheet.insertRule(`.skills-cta .skill.skill-${value.id}{border-color: ${this.skills[value.id].primary};}`);
-            sheet.insertRule(`.skills-cta .skill.skill-${value.id}:focus, .skills-cta .skill.skill-${value.id}.is-focused{border-color: ${this.skills[value.id].primary};}`);
-            sheet.insertRule(`.skills-cta .skill.skill-${value.id}:focus:not(:active), .skills-cta .skill.skill-${value.id}.is-focused:not(:active) {
-    box-shadow: 0 0.5em 1em -0.125em ${this.hexToRGBA('#000000', 0.2)}, 0 0px 0 0.125em ${this.skills[value.id].primaryDark};}`);
-            sheet.insertRule(`.skills-cta .skill.skill-${value.id}:hover, .skills-cta .skill.skill-${value.id}.is-hovered{border-color: ${this.skills[value.id].primary};}`);
-            sheet.insertRule(`.skills-cta .skill.skill-${value.id}:active, .skills-cta .skill.skill-${value.id}.is-active{border-color: ${this.skills[value.id].primary};}`);
-        }
+    setSkillStyle(skill): void {
+        const style = document.createElement('style');
+        document.head.appendChild(style);
+        const sheet = style.sheet;
+        sheet.insertRule(`.skills-cta .skill.skill-${skill.id}{background-color: ${skill.primary};}`);
+        sheet.insertRule(`.skills-cta .skill.skill-${skill.id}{border-color: ${skill.primary};}`);
+        sheet.insertRule(`.skills-cta .skill.skill-${skill.id}:focus, .skills-cta .skill.skill-${skill.id}.is-focused{border-color: ${skill.primary};}`);
+        sheet.insertRule(`.skills-cta .skill.skill-${skill.id}:focus:not(:active), .skills-cta .skill.skill-${skill.id}.is-focused:not(:active) {
+box-shadow: 0 0.5em 1em -0.125em ${this.hexToRGBA('#000000', 0.2)}, 0 0px 0 0.125em ${skill.iconColor};}`);
+        sheet.insertRule(`.skills-cta .skill.skill-${skill.id}:hover, .skills-cta .skill.skill-${skill.id}.is-hovered{border-color: ${skill.primary};}`);
+        sheet.insertRule(`.skills-cta .skill.skill-${skill.id}:active, .skills-cta .skill.skill-${skill.id}.is-active{border-color: ${skill.primary};}`);
     }
 
     toRGB(color: string): string {

@@ -2,7 +2,7 @@ import {Skill} from "../data/skill";
 
 export class SkillBarComponent {
 
-    setSkillBar(skill: Skill): void {
+    setSkillBar(skill): void {
         this.onInit(skill)
     }
 

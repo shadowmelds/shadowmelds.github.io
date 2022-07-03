@@ -1,29 +1,51 @@
-import {MARKDOWNS_ALL} from "../../data/markdowns";
 import * as jQuery from "../../res/js/jquery-3.6.0.min";
 
 export class MdPageComponent {
 
-    markdowns = MARKDOWNS_ALL;
-
     content: string;
+    year: string;
+    id: number;
 
     onInit(): void {
         let url = window.location.hash
-        let id = url.substring(url.lastIndexOf('/') + 1, url.length)
-        console.log(id)
-        this.getId(id)
+        this.year = url.substring(url.lastIndexOf('#/') + 2, url.lastIndexOf('/'))
+        this.id = parseInt(url.substring(url.lastIndexOf('/') + 1, url.length))
+        this.loadMarkdowns("/src/assets/json/markdowns.json")
         window.addEventListener('hashchange', this.myRender)
     }
 
-    getId(id: string): void {
-        if (id === '-1') {
+    loadMarkdowns(url) {
+        let xmlHttp: XMLHttpRequest;
+        if (window.XMLHttpRequest) {
+            xmlHttp = new XMLHttpRequest();
+        } else {
+            console.log('浏览器不支持');
+        }
+
+        if (xmlHttp != null) {
+            xmlHttp.open('get',url, true)
+            // xmlHttp.responseType = 'json';
+            xmlHttp.send();
+            xmlHttp.onload = () => {
+                if (xmlHttp.status === 200) {
+                    this.getId(xmlHttp.responseText)
+                }
+            }
+        }
+    }
+
+    getId(json): void {
+        let markdowns = JSON.parse(json)
+
+        console.log(markdowns['markdowns'][this.year])
+        if (this.year === "2021" && this.id === 0) {
             this.initMarkdown('/src/assets/markdown/shadowmeld_info.md');
             document.getElementById('tab-about').classList.add('current');
             document.getElementById('tab-blog').classList.remove('current');
         } else {
             document.getElementById('tab-about').classList.remove('current');
             document.getElementById('tab-blog').classList.add('current');
-            this.initMarkdown(this.markdowns[id].url);
+            this.initMarkdown(markdowns['baseUrl'] + markdowns['markdowns'][this.year][this.id].url);
         }
     }
 
@@ -102,7 +124,6 @@ export class MdPageComponent {
     initDir(): void {
 
         // 加载目录
-
         let dirCta1 = (document.getElementById('dir-cta1') as HTMLDivElement).querySelector('ul') as HTMLUListElement;
         let dirCta2 = (document.getElementById('dir-cta2') as HTMLDivElement).querySelector('ul') as HTMLUListElement;
 

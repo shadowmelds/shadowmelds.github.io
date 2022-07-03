@@ -5,75 +5,80 @@ var skill_bar_1 = require("./skill-bar");
 var ChipSkillButtonComponent = /** @class */ (function () {
     function ChipSkillButtonComponent() {
         this.skillBar = new skill_bar_1.SkillBarComponent();
+        this.skills = [];
     }
     ChipSkillButtonComponent.prototype.selectSkill = function (skill) {
-        this.selectedSkill = skill;
         console.log("OnClick");
         this.skillBar.setSkillBar(skill);
     };
     ChipSkillButtonComponent.prototype.onInit = function () {
-        this.getSkills();
-        this.displaySkillButtons();
-        this.setSkillStyle();
-        this.selectSkill(this.skills[0]);
+        this.loadSkills("/src/assets/json/skills.json");
     };
-    ChipSkillButtonComponent.prototype.displaySkillButtons = function () {
+    ChipSkillButtonComponent.prototype.loadSkills = function (url) {
+        var _this = this;
+        var xmlHttp;
+        if (window.XMLHttpRequest) {
+            xmlHttp = new XMLHttpRequest();
+        }
+        else {
+            console.log('浏览器不支持');
+        }
+        if (xmlHttp != null) {
+            xmlHttp.open('get', url, true);
+            // xmlHttp.responseType = 'json';
+            xmlHttp.send();
+            xmlHttp.onload = function () {
+                if (xmlHttp.status === 200) {
+                    _this.displaySkillButtons(xmlHttp.responseText);
+                }
+            };
+        }
+    };
+    ChipSkillButtonComponent.prototype.displaySkillButtons = function (json) {
         var _this = this;
         var originButton = document.getElementById('skill');
         var parent = document.getElementById('skills-cta');
-        var _loop_1 = function (skill) {
-            var button = originButton.cloneNode(true);
-            button.classList.add("skill-".concat(skill.id));
-            console.log(skill.id);
-            console.log(skill.icon);
-            button.querySelector('.img-icon').src = skill.icon;
-            var buttonText = button.querySelector('.button-text');
-            buttonText.style.color = skill.titleColor;
-            buttonText.textContent = skill.title;
-            button.addEventListener('click', function () { return _this.selectSkill(skill); });
-            parent.appendChild(button);
-        };
-        for (var _i = 0, _a = this.skills; _i < _a.length; _i++) {
-            var skill = _a[_i];
-            _loop_1(skill);
+        if (json != null) {
+            var skills = JSON.parse(json);
+            var _loop_1 = function (skill) {
+                this_1.skills[skill.id] = {
+                    id: skill.id,
+                    title: skill.title,
+                    icon: skills['baseUrl'] + skill.icon,
+                    primary: skill.primary,
+                    iconColor: skill.iconColor,
+                    rating: skill.rating,
+                    titleColor: this_1.styleMethod02(skill.primary)
+                };
+                var button = originButton.cloneNode(true);
+                button.classList.add("skill-".concat(skill.id));
+                button.querySelector('.img-icon').src = skills['baseUrl'] + skill.icon;
+                var buttonText = button.querySelector('.button-text');
+                buttonText.style.color = this_1.skills[skill.id].titleColor;
+                buttonText.textContent = skill.title;
+                button.addEventListener('click', function () { return _this.selectSkill(_this.skills[skill.id]); });
+                parent.appendChild(button);
+                this_1.setSkillStyle(skill);
+            };
+            var this_1 = this;
+            for (var _i = 0, _a = skills['skills']; _i < _a.length; _i++) {
+                var skill = _a[_i];
+                _loop_1(skill);
+            }
+            originButton.remove();
+            this.selectSkill(skills[0]);
         }
-        originButton.remove();
     };
-    ChipSkillButtonComponent.prototype.getSkills = function () {
-        this.skills = [
-            { id: 0, title: 'Android', icon: '/src/assets/icons/android.svg', primary: '#3DDC84', primaryDark: '#23A65D',
-                titleColor: this.styleMethod02('#3DDC84'), rating: 70 },
-            { id: 1, title: 'Material Design', icon: '/src/assets/icons/material-design.svg', primary: '#6717F6', primaryDark: '#3f1dcb',
-                titleColor: this.styleMethod02('#6717F6'), rating: 30 },
-            { id: 2, title: 'Kotlin', icon: '/src/assets/icons/language-kotlin.svg', primary: '#6779F6', primaryDark: '#26418f',
-                titleColor: this.styleMethod02('#26418f'), rating: 63 },
-            { id: 3, title: 'Java', icon: '/src/assets/icons/java.svg', primary: '#ED8B17', primaryDark: '#c77800',
-                titleColor: this.styleMethod02('#c77800'), rating: 60 },
-            { id: 4, title: 'TypeScript', icon: '/src/assets/icons/typescript.svg', primary: '#007ACC', primaryDark: '#004ba0',
-                titleColor: this.styleMethod02('#007ACC'), rating: 19 },
-            { id: 5, title: 'CSS3', icon: '/src/assets/icons/css-3-logo.svg', primary: '#1B84C2', primaryDark: '#004ba0',
-                titleColor: this.styleMethod02('#1B84C2'), rating: 26 },
-            { id: 6, title: 'HTML5', icon: '/src/assets/icons/html5.svg', primary: '#EA6228', primaryDark: '#c43e00',
-                titleColor: this.styleMethod02('#EA6228'), rating: 24 },
-            { id: 7, title: 'Overwatch', icon: '/src/assets/icons/overwatch.svg', primary: '#FA9C1E', primaryDark: '#c67c17',
-                titleColor: this.styleMethod02('#FA9C1E'), rating: 48 },
-            { id: 8, title: 'Blender', icon: '/src/assets/icons/blender.svg', primary: '#E87C0D', primaryDark: '#b4600a',
-                titleColor: this.styleMethod02('#E87C0D'), rating: 12 },
-        ];
-    };
-    ChipSkillButtonComponent.prototype.setSkillStyle = function () {
-        for (var _i = 0, _a = this.skills; _i < _a.length; _i++) {
-            var value = _a[_i];
-            var style = document.createElement('style');
-            document.head.appendChild(style);
-            var sheet = style.sheet;
-            sheet.insertRule(".skills-cta .skill.skill-".concat(value.id, "{background-color: ").concat(this.skills[value.id].primary, ";}"));
-            sheet.insertRule(".skills-cta .skill.skill-".concat(value.id, "{border-color: ").concat(this.skills[value.id].primary, ";}"));
-            sheet.insertRule(".skills-cta .skill.skill-".concat(value.id, ":focus, .skills-cta .skill.skill-").concat(value.id, ".is-focused{border-color: ").concat(this.skills[value.id].primary, ";}"));
-            sheet.insertRule(".skills-cta .skill.skill-".concat(value.id, ":focus:not(:active), .skills-cta .skill.skill-").concat(value.id, ".is-focused:not(:active) {\n    box-shadow: 0 0.5em 1em -0.125em ").concat(this.hexToRGBA('#000000', 0.2), ", 0 0px 0 0.125em ").concat(this.skills[value.id].primaryDark, ";}"));
-            sheet.insertRule(".skills-cta .skill.skill-".concat(value.id, ":hover, .skills-cta .skill.skill-").concat(value.id, ".is-hovered{border-color: ").concat(this.skills[value.id].primary, ";}"));
-            sheet.insertRule(".skills-cta .skill.skill-".concat(value.id, ":active, .skills-cta .skill.skill-").concat(value.id, ".is-active{border-color: ").concat(this.skills[value.id].primary, ";}"));
-        }
+    ChipSkillButtonComponent.prototype.setSkillStyle = function (skill) {
+        var style = document.createElement('style');
+        document.head.appendChild(style);
+        var sheet = style.sheet;
+        sheet.insertRule(".skills-cta .skill.skill-".concat(skill.id, "{background-color: ").concat(skill.primary, ";}"));
+        sheet.insertRule(".skills-cta .skill.skill-".concat(skill.id, "{border-color: ").concat(skill.primary, ";}"));
+        sheet.insertRule(".skills-cta .skill.skill-".concat(skill.id, ":focus, .skills-cta .skill.skill-").concat(skill.id, ".is-focused{border-color: ").concat(skill.primary, ";}"));
+        sheet.insertRule(".skills-cta .skill.skill-".concat(skill.id, ":focus:not(:active), .skills-cta .skill.skill-").concat(skill.id, ".is-focused:not(:active) {\nbox-shadow: 0 0.5em 1em -0.125em ").concat(this.hexToRGBA('#000000', 0.2), ", 0 0px 0 0.125em ").concat(skill.iconColor, ";}"));
+        sheet.insertRule(".skills-cta .skill.skill-".concat(skill.id, ":hover, .skills-cta .skill.skill-").concat(skill.id, ".is-hovered{border-color: ").concat(skill.primary, ";}"));
+        sheet.insertRule(".skills-cta .skill.skill-".concat(skill.id, ":active, .skills-cta .skill.skill-").concat(skill.id, ".is-active{border-color: ").concat(skill.primary, ";}"));
     };
     ChipSkillButtonComponent.prototype.toRGB = function (color) {
         var sColor = color.toLowerCase();

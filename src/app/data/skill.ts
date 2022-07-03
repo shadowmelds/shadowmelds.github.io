@@ -3,7 +3,7 @@ export interface Skill {
     title: string;
     icon: string;
     primary: string;
-    primaryDark: string;
-    titleColor: string;
+    iconColor: string;
     rating: number;
+    titleColor: string;
 }
