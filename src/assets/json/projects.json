@@ -1,0 +1,17 @@
+{
+    "baseUrl": "/src/assets",
+    "projects": [
+        {
+            "icon": "/img/project_shadowmeld_site.png",
+            "name": "ShadowmeldHome",
+            "content": "本网站的开源地址",
+            "url": "https://github.com/shadowmelds/shadowmelds.github.io"
+        },
+        {
+            "icon": "/img/project_shadowmeld_site.png",
+            "name": "ShadowmeldWebsite",
+            "content": "本网站的旧版本(Angular)开源地址",
+            "url": "https://github.com/shadowmelds/AndrewHomeSite"
+        }
+    ]
+}

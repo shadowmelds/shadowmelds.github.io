@@ -1,0 +1,119 @@
+{
+    "baseUrl": "/src/assets/markdown",
+    "tags": [
+        "软件体验",
+        "浅谈",
+        "开发教程",
+        "Blender教程"
+    ],
+    "markdowns": {
+        "2020": [
+            {
+                "id": 0,
+                "title": "我使用了哪些工具？",
+                "content": "了解我使用哪些软件和设备",
+                "url": "/uses.md",
+                "image": "/images/012.jpg",
+                "date": "2020.8.31",
+                "tags": [
+                    "软件体验"
+                ]
+            }
+        ],
+    
+        "2021": [
+            {
+                "id": 1,
+                "title": "个人介绍",
+                "content": "所有关于我的个人介绍",
+                "url": "/shadowmeld_info.md",
+                "image": "/images/shadowmeld.png",
+                "date": "2021.11.15",
+                "tags": [
+                    "浅谈"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "node-sass 安装不上问题",
+                "content": "踩坑 npm&python 环境问题",
+                "url": "/fix_node_sass_install.md",
+                "image": "/images/2021-12-30_082722.png",
+                "date": "2021.12.30",
+                "tags": [
+                    "开发教程"
+                ]
+            }
+        ],
+    
+        "2022": [
+            {
+                "id": 3,
+                "title": "Android Compose 翻页时钟实现",
+                "content": "用canvas API简单实现一个翻页时钟",
+                "url": "/compose_flip_clock.md",
+                "image": "/images/flip_clock_cover.jpg",
+                "date": "2022.1.9",
+                "tags": [
+                    "开发教程"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Linux 享受指南",
+                "content": "Linux Mint + Gnome 打造极佳体验的Linux桌面环境",
+                "url": "/enjoy_linux_gnome.md",
+                "image": "/images/2022-01-30-21-45-04.png",
+                "date": "2022.1.20",
+                "tags": [
+                    "软件体验"
+                ]
+            },
+            {
+                "id": 5,
+                "title": "各种常用开发软件设置代理",
+                "content": "不同软件设置代理的方式也各所不同",
+                "url": "/proxy_set.md",
+                "image": "/images/proxy_set.jpg",
+                "date": "2022.2.24",
+                "tags": [
+                    "开发教程"
+                ]
+            },
+            {
+                "id": 6,
+                "title": "开发中常用命令",
+                "content": "很多命令一段时间没有使用后会忘记的",
+                "url": "/commands.md",
+                "image": "/images/commands.jpg",
+                "date": "2022.2.28",
+                "tags": [
+                    "开发教程"
+                ]
+            },
+            {
+                "id": 7,
+                "title": "💻 提升各操作系统体验的技巧",
+                "content": "一些小小的细节可以极大的提升操作系统使用体验",
+                "url": "/system_up.md",
+                "image": "/images/system_up.jpg",
+                "date": "2022.3.21",
+                "tags": [
+                    "软件体验"
+                ]
+            },
+            {
+                "id": 8,
+                "title": "守望先锋英雄模型以及动画导入 Blender",
+                "content": "守望先锋英雄模型以及动画导入至Blender的小教程",
+                "url": "/ow_import.md",
+                "image": "/images/ow_import.jpg",
+                "date": "2022.5.12",
+                "tags": [
+                    "Blender教程"
+                ]
+            }
+            
+        ]
+    }
+}

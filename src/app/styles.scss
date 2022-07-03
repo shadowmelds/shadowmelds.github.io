@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* You can add global styles to this file, and also import other style files */
+
+$navbar-background-color: rgba(#FFFFFF, 0.90);
+$navbar-item-img-max-height: 3rem;
+
+$tabs-border-bottom-width: 2px;
+$tabs-border-bottom-color: rgba(#FFFFFF, 0.00);
+$tabs-link-hover-border-bottom-color: #DBDBDB;
+$tabs-link-padding: 0.7em 2em;
+
+$desktop: 820px;
+$widescreen: 960px;
+$fullhd: 1024px;
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/material_fonts/MaterialIcons-Regular.ttf); /* For IE6-8 */
+  src: local('Material Icons'),
+  local('MaterialIcons-Regular'),
+    //url(assets/fonts/material_fonts/MaterialIcons-Regular.ttf) format('truetype'),
+  url(../assets/fonts/material_fonts/MaterialIconsOutlined-Regular.otf) format('opentype');
+  //url(assets/fonts/material_fonts/MaterialIconsRound-Regular.otf) format('opentype'),
+  //url(assets/fonts/material_fonts/MaterialIconsSharp-Regular.otf) format('opentype'),
+  //url(assets/fonts/material_fonts/MaterialIconsTwoTone-Regular.otf) format('opentype');
+}
+//html,body{
+//  height: 100%;
+//}
+
+body{
+  margin: 0;
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  background: rgba(66, 185, 131, 0.2);
+  opacity:0.2;
+  border-radius: 8px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: var(--primary-color);
+}
+
+.light, .light-mode, :root {
+  --primary-color: #42B983;
+  --toolbar-highlight: rgba(45,82,171,.08);
+  --divider: #e3e3e3;
+  --base-font-size: 1rem;
+  --font-md: calc(var(--base-font-size)*1.5);
+  --accent: #3867d6;
+  --text-primary: #212121;
+  --text-secondary: #616161;
+}
