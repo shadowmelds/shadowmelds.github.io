@@ -18,42 +18,42 @@ var BlogTimelineComponent = /** @class */ (function () {
         timeline2021.querySelector('.timeline-h4').textContent = '2021';
         timeline2022.querySelector('.timeline-h4').textContent = '2022';
         var singleBlogAnchor2020 = timeline2020.querySelector('.blog-link');
-        for (var _i = 0, _a = markdowns['markdowns']['2020']; _i < _a.length; _i++) {
+        for (var _i = 0, _a = markdowns['markdowns']['2020'].reverse(); _i < _a.length; _i++) {
             var md = _a[_i];
             var singleBlogCta = timeline2020.querySelector('#single-blog-cta');
             var singleBlog = singleBlogAnchor2020.cloneNode(true);
             singleBlog.href = "md-page/#/2020/".concat(md.id);
             singleBlog.querySelector('.image-layout').style.backgroundImage = "url('".concat(markdowns['baseUrl'] + md.image, "')");
             singleBlog.querySelector('.title.mat-h4').textContent = md.title;
-            singleBlog.querySelector('.image-layout').id = "md-".concat(md.id);
+            singleBlog.querySelector('.image-layout').id = "md-2020-".concat(md.id);
             singleBlog.querySelector('.date').textContent = md.date;
             singleBlog.querySelector('.content').textContent = md.content;
             singleBlogCta.appendChild(singleBlog);
         }
         singleBlogAnchor2020.remove();
         var singleBlogAnchor2021 = timeline2021.querySelector('.blog-link');
-        for (var _b = 0, _c = markdowns['markdowns']['2021']; _b < _c.length; _b++) {
+        for (var _b = 0, _c = markdowns['markdowns']['2021'].reverse(); _b < _c.length; _b++) {
             var md = _c[_b];
             var singleBlogCta = timeline2021.querySelector('#single-blog-cta');
             var singleBlog = singleBlogAnchor2021.cloneNode(true);
             singleBlog.href = "md-page/#/2021/".concat(md.id);
             singleBlog.querySelector('.image-layout').style.backgroundImage = "url('".concat(markdowns['baseUrl'] + md.image, "')");
             singleBlog.querySelector('.title.mat-h4').textContent = md.title;
-            singleBlog.querySelector('.image-layout').id = "md-".concat(md.id);
+            singleBlog.querySelector('.image-layout').id = "md-2021-".concat(md.id);
             singleBlog.querySelector('.date').textContent = md.date;
             singleBlog.querySelector('.content').textContent = md.content;
             singleBlogCta.appendChild(singleBlog);
         }
         singleBlogAnchor2021.remove();
         var singleBlogAnchor2022 = timeline2022.querySelector('.blog-link');
-        for (var _d = 0, _e = markdowns['markdowns']['2022']; _d < _e.length; _d++) {
+        for (var _d = 0, _e = markdowns['markdowns']['2022'].reverse(); _d < _e.length; _d++) {
             var md = _e[_d];
             var singleBlogCta = timeline2022.querySelector('#single-blog-cta');
             var singleBlog = singleBlogAnchor2022.cloneNode(true);
             singleBlog.href = "md-page/#/2022/".concat(md.id);
             singleBlog.querySelector('.image-layout').style.backgroundImage = "url('".concat(markdowns['baseUrl'] + md.image, "')");
             singleBlog.querySelector('.title.mat-h4').textContent = md.title;
-            singleBlog.querySelector('.image-layout').id = "md-".concat(md.id);
+            singleBlog.querySelector('.image-layout').id = "md-2022-".concat(md.id);
             singleBlog.querySelector('.date').textContent = md.date;
             singleBlog.querySelector('.content').textContent = md.content;
             singleBlogCta.appendChild(singleBlog);
@@ -68,42 +68,42 @@ var BlogTimelineComponent = /** @class */ (function () {
         var dirCta2 = document.getElementById('dir-cta2').querySelector('ul');
         var dirMd1 = document.getElementById('dir-md1');
         var dirMd2 = document.getElementById('dir-md2');
-        for (var i = markdowns['markdowns']['2020'].length - 1; i >= 0; i--) {
-            var md = markdowns['markdowns']['2020'];
+        for (var i = 0; i < markdowns['markdowns']['2022'].length; i++) {
+            var md = markdowns['markdowns']['2022'][i];
             var li1 = dirMd1.cloneNode(true);
             var li2 = dirMd2.cloneNode(true);
             var a1 = li1.querySelector('a');
             var a2 = li2.querySelector('a');
             a1.textContent = md.title;
             a2.textContent = md.title;
-            a1.href = "#md-".concat(md.id);
-            a2.href = "#md-".concat(md.id);
+            a1.href = "#md-2022-".concat(md.id);
+            a2.href = "#md-2022-".concat(md.id);
             dirCta1.appendChild(li1);
             dirCta2.appendChild(li2);
         }
-        for (var i = markdowns['markdowns']['2021'].length - 1; i >= 0; i--) {
-            var md = markdowns['markdowns']['2021'];
+        for (var i = 0; i < markdowns['markdowns']['2021'].length; i++) {
+            var md = markdowns['markdowns']['2021'][i];
             var li1 = dirMd1.cloneNode(true);
             var li2 = dirMd2.cloneNode(true);
             var a1 = li1.querySelector('a');
             var a2 = li2.querySelector('a');
             a1.textContent = md.title;
             a2.textContent = md.title;
-            a1.href = "#md-".concat(md.id);
-            a2.href = "#md-".concat(md.id);
+            a1.href = "#md-2021-".concat(md.id);
+            a2.href = "#md-2021-".concat(md.id);
             dirCta1.appendChild(li1);
             dirCta2.appendChild(li2);
         }
-        for (var i = markdowns['markdowns']['2022'].length - 1; i >= 0; i--) {
-            var md = markdowns['markdowns']['2022'];
+        for (var i = 0; i < markdowns['markdowns']['2020'].length; i++) {
+            var md = markdowns['markdowns']['2020'][i];
             var li1 = dirMd1.cloneNode(true);
             var li2 = dirMd2.cloneNode(true);
             var a1 = li1.querySelector('a');
             var a2 = li2.querySelector('a');
             a1.textContent = md.title;
             a2.textContent = md.title;
-            a1.href = "#md-".concat(md.id);
-            a2.href = "#md-".concat(md.id);
+            a1.href = "#md-2020-".concat(md.id);
+            a2.href = "#md-2020-".concat(md.id);
             dirCta1.appendChild(li1);
             dirCta2.appendChild(li2);
         }

@@ -2,39 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/base.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mdpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mdpage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/photo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/blog/blog-timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-timeline.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/blog/blog-timeline.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-timeline.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/blog/blog-timeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-timeline.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/photo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/photo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/photos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/photos.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/photos.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/skill.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/skill.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/jump-icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/jump-icons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/jump-icons.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/jump-icons.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/jump-icons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/jump-icons.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/project-tiles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/project-tiles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/skill-bar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/skill-bar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/skill-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/skill-button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/skill-button.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/skill-button.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/skill-button.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/skill-button.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/photo/photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/photo/photo.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/photo/photo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/json/markdowns.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/markdowns.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/json/photos.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/photos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/json/skill-button.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/skills.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/json/socials.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/socials.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/markdown.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/markdowns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/markdowns.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/markdowns.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +137,7 @@
       <workItem from="1656457745113" duration="3390000" />
       <workItem from="1656689414788" duration="1483000" />
       <workItem from="1656812991321" duration="13291000" />
-      <workItem from="1656852095050" duration="14371000" />
-    </task>
-    <task id="LOCAL-00004" summary="commit">
-      <created>1650807611256</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1650807611256</updated>
+      <workItem from="1656852095050" duration="15353000" />
     </task>
     <task id="LOCAL-00005" summary="commit">
       <created>1650808236004</created>
@@ -506,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656836078244</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update">
+      <created>1656866948079</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1656866948079</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
