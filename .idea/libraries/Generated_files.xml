@@ -3,6 +3,7 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/src/app/blog/blog-timeline.js" />
+        <item url="file://$PROJECT_DIR$/src/app/blog/blog.js" />
         <item url="file://$PROJECT_DIR$/src/app/blog/md-page/md-page.js" />
         <item url="file://$PROJECT_DIR$/src/app/data/photo.js" />
         <item url="file://$PROJECT_DIR$/src/app/data/skill.js" />
@@ -17,7 +18,6 @@
       <root url="file://$PROJECT_DIR$/src/app/blog/blog-timeline.js" />
       <root url="file://$PROJECT_DIR$/src/app/blog/blog.js" />
       <root url="file://$PROJECT_DIR$/src/app/blog/md-page/md-page.js" />
-      <root url="file://$PROJECT_DIR$/src/app/data/markdowns.js" />
       <root url="file://$PROJECT_DIR$/src/app/data/photo.js" />
       <root url="file://$PROJECT_DIR$/src/app/data/skill.js" />
       <root url="file://$PROJECT_DIR$/src/app/global/base.js" />

@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BlogTimelineComponent = void 0;
+var jQuery = require("../res/js/jquery-3.6.0.min");
 var BlogTimelineComponent = /** @class */ (function () {
     function BlogTimelineComponent() {
     }
@@ -109,6 +110,12 @@ var BlogTimelineComponent = /** @class */ (function () {
         }
         dirMd1.remove();
         dirMd2.remove();
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 500);
+            });
+        });
     };
     BlogTimelineComponent.prototype.loadMarkdowns = function (url) {
         var _this = this;

@@ -66,7 +66,7 @@ export class ChipSkillButtonComponent {
                 this.setSkillStyle(skill);
             }
             originButton.remove()
-            this.selectSkill(skills[0])
+            this.selectSkill(this.skills[0])
         }
     }
 

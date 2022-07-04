@@ -66,7 +66,7 @@ var ChipSkillButtonComponent = /** @class */ (function () {
                 _loop_1(skill);
             }
             originButton.remove();
-            this.selectSkill(skills[0]);
+            this.selectSkill(this.skills[0]);
         }
     };
     ChipSkillButtonComponent.prototype.setSkillStyle = function (skill) {

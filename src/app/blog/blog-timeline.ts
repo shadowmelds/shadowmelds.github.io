@@ -1,3 +1,5 @@
+import * as jQuery from "../res/js/jquery-3.6.0.min";
+
 export class BlogTimelineComponent {
 
     timeline!: number;
@@ -128,6 +130,13 @@ export class BlogTimelineComponent {
 
         dirMd1.remove()
         dirMd2.remove()
+
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+            });
+        });
     }
 
     loadMarkdowns(url) {
