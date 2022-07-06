@@ -5,6 +5,7 @@ $skill-primary-dark:#23A65D !default;
 $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000, 0.02) !default;
 
 .features {
+  color: var(--text-secondary);
 
   img.info-logo {
     width: 8em;
@@ -67,9 +68,9 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
 .skills {
 
   .skills-cta {
-    background-color: #fff;
+    background-color: var(--background-color);
     border-width: 2px;
-    box-shadow: 0 0 0 0.125em #e1e2e4;
+    box-shadow: 0 0 0 0.125em var(--border-color);
     padding: 2em;
     margin-bottom: 1.6em;
     border-radius: 0.5em;
@@ -236,12 +237,13 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
 
   .item {
     position: relative;
-    background-color: white;
+    background-color: var(--background-color);
+    color: var(--text-secondary);
     border-radius: 0.5em;
     padding: 1em 1.2em;
     display: flex;
     margin: 1.2em 0.6em;
-    box-shadow: 0 0 0 0.1em #E1E2E4;
+    box-shadow: 0 0 0 0.1em var(--border-color);
     -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   }

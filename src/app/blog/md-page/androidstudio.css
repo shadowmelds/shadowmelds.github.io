@@ -5,7 +5,11 @@ Author: Pedro Oliveira <kanytu@gmail . com>
 
 .hljs {
   color: #a9b7c6;
-  background: #282b2e;
+  background: #22232e;
+}
+
+.md-content pre code {
+  color: #a9b7c6;
 }
 
 .hljs-number,

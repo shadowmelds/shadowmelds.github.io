@@ -7,7 +7,7 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
 // 全局样式
 
 body {
-  background-color: #fefbfd;
+  background-color: var(--background-color);
   margin: 0;
   font-family: Roboto, Source Sans Pro,Helvetica Neue,Arial,sans-serif;
   box-sizing: inherit;
@@ -134,7 +134,7 @@ main {
   position: unset;
   height: auto;
   width: auto;
-  background-color: #ede9f1;
+  background-color: var(--surface-color);
   box-shadow: 0 0.5em 1em -0.125em rgb(0 0 0 / 16%);
 
   img.logo {
@@ -319,12 +319,12 @@ $card-shadow: 0 0.5em 1em -0.125em rgba($logo-color, 0.4), 0 0px 0 1px rgba($log
   }
 
   .social-logo-layout {
-    background-color: #eeeeee;
+    background-color: var(--light-color);
     width: 40px;
     height: 40px;
     margin-right: 1em;
     border-radius: 20px;
-    box-shadow: 0 0 0 0.125em #E1E2E4;
+    box-shadow: 0 0 0 0.125em var(--border-color);
     &:hover,
     &.is-hovered{
       background-color: $logo-color;
@@ -361,4 +361,10 @@ $card-shadow: 0 0.5em 1em -0.125em rgba($logo-color, 0.4), 0 0px 0 1px rgba($log
   .has-text-centered {
     margin-top: 2em;
   }
+}
+
+.footer {
+  background-color: var(--background-color);
+  padding: 3rem 1.5rem 6rem;
+  color: var(--text-primary);
 }

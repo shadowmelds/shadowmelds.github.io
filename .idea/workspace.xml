@@ -3,6 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/markdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/markdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/global/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/global/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/global/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home-style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/photo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/photo/photo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/photo/photo-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo-style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/scripts/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +85,11 @@
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\app\global" />
       <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\json" />
       <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\app\res" />
       <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\app" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown\images" />
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown" />
     </key>
   </component>
   <component name="RunManager">
@@ -130,13 +156,8 @@
       <workItem from="1656689414788" duration="1483000" />
       <workItem from="1656812991321" duration="13291000" />
       <workItem from="1656852095050" duration="15883000" />
-    </task>
-    <task id="LOCAL-00006" summary="commit">
-      <created>1650808736182</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1650808736182</updated>
+      <workItem from="1656942670613" duration="337000" />
+      <workItem from="1657117211715" duration="5367000" />
     </task>
     <task id="LOCAL-00007" summary="commit">
       <created>1650808946262</created>
@@ -474,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656867785877</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="update">
+      <created>1656942892975</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1656942892976</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

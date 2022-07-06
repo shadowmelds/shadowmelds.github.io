@@ -8,6 +8,10 @@ Author: Pedro Oliveira <kanytu@gmail . com>
   background: #f8f9fa;
 }
 
+.md-content pre code {
+  color: #37474f;
+}
+
 .hljs-number,
 .hljs-literal,
 .hljs-symbol,

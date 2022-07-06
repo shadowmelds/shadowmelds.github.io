@@ -48,7 +48,7 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
 
   .dir-cta {
     border-width: 2px;
-    box-shadow: 0 0 0 0.125em #e1e2e4;
+    box-shadow: 0 0 0 0.125em var(--border-color);
     padding: 1em 1em;
     border-radius: 0.5em;
     display: inline-block;

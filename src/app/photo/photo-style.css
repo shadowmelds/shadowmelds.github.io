@@ -5,10 +5,8 @@
 .photo-cta .dialog-preview {
   display: none;
   flex-direction: column;
-  justify-content: center;
-  /* 水平居中 */
-  align-items: center;
-  /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
   top: 0;

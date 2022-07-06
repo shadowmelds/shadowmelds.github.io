@@ -17,18 +17,15 @@ $fullhd: 1024px;
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(../assets/fonts/material_fonts/MaterialIcons-Regular.ttf); /* For IE6-8 */
+  src: url(../../assets/fonts/material_fonts/MaterialIcons-Regular.ttf); /* For IE6-8 */
   src: local('Material Icons'),
   local('MaterialIcons-Regular'),
     //url(assets/fonts/material_fonts/MaterialIcons-Regular.ttf) format('truetype'),
-  url(../assets/fonts/material_fonts/MaterialIconsOutlined-Regular.otf) format('opentype');
+  url(../../assets/fonts/material_fonts/MaterialIconsOutlined-Regular.otf) format('opentype');
   //url(assets/fonts/material_fonts/MaterialIconsRound-Regular.otf) format('opentype'),
   //url(assets/fonts/material_fonts/MaterialIconsSharp-Regular.otf) format('opentype'),
   //url(assets/fonts/material_fonts/MaterialIconsTwoTone-Regular.otf) format('opentype');
 }
-//html,body{
-//  height: 100%;
-//}
 
 body{
   margin: 0;
@@ -81,13 +78,34 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   background: var(--primary-color);
 }
 
+/* 亮色模式 */
 .light, .light-mode, :root {
   --primary-color: #42B983;
   --toolbar-highlight: rgba(45,82,171,.08);
+  --background-color: #fefbfd;
+  --surface-color: #ede9f1;
   --divider: #e3e3e3;
   --base-font-size: 1rem;
   --font-md: calc(var(--base-font-size)*1.5);
   --accent: #3867d6;
   --text-primary: #212121;
   --text-secondary: #616161;
+  --border-color: #e1e2e4;
+  --light-color: #eeeeee;
+}
+
+/* 暗色模式 */
+.dark, .dark-mode {
+  --primary-color: #42B983;
+  --toolbar-highlight: rgba(45,82,171,.08);
+  --background-color: #191a23;
+  --surface-color: #22232e;
+  --divider: #606164;
+  --base-font-size: 1rem;
+  --font-md: calc(var(--base-font-size)*1.5);
+  --accent: #3867d6;
+  --text-primary: #e1e1e1;
+  --text-secondary: #9a9a9a;
+  --border-color: #606164;
+  --light-color: #9a9a9a;
 }

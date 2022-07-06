@@ -17,7 +17,7 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
 
   .mat-h4 {
     margin: 1.4rem 1.2rem 0.8rem 1.2rem;
-    color: #161D2D;
+    color: var(--text-primary);
     line-height:26px;
   }
 
@@ -30,14 +30,14 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: 0.6rem;
-    color: #3A414E;
+    color: var(--text-secondary);
     font-size: 15px;
   }
 
   .content {
     margin-left: 1.2rem;
     margin-right: 1.2rem;
-    color: #3A414E;
+    color: var(--text-secondary);
     font-size: 15px;
     line-height:22px;
   }
@@ -178,14 +178,14 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: 0.6rem;
-    color: #3A414E;
+    color: var(--text-secondary);
     font-size: 15px;
   }
 
   .content {
     margin-left: 1.2rem;
     margin-right: 1.2rem;
-    color: #3A414E;
+    color: var(--text-secondary);
     font-size: 15px;
     line-height:22px;
   }
@@ -207,13 +207,13 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
   }
   .item {
     position: relative;
-    background-color: white;
+    background-color: var(--surface-color);
     border-radius: 0.5em;
     width: 100%;
     height: auto;
     padding-bottom: 1.2rem;
     margin-bottom: 1em;
-    box-shadow: 0 0 0 0.08em #E1E2E4;
+    box-shadow: 0 0 0 0.08em var(--border-color);
     -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
@@ -313,7 +313,7 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
 
   .dir-cta {
     border-width: 2px;
-    box-shadow: 0 0 0 0.125em #e1e2e4;
+    box-shadow: 0 0 0 0.125em var(--border-color);
     padding: 1em 1em;
     border-radius: 0.5em;
     display: inline-block;

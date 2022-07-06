@@ -1,5 +1,5 @@
 body {
-  background-color: #fefbfd;
+  background-color: var(--background-color);
   margin: 0;
   font-family: Roboto, Source Sans Pro, Helvetica Neue, Arial, sans-serif;
   box-sizing: inherit;
@@ -121,7 +121,7 @@ main {
   position: unset;
   height: auto;
   width: auto;
-  background-color: #ede9f1;
+  background-color: var(--surface-color);
   box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.16);
 }
 .navbar img.logo {
@@ -268,7 +268,6 @@ main {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem 1.5rem 3rem;
 }
 .footer #icon {
   margin-right: 1rem;
@@ -278,12 +277,12 @@ main {
   align-items: center;
 }
 .footer .social-logo-layout {
-  background-color: #eeeeee;
+  background-color: var(--light-color);
   width: 40px;
   height: 40px;
   margin-right: 1em;
   border-radius: 20px;
-  box-shadow: 0 0 0 0.125em #E1E2E4;
+  box-shadow: 0 0 0 0.125em var(--border-color);
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -315,6 +314,12 @@ main {
 }
 .footer .has-text-centered {
   margin-top: 2em;
+}
+
+.footer {
+  background-color: var(--background-color);
+  padding: 3rem 1.5rem 6rem;
+  color: var(--text-primary);
 }
 
 /*# sourceMappingURL=base.css.map */

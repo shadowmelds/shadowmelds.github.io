@@ -14,7 +14,7 @@
 }
 .blog .mat-h4 {
   margin: 1.4rem 1.2rem 0.8rem 1.2rem;
-  color: #161D2D;
+  color: var(--text-primary);
   line-height: 26px;
 }
 .blog .mat-h2 {
@@ -25,13 +25,13 @@
   margin-left: 1.2rem;
   margin-right: 1.2rem;
   margin-bottom: 0.6rem;
-  color: #3A414E;
+  color: var(--text-secondary);
   font-size: 15px;
 }
 .blog .content {
   margin-left: 1.2rem;
   margin-right: 1.2rem;
-  color: #3A414E;
+  color: var(--text-secondary);
   font-size: 15px;
   line-height: 22px;
 }
@@ -156,13 +156,13 @@
   margin-left: 1.2rem;
   margin-right: 1.2rem;
   margin-bottom: 0.6rem;
-  color: #3A414E;
+  color: var(--text-secondary);
   font-size: 15px;
 }
 .blog .content {
   margin-left: 1.2rem;
   margin-right: 1.2rem;
-  color: #3A414E;
+  color: var(--text-secondary);
   font-size: 15px;
   line-height: 22px;
 }
@@ -183,13 +183,13 @@
 }
 .blog .item {
   position: relative;
-  background-color: white;
+  background-color: var(--surface-color);
   border-radius: 0.5em;
   width: 100%;
   height: auto;
   padding-bottom: 1.2rem;
   margin-bottom: 1em;
-  box-shadow: 0 0 0 0.08em #E1E2E4;
+  box-shadow: 0 0 0 0.08em var(--border-color);
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -279,7 +279,7 @@
 }
 .dir .dir-cta {
   border-width: 2px;
-  box-shadow: 0 0 0 0.125em #e1e2e4;
+  box-shadow: 0 0 0 0.125em var(--border-color);
   padding: 1em 1em;
   border-radius: 0.5em;
   display: inline-block;

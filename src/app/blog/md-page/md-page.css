@@ -75,7 +75,7 @@
   margin: 40px 0 0.6rem;
   font-size: 1.5rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: var(-markdown-title);
 }
 
 .md-content h4 {
@@ -163,7 +163,7 @@
   overflow-x: auto;
   margin: 32px 0;
   padding: 0 0;
-  border: 1px solid #e8eaed;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -179,7 +179,9 @@
   vertical-align: middle;
   margin: 0 2px;
   border-radius: 3px;
-  border: 1px solid #eee;
+  background-color: var(--surface-color);
+  color: var(--primary-color);
+  border: 1px solid var(--border-color);
 }
 .md-content code ol {
   list-style: none;
@@ -475,7 +477,7 @@
 }
 .dir .dir-cta {
   border-width: 2px;
-  box-shadow: 0 0 0 0.125em #e1e2e4;
+  box-shadow: 0 0 0 0.125em var(--border-color);
   padding: 1em 1em;
   border-radius: 0.5em;
   display: inline-block;
