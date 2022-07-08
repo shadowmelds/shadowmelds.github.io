@@ -20,6 +20,30 @@ function init() {
             nav.classList.add('menu-btn-exit');
         }
     });
+    var switchTheme = document.getElementById('switch-theme');
+    var html = document.querySelector('HTML');
+    switchTheme.addEventListener('click', function () {
+        var Mode = document.cookie.split(";")[0].split("=")[1];
+        var cookiesExp = new Date(new Date().setMonth(new Date().getMonth() + 1));
+        if (Mode == null || Mode == "undefined" || Mode == "") {
+            if (html.classList.contains('dark')) {
+                document.cookie = "DarkMode=0;path=/;expires=".concat(cookiesExp.toUTCString());
+                html.className = 'light';
+            }
+            else {
+                document.cookie = "DarkMode=1;path=/;expires=".concat(cookiesExp.toUTCString());
+                html.className = 'dark';
+            }
+        }
+        else if (Mode === '0') {
+            document.cookie = "DarkMode=1;path=/;expires=".concat(cookiesExp.toUTCString());
+            html.className = 'dark';
+        }
+        else {
+            document.cookie = "DarkMode=0;path=/;expires=".concat(cookiesExp.toUTCString());
+            html.className = 'light';
+        }
+    });
 }
 exports.BASE_ABSOLUTE_URL = "";
 //# sourceMappingURL=base.js.map

@@ -207,7 +207,7 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
   }
   .item {
     position: relative;
-    background-color: var(--surface-color);
+    background-color: var(--item-color);
     border-radius: 0.5em;
     width: 100%;
     height: auto;

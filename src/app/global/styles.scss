@@ -17,14 +17,8 @@ $fullhd: 1024px;
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(../../assets/fonts/material_fonts/MaterialIcons-Regular.ttf); /* For IE6-8 */
   src: local('Material Icons'),
-  local('MaterialIcons-Regular'),
-    //url(assets/fonts/material_fonts/MaterialIcons-Regular.ttf) format('truetype'),
-  url(../../assets/fonts/material_fonts/MaterialIconsOutlined-Regular.otf) format('opentype');
-  //url(assets/fonts/material_fonts/MaterialIconsRound-Regular.otf) format('opentype'),
-  //url(assets/fonts/material_fonts/MaterialIconsSharp-Regular.otf) format('opentype'),
-  //url(assets/fonts/material_fonts/MaterialIconsTwoTone-Regular.otf) format('opentype');
+  url(../../assets/fonts/material_fonts/MaterialIconsOutlined-Regular.otf);
 }
 
 body{
@@ -34,6 +28,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 *, :after, :before {
   box-sizing: inherit;
+}
+
+:root {
+  color-scheme: light dark;
 }
 
 .material-icons {
@@ -48,6 +46,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
 
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
@@ -92,6 +98,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   --text-secondary: #616161;
   --border-color: #e1e2e4;
   --light-color: #eeeeee;
+  --item-color: #fff;
+
+  #light-mode {
+    display: none;
+  }
+  #dark-mode {
+    display: unset;
+  }
 }
 
 /* 暗色模式 */
@@ -108,4 +122,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   --text-secondary: #9a9a9a;
   --border-color: #606164;
   --light-color: #9a9a9a;
+  --item-color: #22232e;
+
+  #dark-mode {
+    display: none;
+  }
+  #light-mode {
+    display: unset;
+  }
 }

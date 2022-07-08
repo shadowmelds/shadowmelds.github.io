@@ -228,7 +228,7 @@
 }
 .projects .item {
   position: relative;
-  background-color: var(--background-color);
+  background-color: var(--item-color);
   color: var(--text-secondary);
   border-radius: 0.5em;
   padding: 1em 1.2em;

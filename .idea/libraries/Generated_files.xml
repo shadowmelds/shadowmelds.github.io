@@ -7,7 +7,9 @@
         <item url="file://$PROJECT_DIR$/src/app/blog/md-page/md-page.js" />
         <item url="file://$PROJECT_DIR$/src/app/data/photo.js" />
         <item url="file://$PROJECT_DIR$/src/app/data/skill.js" />
+        <item url="file://$PROJECT_DIR$/src/app/global/base.js" />
         <item url="file://$PROJECT_DIR$/src/app/global/jump-icons.js" />
+        <item url="file://$PROJECT_DIR$/src/app/global/theme.js" />
         <item url="file://$PROJECT_DIR$/src/app/home/project-tiles.js" />
         <item url="file://$PROJECT_DIR$/src/app/home/skill-bar.js" />
         <item url="file://$PROJECT_DIR$/src/app/home/skill-button.js" />
@@ -22,6 +24,7 @@
       <root url="file://$PROJECT_DIR$/src/app/data/skill.js" />
       <root url="file://$PROJECT_DIR$/src/app/global/base.js" />
       <root url="file://$PROJECT_DIR$/src/app/global/jump-icons.js" />
+      <root url="file://$PROJECT_DIR$/src/app/global/theme.js" />
       <root url="file://$PROJECT_DIR$/src/app/home/home.js" />
       <root url="file://$PROJECT_DIR$/src/app/home/project-tiles.js" />
       <root url="file://$PROJECT_DIR$/src/app/home/skill-bar.js" />

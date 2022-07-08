@@ -183,7 +183,7 @@
 }
 .blog .item {
   position: relative;
-  background-color: var(--surface-color);
+  background-color: var(--item-color);
   border-radius: 0.5em;
   width: 100%;
   height: auto;

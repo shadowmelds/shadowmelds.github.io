@@ -2,33 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/app/global/theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/dark_mode_black_24dp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/light_mode_white_24dp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/base.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/blog/blog-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/blog/blog-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/markdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/markdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/global/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/global/base.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/global/base.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/base.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/global/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/global/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/global/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/home/home-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home-style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/home/home-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home-style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/photo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/photo/photo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/photo/photo-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/photo/photo-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/scripts/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/material_fonts/MaterialIcons-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/material_fonts/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/material_fonts/MaterialIconsOutlined-Regular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/material_fonts/MaterialIconsOutlined-Regular.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/material_fonts/MaterialIconsRound-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/material_fonts/MaterialIconsSharp-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/material_fonts/MaterialIconsTwoTone-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -63,26 +63,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;NewWatcherDialog.advanced.open&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Skills/Develop/Frontend/ShadowmeldProjects/Active/shadowmeld-home/src/assets/markdown/images&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "NewWatcherDialog.advanced.open": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Skills/Develop/Frontend/ShadowmeldProjects/Active/shadowmeld-home/src/assets/icons",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\icons" />
+      <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\fonts\material_fonts" />
       <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown\images" />
       <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\blog\md-page" />
-      <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\icons" />
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown\images" />
-      <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\app\global" />
@@ -157,14 +157,8 @@
       <workItem from="1656812991321" duration="13291000" />
       <workItem from="1656852095050" duration="15883000" />
       <workItem from="1656942670613" duration="337000" />
-      <workItem from="1657117211715" duration="5367000" />
-    </task>
-    <task id="LOCAL-00007" summary="commit">
-      <created>1650808946262</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1650808946262</updated>
+      <workItem from="1657117211715" duration="5418000" />
+      <workItem from="1657290547181" duration="6088000" />
     </task>
     <task id="LOCAL-00008" summary="commit">
       <created>1650809109141</created>
@@ -502,11 +496,24 @@
       <option name="project" value="LOCAL" />
       <updated>1656942892976</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="update">
+      <created>1657122670502</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1657122670502</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/global/theme.js" />
+        <option value="$PROJECT_DIR$/src/app/global/theme.js.map" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

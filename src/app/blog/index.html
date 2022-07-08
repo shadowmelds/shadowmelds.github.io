@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>影遁 | 博客</title>
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../global/base.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
     <script src="../res/js/svg-inject.js"></script>
+    <script src="/dist/theme.js"></script>
 </head>
 <body>
 
@@ -41,7 +42,10 @@
 
                         <ul class="theme-mode">
                             <li class="tab">
-                                <button name="Enable dark theme" title="启用深色主题" aria-label="启用深色主题" class="action-icon css-a9tx65"><svg viewBox="0 0 24 24" role="presentation" style="width: 1.5rem; height: 1.5rem;"><path d="M12 22h-.9c-2.7-.2-5.1-1.5-6.8-3.6-1.7-2.1-2.5-4.7-2.3-7.3.5-4.8 4.3-8.7 9.1-9.1.4 0 .8.2 1 .5.2.3.2.8-.1 1.1-1 1.3-1.3 2.9-1.1 4.5s1.1 3 2.4 3.9c2.1 1.6 5 1.6 7.1 0 .3-.2.7-.3 1.1-.1.3.2.5.6.5 1-.2 2.7-1.5 5.1-3.6 6.8-1.8 1.5-4 2.3-6.4 2.3zM9.3 4.4c-2.9 1-5 3.7-5.3 6.8-.2 2.1.4 4.2 1.8 5.9s3.3 2.7 5.4 2.9c2.1.2 4.2-.4 5.9-1.8 1.1-.9 1.9-2.1 2.4-3.4-2.5.9-5.3.5-7.5-1.1-1.7-1.3-2.8-3.1-3.2-5.3-.1-1.4 0-2.7.5-4z" style="fill: currentcolor;"></path></svg></button>
+                                <button id="switch-theme" name="Enable dark theme" title="启用深色主题" aria-label="启用深色主题" class="action-icon">
+                                    <img id="light-mode" src="/src/assets/icons/light_mode_white_24dp.svg">
+                                    <img id="dark-mode"  src="/src/assets/icons/dark_mode_black_24dp.svg">
+                                </button>
                             </li>
                             <li class="tab">
                                 <button id="mobile-cta" name="Expand menu" title="展开导航栏" aria-label="展开导航栏" class="action-icon css-16pk4gl mobile-menu"><svg viewBox="0 0 24 24" role="presentation" style="width: 1.5rem; height: 1.5rem;"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" style="fill: currentcolor;"></path></svg></button>

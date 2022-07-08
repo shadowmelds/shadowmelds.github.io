@@ -7,7 +7,8 @@ module.exports = {
         blog: ['./src/app/blog/blog.js'],
         mdpage: ['./src/app/blog/md-page/md-page.js'],
         base: ['./src/app/global/base.js', './src/app/global/jump-icons.js'],
-        photo: ['./src/app/photo/photo.js']
+        photo: ['./src/app/photo/photo.js'],
+        theme: ['./src/app/global/theme.js']
     },
     output: {
         path: path.resolve(__dirname, "./dist"),
