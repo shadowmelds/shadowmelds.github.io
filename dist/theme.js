@@ -1,0 +1,1 @@
+(()=>{var e;e=document.cookie.split(";")[0].split("=")[1],document.querySelector("HTML").className="1"===e?"dark":"light"})();
