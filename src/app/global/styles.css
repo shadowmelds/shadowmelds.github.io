@@ -88,6 +88,10 @@ body {
   --light-color: #eeeeee;
   --item-color: #fff;
 }
+.light path, .light-mode path, :root path {
+  fill: black;
+  fill-opacity: 1;
+}
 .light #light-mode, .light-mode #light-mode, :root #light-mode {
   display: none;
 }
@@ -110,6 +114,10 @@ body {
   --border-color: #606164;
   --light-color: #9a9a9a;
   --item-color: #22232e;
+}
+.dark path, .dark-mode path {
+  fill: white;
+  fill-opacity: 0.8;
 }
 .dark #dark-mode, .dark-mode #dark-mode {
   display: none;

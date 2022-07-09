@@ -1,5 +1,12 @@
 init();
 
+window.addEventListener('pageshow', function(event) {
+    // 如果页面是读取缓存
+    if (event.persisted) {
+        init();
+    }
+});
+
 function init() {
 
     var Mode = document.cookie.split(";")[0].split("=")[1];

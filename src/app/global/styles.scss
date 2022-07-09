@@ -100,6 +100,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   --light-color: #eeeeee;
   --item-color: #fff;
 
+  path {
+    fill: black;
+    fill-opacity: 1;
+  }
+
   #light-mode {
     display: none;
   }
@@ -124,8 +129,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   --light-color: #9a9a9a;
   --item-color: #22232e;
 
+  path {
+    fill: white;
+    fill-opacity: 0.8;
+  }
+
   #dark-mode {
     display: none;
+
   }
   #light-mode {
     display: unset;
