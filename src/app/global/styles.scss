@@ -94,6 +94,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   --base-font-size: 1rem;
   --font-md: calc(var(--base-font-size)*1.5);
   --accent: #3867d6;
+  --reverse-text-primary: #fff;
   --text-primary: #212121;
   --text-secondary: #616161;
   --border-color: #e1e2e4;
@@ -123,10 +124,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   --base-font-size: 1rem;
   --font-md: calc(var(--base-font-size)*1.5);
   --accent: #3867d6;
+  --reverse-text-primary: #212121;
   --text-primary: #e1e1e1;
   --text-secondary: #9a9a9a;
   --border-color: #606164;
-  --light-color: #9a9a9a;
+  --light-color: #22232e;
   --item-color: #22232e;
 
   path {

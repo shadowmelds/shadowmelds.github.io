@@ -12,6 +12,66 @@
 .blog .root {
   font-family: "sans";
 }
+.blog .tags-cta {
+  border-radius: 0.5em;
+  position: relative;
+  display: inline-block;
+  justify-content: flex-start;
+}
+.blog .tags-cta .button .icon:first-child:not(:last-child) {
+  margin-right: 0;
+}
+.blog .tags-cta .button {
+  background-color: var(--light-color);
+  margin-right: 0.5rem;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  margin-bottom: 0.5rem;
+  color: #363636;
+  cursor: pointer;
+  border: 2px solid var(--border-color);
+  font-size: 1rem;
+  line-height: 1.5;
+  display: inline-flex;
+  align-items: center;
+}
+.blog .tags-cta .button.unselected {
+  border: 2px solid var(--border-color);
+  color: var(--text-primary);
+}
+.blog .tags-cta .button.unselected .icon {
+  display: none;
+}
+.blog .tags-cta .button.selected {
+  background-color: var(--primary-color);
+  color: var(--reverse-text-primary);
+}
+.blog .tags-cta .button.selected .icon {
+  display: inline-flex;
+}
+.blog .tags-cta .shadowmeld-tag {
+  border-color: transparent;
+  border-width: 1.2px;
+  box-shadow: 0 0 0 0.125em transparent;
+  position: relative;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.blog .tags-cta .shadowmeld-tag:hover, .blog .tags-cta .shadowmeld-tag.is-hovered {
+  box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.2), 0 0px 0 1px rgba(0, 0, 0, 0.02);
+}
+.blog .tags-cta .shadowmeld-tag::after {
+  content: "";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.blog .tags-cta .shadowmeld-tag:hover::after {
+  opacity: 1;
+}
 .blog .mat-h4 {
   margin: 1.4rem 1.2rem 0.8rem 1.2rem;
   color: var(--text-primary);
@@ -249,8 +309,9 @@
 }
 
 .dir-layout {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: auto;
 }
 
 .dir {
