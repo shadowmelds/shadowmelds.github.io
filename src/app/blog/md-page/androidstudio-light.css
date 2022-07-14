@@ -10,6 +10,7 @@ Author: Pedro Oliveira <kanytu@gmail . com>
 
 .md-content pre code {
   color: #37474f;
+  background: #f8f9fa;
 }
 
 .hljs-number,

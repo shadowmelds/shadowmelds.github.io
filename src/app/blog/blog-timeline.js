@@ -4,7 +4,15 @@ exports.BlogTimelineComponent = void 0;
 var jQuery = require("../res/js/jquery-3.6.0.min");
 var BlogTimelineComponent = /** @class */ (function () {
     function BlogTimelineComponent() {
+        this.tagCount = [];
+        this.tags = [];
     }
+    BlogTimelineComponent.prototype.onInit = function (tags) {
+        this.tags = tags;
+        this.tagCount = new Array(tags.length);
+        console.log(this.tags.length);
+        console.log(this.tagCount);
+    };
     BlogTimelineComponent.prototype.reset = function () {
         var blogCta = document.getElementById('blog-cta');
         blogCta.innerHTML = '';
@@ -70,7 +78,6 @@ var BlogTimelineComponent = /** @class */ (function () {
     BlogTimelineComponent.prototype.loadDisplayData = function (json, selectedTags) {
         var markdown = JSON.parse(json);
         if (selectedTags.length > 0) {
-            console.log(selectedTags);
             var displayData = JSON.parse(json);
             for (var _i = 0, _a = markdown['years']; _i < _a.length; _i++) {
                 var year = _a[_i];
@@ -94,37 +101,85 @@ var BlogTimelineComponent = /** @class */ (function () {
                     _loop_1(md);
                 }
             }
-            console.log(displayData);
-            this.layoutMarkdowns(displayData);
+            this.layoutMarkdowns(displayData, false);
         }
         else {
-            this.layoutMarkdowns(markdown);
+            // 解析全部
+            this.layoutMarkdowns(markdown, true);
         }
     };
-    BlogTimelineComponent.prototype.layoutMarkdowns = function (markdowns) {
+    /**
+     *
+     * @param markdowns
+     * @param isAll 加载全部时显示每个Tag的Blog数量
+     */
+    BlogTimelineComponent.prototype.layoutMarkdowns = function (markdowns, isAll) {
         this.reset();
         var blogCta = document.getElementById('blog-cta');
         var timelineCta = document.getElementById('timeline-cta');
-        for (var _i = 0, _a = markdowns['years'].reverse(); _i < _a.length; _i++) {
-            var year = _a[_i];
-            if (markdowns['markdowns'][year].length > 0) {
-                var timeline = timelineCta.cloneNode(true);
-                timeline.querySelector('.timeline-h4').textContent = year;
-                var singleBlogAnchor = timeline.querySelector('.blog-link');
-                for (var _b = 0, _c = markdowns['markdowns'][year].reverse(); _b < _c.length; _b++) {
-                    var md = _c[_b];
-                    var singleBlogCta = timeline.querySelector('#single-blog-cta');
-                    var singleBlog = singleBlogAnchor.cloneNode(true);
-                    singleBlog.href = "md-page/#/".concat(year, "/").concat(md.id);
-                    singleBlog.querySelector('.image-layout').style.backgroundImage = "url('".concat(markdowns['baseUrl'] + md.image, "')");
-                    singleBlog.querySelector('.title.mat-h4').textContent = md.title;
-                    singleBlog.querySelector('.image-layout').id = "md-".concat(year, "-").concat(md.id);
-                    singleBlog.querySelector('.date').textContent = md.date;
-                    singleBlog.querySelector('.content').textContent = md.content;
-                    singleBlogCta.appendChild(singleBlog);
+        // 加载全部时显示每个Tag的Blog数量
+        if (isAll) {
+            this.tagCount.fill(0, 0, this.tags.length);
+            var allCount = 0;
+            for (var _i = 0, _a = markdowns['years'].reverse(); _i < _a.length; _i++) {
+                var year = _a[_i];
+                if (markdowns['markdowns'][year].length > 0) {
+                    var timeline = timelineCta.cloneNode(true);
+                    timeline.querySelector('.timeline-h4').textContent = year;
+                    var singleBlogAnchor = timeline.querySelector('.blog-link');
+                    for (var _b = 0, _c = markdowns['markdowns'][year].reverse(); _b < _c.length; _b++) {
+                        var md = _c[_b];
+                        var singleBlogCta = timeline.querySelector('#single-blog-cta');
+                        var singleBlog = singleBlogAnchor.cloneNode(true);
+                        singleBlog.href = "md-page/#/".concat(year, "/").concat(md.id);
+                        singleBlog.querySelector('.image-layout').style.backgroundImage = "url('".concat(markdowns['baseUrl'] + md.image, "')");
+                        singleBlog.querySelector('.title.mat-h4').textContent = md.title;
+                        singleBlog.querySelector('.image-layout').id = "md-".concat(year, "-").concat(md.id);
+                        singleBlog.querySelector('.date').textContent = md.date;
+                        singleBlog.querySelector('.content').textContent = md.content;
+                        singleBlogCta.appendChild(singleBlog);
+                        for (var _d = 0, _e = md.tags; _d < _e.length; _d++) {
+                            var mdTag = _e[_d];
+                            this.tagCount[this.tags.indexOf(mdTag)] += 1;
+                        }
+                        allCount += 1;
+                    }
+                    singleBlogAnchor.remove();
+                    blogCta.appendChild(timeline);
                 }
-                singleBlogAnchor.remove();
-                blogCta.appendChild(timeline);
+            }
+            var buttonAll = document.querySelector(".shadowmeld-tag-ALL");
+            var buttonTextAll = buttonAll.querySelector('.button-text');
+            buttonTextAll.textContent = "\u5168\u90E8 ".concat(allCount);
+            for (var index = 0; index < this.tags.length; index++) {
+                var button = document.querySelector(".shadowmeld-tag-".concat(index));
+                var buttonText = button.querySelector('.button-text');
+                buttonText.textContent = "".concat(this.tags[index], " ").concat(this.tagCount[index]);
+            }
+            console.log("".concat(this.tagCount, " | ").concat(allCount));
+        }
+        else {
+            for (var _f = 0, _g = markdowns['years'].reverse(); _f < _g.length; _f++) {
+                var year = _g[_f];
+                if (markdowns['markdowns'][year].length > 0) {
+                    var timeline = timelineCta.cloneNode(true);
+                    timeline.querySelector('.timeline-h4').textContent = year;
+                    var singleBlogAnchor = timeline.querySelector('.blog-link');
+                    for (var _h = 0, _j = markdowns['markdowns'][year].reverse(); _h < _j.length; _h++) {
+                        var md = _j[_h];
+                        var singleBlogCta = timeline.querySelector('#single-blog-cta');
+                        var singleBlog = singleBlogAnchor.cloneNode(true);
+                        singleBlog.href = "md-page/#/".concat(year, "/").concat(md.id);
+                        singleBlog.querySelector('.image-layout').style.backgroundImage = "url('".concat(markdowns['baseUrl'] + md.image, "')");
+                        singleBlog.querySelector('.title.mat-h4').textContent = md.title;
+                        singleBlog.querySelector('.image-layout').id = "md-".concat(year, "-").concat(md.id);
+                        singleBlog.querySelector('.date').textContent = md.date;
+                        singleBlog.querySelector('.content').textContent = md.content;
+                        singleBlogCta.appendChild(singleBlog);
+                    }
+                    singleBlogAnchor.remove();
+                    blogCta.appendChild(timeline);
+                }
             }
         }
         timelineCta.remove();
@@ -133,8 +188,8 @@ var BlogTimelineComponent = /** @class */ (function () {
         var dirCta2 = document.getElementById('dir-cta2').querySelector('ul');
         var dirMd1 = document.getElementById('dir-md1');
         var dirMd2 = document.getElementById('dir-md2');
-        for (var _d = 0, _e = markdowns['years']; _d < _e.length; _d++) {
-            var year = _e[_d];
+        for (var _k = 0, _l = markdowns['years']; _k < _l.length; _k++) {
+            var year = _l[_k];
             for (var i = 0; i < markdowns['markdowns'][year].length; i++) {
                 var md = markdowns['markdowns'][year][i];
                 var li1 = dirMd1.cloneNode(true);

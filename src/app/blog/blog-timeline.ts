@@ -2,7 +2,14 @@ import * as jQuery from "../res/js/jquery-3.6.0.min";
 
 export class BlogTimelineComponent {
 
-    timeline!: number;
+    tagCount = [];
+    tags = [];
+    onInit(tags) {
+        this.tags = tags;
+        this.tagCount = new Array(tags.length)
+        console.log(this.tags.length)
+        console.log(this.tagCount)
+    }
 
     reset() {
 
@@ -78,7 +85,6 @@ export class BlogTimelineComponent {
         let markdown = JSON.parse(json)
         if (selectedTags.length > 0) {
 
-            console.log(selectedTags)
             let displayData = JSON.parse(json);
             for (let year of markdown['years']) {
 
@@ -103,42 +109,93 @@ export class BlogTimelineComponent {
                 }
             }
 
-            console.log(displayData)
-            this.layoutMarkdowns(displayData)
+            this.layoutMarkdowns(displayData, false)
 
         } else {
-            this.layoutMarkdowns(markdown)
+            // 解析全部
+            this.layoutMarkdowns(markdown, true)
         }
     }
 
-    layoutMarkdowns(markdowns) {
+    /**
+     *
+     * @param markdowns
+     * @param isAll 加载全部时显示每个Tag的Blog数量
+     */
+    layoutMarkdowns(markdowns, isAll) {
         this.reset()
 
         let blogCta = document.getElementById('blog-cta');
         let timelineCta = document.getElementById('timeline-cta');
 
-        for (let year of markdowns['years'].reverse()) {
-            if (markdowns['markdowns'][year].length > 0) {
-                let timeline = timelineCta.cloneNode(true) as HTMLDivElement;
-                timeline.querySelector('.timeline-h4').textContent = year;
+        // 加载全部时显示每个Tag的Blog数量
+        if (isAll) {
+            this.tagCount.fill(0, 0, this.tags.length)
+            let allCount = 0;
+            for (let year of markdowns['years'].reverse()) {
+                if (markdowns['markdowns'][year].length > 0) {
+                    let timeline = timelineCta.cloneNode(true) as HTMLDivElement;
+                    timeline.querySelector('.timeline-h4').textContent = year;
 
-                let singleBlogAnchor = timeline.querySelector('.blog-link')
+                    let singleBlogAnchor = timeline.querySelector('.blog-link')
 
-                for (let md of markdowns['markdowns'][year].reverse()) {
+                    for (let md of markdowns['markdowns'][year].reverse()) {
 
-                    let singleBlogCta = timeline.querySelector('#single-blog-cta')
-                    let singleBlog = singleBlogAnchor.cloneNode(true) as HTMLAnchorElement
-                    singleBlog.href = `md-page/#/${year}/${md.id}`;
-                    (singleBlog.querySelector('.image-layout') as HTMLDivElement).style.backgroundImage = `url('${markdowns['baseUrl'] + md.image}')`;
-                    (singleBlog.querySelector('.title.mat-h4') as HTMLHeadingElement).textContent = md.title;
-                    (singleBlog.querySelector('.image-layout') as HTMLDivElement).id = `md-${year}-${md.id}`;
-                    (singleBlog.querySelector('.date') as HTMLParagraphElement).textContent = md.date;
-                    (singleBlog.querySelector('.content') as HTMLParagraphElement).textContent = md.content;
+                        let singleBlogCta = timeline.querySelector('#single-blog-cta')
+                        let singleBlog = singleBlogAnchor.cloneNode(true) as HTMLAnchorElement
+                        singleBlog.href = `md-page/#/${year}/${md.id}`;
+                        (singleBlog.querySelector('.image-layout') as HTMLDivElement).style.backgroundImage = `url('${markdowns['baseUrl'] + md.image}')`;
+                        (singleBlog.querySelector('.title.mat-h4') as HTMLHeadingElement).textContent = md.title;
+                        (singleBlog.querySelector('.image-layout') as HTMLDivElement).id = `md-${year}-${md.id}`;
+                        (singleBlog.querySelector('.date') as HTMLParagraphElement).textContent = md.date;
+                        (singleBlog.querySelector('.content') as HTMLParagraphElement).textContent = md.content;
 
-                    singleBlogCta.appendChild(singleBlog);
+                        singleBlogCta.appendChild(singleBlog);
+
+                        for (const mdTag of md.tags) {
+                            this.tagCount[this.tags.indexOf(mdTag)] += 1;
+                        }
+                        allCount += 1;
+                    }
+                    singleBlogAnchor.remove()
+                    blogCta.appendChild(timeline);
                 }
-                singleBlogAnchor.remove()
-                blogCta.appendChild(timeline);
+            }
+
+            const buttonAll = document.querySelector(`.shadowmeld-tag-ALL`)
+            let buttonTextAll = (buttonAll.querySelector('.button-text') as HTMLSpanElement);
+            buttonTextAll.textContent = `全部 ${allCount}`
+
+            for (let index = 0; index < this.tags.length; index++) {
+                const button = document.querySelector(`.shadowmeld-tag-${index}`)
+                let buttonText = (button.querySelector('.button-text') as HTMLSpanElement);
+                buttonText.textContent = `${this.tags[index]} ${this.tagCount[index]}`
+            }
+            console.log(`${this.tagCount} | ${allCount}`)
+        } else {
+            for (let year of markdowns['years'].reverse()) {
+                if (markdowns['markdowns'][year].length > 0) {
+                    let timeline = timelineCta.cloneNode(true) as HTMLDivElement;
+                    timeline.querySelector('.timeline-h4').textContent = year;
+
+                    let singleBlogAnchor = timeline.querySelector('.blog-link')
+
+                    for (let md of markdowns['markdowns'][year].reverse()) {
+
+                        let singleBlogCta = timeline.querySelector('#single-blog-cta')
+                        let singleBlog = singleBlogAnchor.cloneNode(true) as HTMLAnchorElement
+                        singleBlog.href = `md-page/#/${year}/${md.id}`;
+                        (singleBlog.querySelector('.image-layout') as HTMLDivElement).style.backgroundImage = `url('${markdowns['baseUrl'] + md.image}')`;
+                        (singleBlog.querySelector('.title.mat-h4') as HTMLHeadingElement).textContent = md.title;
+                        (singleBlog.querySelector('.image-layout') as HTMLDivElement).id = `md-${year}-${md.id}`;
+                        (singleBlog.querySelector('.date') as HTMLParagraphElement).textContent = md.date;
+                        (singleBlog.querySelector('.content') as HTMLParagraphElement).textContent = md.content;
+
+                        singleBlogCta.appendChild(singleBlog);
+                    }
+                    singleBlogAnchor.remove()
+                    blogCta.appendChild(timeline);
+                }
             }
         }
 

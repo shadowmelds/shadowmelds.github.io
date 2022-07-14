@@ -15,6 +15,7 @@ var BlogsComponent = /** @class */ (function () {
         var markdowns = JSON.parse(json);
         this.markdowns = markdowns;
         this.tags = markdowns['tags'];
+        this.blogTimeline.onInit(this.tags);
         this.loadTags();
     };
     BlogsComponent.prototype.loadTags = function () {

@@ -8,12 +8,15 @@ export class BlogsComponent {
     blogTimeline = new BlogTimelineComponent();
     json = '';
 
+
     onInit(json) {
 
         this.json = json
         let markdowns = JSON.parse(json);
         this.markdowns = markdowns
         this.tags = markdowns['tags']
+
+        this.blogTimeline.onInit(this.tags)
         this.loadTags();
     }
 
