@@ -118,6 +118,17 @@
                 "tags": [
                     "Blender教程"
                 ]
+            },
+            {
+                "id": 6,
+                "title": "组装 PC 意外现象及问题",
+                "content": "2021-2022年工作中组装PC 出现问题的经验",
+                "url": "/pc_problem.md",
+                "image": "/images/pc_problem.jpg",
+                "date": "2022.7.18",
+                "tags": [
+                    "杂七杂八"
+                ]
             }
         ]
     }
