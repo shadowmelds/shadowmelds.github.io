@@ -1,4 +1,4 @@
-# 各种常用开发软件设置代理
+# 常用开发软件设置代理
 
 ### git 设置和取消代理
 
@@ -11,6 +11,15 @@ git config --global --unset https.proxy
 ```
 
 ---
+
+### Gradle 设置代理
+
+```
+systemProp.http.proxyHost=127.0.0.1
+systemProp.http.proxyPort=7890
+systemProp.https.proxyHost=127.0.0.1
+systemProp.https.proxyPort=7890
+```
 
 ### nodeJS 设置和取消代理
 
@@ -32,13 +41,4 @@ npm config set https-proxy null
 
 ```
 curl -x http://127.0.0.1:7890 https://www.google.com
-```
-
-### Gradle 设置代理
-
-```
-systemProp.http.proxyHost=127.0.0.1
-systemProp.http.proxyPort=7890
-systemProp.https.proxyHost=127.0.0.1
-systemProp.https.proxyPort=7890
 ```

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="新增博文筛选">
+    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="新增博文数量显示">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-timeline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-timeline.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-timeline.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-timeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog-timeline.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/blog.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/markdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/markdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/markdowns.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/markdowns.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/markdown/commands.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/commands.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/markdown/compose_flip_clock.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/compose_flip_clock.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/markdown/enjoy_linux_gnome.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/enjoy_linux_gnome.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/markdown/fix_node_sass_install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/fix_node_sass_install.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/markdown/ow_import.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/ow_import.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/markdown/proxy_set.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/proxy_set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/markdown/shadowmeld_info.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/shadowmeld_info.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/markdown/system_up.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/system_up.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/markdown/uses.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/uses.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Skills/Develop/Frontend/ShadowmeldProjects/Active/shadowmeld-home/src/assets/icons&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -148,14 +147,10 @@
       <workItem from="1657297471347" duration="217000" />
       <workItem from="1657385091039" duration="932000" />
       <workItem from="1657425842105" duration="24395000" />
-      <workItem from="1657811150439" duration="4122000" />
-    </task>
-    <task id="LOCAL-00012" summary="commit">
-      <created>1650987536810</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1650987536810</updated>
+      <workItem from="1657811150439" duration="5029000" />
+      <workItem from="1658052386844" duration="2320000" />
+      <workItem from="1658063704459" duration="118000" />
+      <workItem from="1658068005494" duration="1232000" />
     </task>
     <task id="LOCAL-00013" summary="commit">
       <created>1650988915706</created>
@@ -493,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657450896119</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="新增博文数量显示">
+      <created>1657815469680</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1657815469681</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +537,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="新增亮暗色模式切换" />
     <MESSAGE value="新增博文筛选" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增博文筛选" />
+    <MESSAGE value="新增博文数量显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增博文数量显示" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

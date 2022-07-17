@@ -6,9 +6,9 @@
 
 相关链接：[owdev wiki](https://owdev.wiki/Main_Page)
 
-##### 准备工作：
+##### 1. 准备工作：
 
-如有疑问请阅读 [owdev 官方教程](https://owdev.wiki/Tutorial/Extracting_with_DataTool#Software_Needed)
+如有疑问请阅读 [owdev wiki 官方教程](https://owdev.wiki/Tutorial/Extracting_with_DataTool#Software_Needed)
 
 1. 💡 首先建议将当前电脑里安装好的Overwatch目录复制一份到别处、当然直接使用默认安装目录的Overwatch文件也是可以的。默认安装位置为：`C:\Program Files (x86)\Overwatch`，我会将它复制到`D:\OverwatchData\Overwatch` 来进行下一步操作，我们将使用 `DataTool` 提取守望先锋模型数据。每次更新Overwatch都需要`最新版本的DataTool`才能提取，DataTool的开发者可能在最新的守望先锋发布后一周时间左右更新，所以复制一份Overwatch使用就可以免去后续更新DataTool工具了。
 
@@ -18,7 +18,7 @@
 
 4. 如果你查阅过[DataTool Github主页](https://github.com/overtools/OWLib/tree/master)就知道它还需要 [.NET 5.0 Runtime(64-bit) ](https://dotnet.microsoft.com/download/dotnet/5.0/runtime) 👈进入下载后安装。
 
-##### DataTool 常用用法
+##### 2. DataTool 常用用法
 
 <br/>
 <details>
@@ -106,7 +106,7 @@ datatool D:\OverwatchData\Overwatch list-heroes
 
 ---
 
-#### 尝试提取龙族天使导入Blender并播放特写动画
+#### 3. 尝试提取龙族天使导入Blender并播放特写动画
 
 ###### 使用DataTool 提取龙族天使模型
 
@@ -126,7 +126,7 @@ datatool D:\OverwatchData\Overwatch extract-unlocks "D:\OverwatchData\Datatool o
 
 ---
 
-##### 安装Blender及插件
+###### 安装Blender及插件
 
 下载安装最新的 [Blender](https://www.blender.org/)
 
@@ -140,7 +140,7 @@ datatool D:\OverwatchData\Overwatch extract-unlocks "D:\OverwatchData\Datatool o
 
 ![安装并启用插件](/src/assets/markdown/images/20220512221121.jpg)
 
-##### 导入模型
+###### 导入模型
 
 1. 删除默认的Blender 立方体
 
@@ -156,7 +156,7 @@ datatool D:\OverwatchData\Overwatch extract-unlocks "D:\OverwatchData\Datatool o
 
 4. 如果你想自己绑定骨骼制作自己的动画，现在已经完成了🎇！但如果你只想导入守望先锋特写动画请继续。
 
-##### 将英雄模型动画导入 Blender
+###### 将英雄模型动画导入 Blender
 
 5. 为了使事情变得更容易，请通过按A（您可能需要按几次；一旦模型周围出现橙色轮廓，所有内容都会被选中）并按CTRL+J 来连接所有网格。
 
