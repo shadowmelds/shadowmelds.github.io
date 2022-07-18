@@ -1,6 +1,6 @@
 # 开发中常用命令
 
-### Android Studio
+## Android Studio
 
 关于 Android Studio : R. jar:进程无法访问该文件，因为它正被另一个进程使用
 
@@ -8,7 +8,7 @@
 taskkill /im java.exe /f
 ```
 
-### Git
+## Git
 
 Git 设置用户名和邮箱
 ```
@@ -28,7 +28,7 @@ git add .
 git config --global --add safe.directory 'Path'
 ```
 
-### NodeJS
+## NodeJS
 
 NodeJS 更改源
 

@@ -19,7 +19,7 @@
 
 ---
 
-### 1. 初始步骤
+## 1. 初始步骤
 
 设置 root 密码
 ```
@@ -43,7 +43,7 @@ screenfetch
 
 ---
 
-### 2. 代理安装
+## 2. 代理安装
 
 推荐Clash for Windows Linux版本。
 
@@ -94,9 +94,9 @@ Host: 127.0.0.1，端口: 9090
 ---
 
 
-### 3. 细节体验
+## 3. 细节体验
 
-###### 解决时间不一致问题
+#### 解决时间不一致问题
 
 Windows下用PowerShell执行：
 
@@ -104,24 +104,23 @@ Windows下用PowerShell执行：
 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
 ```
 
-###### 安装DDC/CI control 控制显示器的屏幕亮度
+#### 安装DDC/CI control 控制显示器的屏幕亮度
 
 ```
 sudo apt install ddccontrol gddccontrol ddccontrol-db i2c-tools
 ```
 
-###### 文件管理器视频文件预览：
+#### 文件管理器视频文件预览：
 
-1.
+1. 安装 ffmpegthumbnailer
 
 ```
 sudo apt install ffmpegthumbnailer
 rm -r ~/.cache/thumbnails
 ```
 
-重启电脑
+2. 重启电脑
 
-2.
 
 ```
 sudo apt install gstreamer1.0-libav
@@ -129,13 +128,13 @@ rm -r ~/.cache/thumbnails/fail
 ```
 这时候应该就成功了。
 
-###### 「如果需要」外部硬盘从只读改为读写，需要重启：
+#### 「如果需要」外部硬盘从只读改为读写，需要重启：
 
 ```
 sudo mount -o rw,remount /dev/nvme1n1
 ```
 
-###### 「如果需要」开机自动挂载硬盘：
+#### 「如果需要」开机自动挂载硬盘：
 
 创建rc.local 
 
@@ -174,9 +173,9 @@ mount /dev/nvme1n1p2 /media/shadowmeld/disk
 
 ---
 
-### 4. 视觉提升
+## 4. 视觉提升
 
-###### 「如果需要」安装 GNOME41
+#### 「如果需要」安装 GNOME41
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -219,14 +218,14 @@ sudo ./install.sh
 
 ---
 
-### 5. 软件安装
+## 5. 软件安装
 
-###### 安装zsh和oh-my-zsh
+#### 安装zsh和oh-my-zsh
 
 全局变量：~/.zshrc 、 /etc/profile
 
 
-###### 安装JDK
+#### 安装JDK
 
 https://www.oracle.com/java/technologies/javase-downloads.html
 
@@ -247,7 +246,8 @@ java -version
 
 ```
 
-###### 安装NodeJS
+#### 安装NodeJS
+
 Node 官网已经把 linux 下载版本更改为已编译好的版本了，我们可以直接下载解压后使用：
 解压到 ~/opt 最好不要解压到 /opt 因为不需要它使用su
 
@@ -276,7 +276,7 @@ export PATH=~/.npm-global/bin:$PATH
 source ~/.profile
 ```
 
-###### 安装拼音输入法
+#### 安装拼音输入法
 
 使用fcitx：搜狗中文下不支持 / 
 
@@ -350,7 +350,7 @@ StartupWMClass=tim.exe
 
 
 
-######  Wine 微信QQ第二种方式（旧版不稳定）
+####  Wine 微信QQ第二种方式（旧版不稳定）
 
 注意使用这个[deepin-wine](https://github.com/zq1997/deepin-wine)的安装路径在：`/home/shadowmeld/.deepinwine/deepin-wine6-stable/bin`
 
@@ -366,7 +366,7 @@ env WINEPREFIX=/home/shadowmeld/.deepinwine/Deepin-WeChat ~/.deepinwine/deepin-w
 env WINEPREFIX=/home/shadowmeld/.deepinwine/Deepin-TIM ~/.deepinwine/deepin-wine6-stable/bin/wine winecfg
 ```
 
-### 6. 手动安装Nvidia显卡驱动过程
+## 6. 手动安装Nvidia显卡驱动过程
 
 1. 查看是否安装了gcc
 
@@ -460,7 +460,7 @@ sudo sh cuda_11.4.0_470.42.01_linux.run
 注意，当提醒你已经安装了driver的时候，直接continue。当选择安装内容的时候，务必把driver前面的x取消掉，因为我们已经安装了驱动！！！
 安装完成后重启，输入nvcc -V显示相关信息，则安装成功！
 
-### 其他
+## 7. 其他
 
 Ubuntu 20.04 A start job is running for wait for network to be Configured 解决办法:
 
@@ -495,7 +495,7 @@ RemainAfterExit=yes
 TimeoutStartSec=2sec
 ```
 
-###### 切换命令行和图形界面
+#### 切换命令行和图形界面
 
 临时切换成图形界面
 Ctrl + F7

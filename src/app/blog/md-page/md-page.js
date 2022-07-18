@@ -119,7 +119,7 @@ var MdPageComponent = /** @class */ (function () {
         var dirMd1 = document.getElementById('dir-md1');
         var dirMd2 = document.getElementById('dir-md2');
         var mdCta = document.querySelector('.md-content');
-        var h1s = mdCta.querySelectorAll("h1, h2, h3, h4, h5");
+        var h1s = mdCta.querySelectorAll("h1, h2, h3");
         var i;
         for (i = 0; i < h1s.length; i++) {
             var heading = h1s[i];

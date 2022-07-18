@@ -9,7 +9,7 @@
 当然这不是解决办法，肯定是需要sass的，我尝试了安装不同版本的Python、不同版本的node-sass、不同版本的NodeJS，搜寻一早上的stackoverflow，终于我解决了！
 
 
-### 解决报错问题
+## 解决报错问题
 
 我的项目用的是 node-sass版本是4.14.1
 
@@ -21,6 +21,6 @@
 
 所以我开始尝试转向我之前使用的旧版本4.14，在某个版本的Python下，报错由`Python no can run`变成了`python.EXE -c import sys; print "%s.%s.%s" % sys.version_info[:3];`但是只出现了不到3条的链接，然后Google在下方推荐搜索这个`Gyp ERR stack SyntaxError: invalid syntax`。终于我在一条stackflow的回答里有人说可以用Python 3，然后安装Python 2.7 但不必卸载Python 3。
 
-### 最终解决
+## 最终解决
 
 终于我安装了2两个版本的Python（最新的和2.7版本，然后将两个版本都设置到环境变量上，但是需要2.7的优先级更高），将现有的NodeJS 16降级为NodeJS 14，并且安装的时候勾选了安装必要组件，重新启动 Web Storm，接下来打开项目的时候我再执行`npm install`的时候，奇迹发生了，命令行出现 download github中的 node-sass，由于没有设置代理下载失败了，等它结束后我立刻给NodeJS设置代理，没有报错成功安装了node-sass了！

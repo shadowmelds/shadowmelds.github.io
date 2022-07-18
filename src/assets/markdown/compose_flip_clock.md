@@ -2,15 +2,9 @@
 
 > 时间：2022年1月9日
 
-我最近换掉了我的Pixel 3XL，原因是它不能解锁内存太小而且电源键坏了😠，当然是换不起Pixel 6 Pro，所以闲鱼淘了个Pixel 5 原谅绿。所以我想着要不把Pixel 3XL做成桌面时钟吧。
-
-Google 其实很早就发布了 Compose 测试版，不过去年也终于上了正式版，并且支持了Material You🤩！
-
-我这个时钟项目目前还是完成了翻页时钟的组件，有了这个组件做翻页时钟就只是App逻辑需要实现了，那么我们来做这样一个简单的Demo。
-
 ![演示Gif](/src/assets/markdown/images/flip_clock_demo.gif "Gif")
 
-### 1. 实现思路
+## 1. 实现思路
 
 首先我先去Google了一下翻页时钟的动画，看看翻页时钟究竟是如何做`翻页`这个动作的。就是大概上图那样的演示效果图，我的空间思维不怎么好，所以通过绘画辅助来看看翻页究竟是怎样的一个过程：
 
@@ -27,7 +21,7 @@ Google 其实很早就发布了 Compose 测试版，不过去年也终于上了�
 
 动画结束
 
-### 2. 绘制
+## 2. 绘制
 
 所以有了上面这个简易的原理图后，撸代码实现就很清晰了，首先当然是绘制出四个不同的块的初始的样子，首先新建一个FlipClockComponent.kt用来负责显示这样一个简单的翻页小组件。
 
@@ -318,7 +312,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 }
 ```
 
-### 3. 动画
+## 3. 动画
 
 现在可以来看看ViewModel部分了，因为两个按钮的点击事件里分辨调用了ViewModel里的`onNext()` 以及 `onPrevious()`方法：
 
@@ -469,7 +463,7 @@ class ClockModel : ViewModel() {
 
 ViewModel提供还给外界两个方法`onNext()`和`onPrevious()` 它们内部就是调用了Animation更新mutableData。
 
-### 4. 总结
+## 4. 总结
 
 🥳🥳以上就是实现翻页动画效果的完整代码，其实总共就是三个步骤：
 

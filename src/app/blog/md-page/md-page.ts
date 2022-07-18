@@ -132,7 +132,7 @@ export class MdPageComponent {
 
 
         let mdCta = document.querySelector('.md-content') as HTMLDivElement;
-        let h1s = mdCta.querySelectorAll("h1, h2, h3, h4, h5");
+        let h1s = mdCta.querySelectorAll("h1, h2, h3");
         var i;
         for (i = 0; i < h1s.length; i++) {
             let heading = h1s[i] as HTMLHeadingElement;

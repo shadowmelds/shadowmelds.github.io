@@ -6,7 +6,7 @@
 
 相关链接：[owdev wiki](https://owdev.wiki/Main_Page)
 
-##### 1. 准备工作：
+## 1. 准备工作：
 
 如有疑问请阅读 [owdev wiki 官方教程](https://owdev.wiki/Tutorial/Extracting_with_DataTool#Software_Needed)
 
@@ -18,7 +18,7 @@
 
 4. 如果你查阅过[DataTool Github主页](https://github.com/overtools/OWLib/tree/master)就知道它还需要 [.NET 5.0 Runtime(64-bit) ](https://dotnet.microsoft.com/download/dotnet/5.0/runtime) 👈进入下载后安装。
 
-##### 2. DataTool 常用用法
+## 2. DataTool 常用用法
 
 <br/>
 <details>
@@ -46,7 +46,7 @@ datatool D:\OverwatchData\Overwatch extract-maps "D:\OverwatchData\Datatool outp
 </details>
 <br/>
 
-###### 2.1 简单的使用
+### 2.1 简单的使用
 
 首先用Windows 命令行工具进入DataTool的目录，我这里是`D:\OverwatchData\toolchain-release` 。你可以打开`CMD`或者`Windows Terminal`，运行
 
@@ -79,7 +79,7 @@ datatool D:\OverwatchData\Overwatch list-heroes
     - 我们可以对图标和icon类型做同样的事情。但是因为我们想要所有的图标，我们将使用*提取所有可用的图标（这适用于所有东西——如果你想提取所有的英雄，地图......）。例子：`datatool D:\OverwatchData\Overwatch extract-unlocks "D:\OverwatchData\Datatool output" "天使|icon=*"`
     - 喷漆的工作原理完全相同，但让我们尝试只提取夏季运动会喷雾剂。`datatool D:\OverwatchData\Overwatch extract-unlocks "D:\OverwatchData\Datatool output" "天使|Spray=(event=summer games)"`
 
-###### 2.2 常用的几个命令
+### 2.2 常用的几个命令
 
 ```
 导出默认皮肤并带骨骼动画：datatool D:\OverwatchData\Overwatch extract-unlocks "D:\OverwatchData\Datatool output" "回声|skin=默认" --extract-refpose
@@ -106,9 +106,9 @@ datatool D:\OverwatchData\Overwatch list-heroes
 
 ---
 
-#### 3. 尝试提取龙族天使导入Blender并播放特写动画
+## 3. 尝试提取龙族天使导入Blender并播放特写动画
 
-###### 3.1 使用DataTool 提取龙族天使模型
+### 3.1 使用DataTool 提取龙族天使模型
 
 导出模型以及亮眼表现的特写
 
@@ -126,7 +126,7 @@ datatool D:\OverwatchData\Overwatch extract-unlocks "D:\OverwatchData\Datatool o
 
 ---
 
-###### 3.2 安装Blender及插件
+### 3.2 安装Blender及插件
 
 下载安装最新的 [Blender](https://www.blender.org/)
 
@@ -140,7 +140,7 @@ datatool D:\OverwatchData\Overwatch extract-unlocks "D:\OverwatchData\Datatool o
 
 ![安装并启用插件](/src/assets/markdown/images/20220512221121.jpg)
 
-###### 3.3 导入模型
+### 3.3 导入模型
 
 1. 删除默认的Blender 立方体
 
@@ -156,7 +156,7 @@ datatool D:\OverwatchData\Overwatch extract-unlocks "D:\OverwatchData\Datatool o
 
 4. 如果你想自己绑定骨骼制作自己的动画，现在已经完成了🎇！但如果你只想导入守望先锋特写动画请继续。
 
-###### 3.4 将英雄模型动画导入 Blender
+### 3.4 将英雄模型动画导入 Blender
 
 5. 为了使事情变得更容易，请通过按A（您可能需要按几次；一旦模型周围出现橙色轮廓，所有内容都会被选中）并按CTRL+J 来连接所有网格。
 
