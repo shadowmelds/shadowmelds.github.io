@@ -121,7 +121,7 @@ main {
   position: unset;
   height: auto;
   width: auto;
-  background-color: var(--surface-color);
+  background-color: var(--toolbar-color);
   box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.16);
 }
 .navbar img.logo {

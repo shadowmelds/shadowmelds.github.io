@@ -341,7 +341,7 @@
 .dir .dir-cta {
   border-width: 2px;
   box-shadow: 0 0 0 0.125em var(--border-color);
-  padding: 1em 1em;
+  padding: 1rem 0;
   border-radius: 0.5em;
   display: inline-block;
   overflow: auto;
@@ -353,9 +353,15 @@
 }
 .dir .dir-cta ul a {
   text-decoration: none;
-  display: block;
-  padding: 0.4em;
+  display: inline-block;
+  margin: 0 0.8rem;
+  padding: 0.6em 1rem;
+  font-size: 14px;
+  border-radius: 16px;
   color: var(--text-primary);
+}
+.dir .dir-cta ul a:hover {
+  background-color: var(--toolbar-highlight);
 }
 
 .placeholder {

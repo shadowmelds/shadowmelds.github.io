@@ -86,7 +86,7 @@
 }
 
 .skills .skills-cta {
-  background-color: var(--background-color);
+  background-color: var(--surface-color);
   border-width: 2px;
   box-shadow: 0 0 0 0.125em var(--border-color);
   padding: 2em;

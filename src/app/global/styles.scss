@@ -87,9 +87,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 /* 亮色模式 */
 .light, .light-mode, :root {
   --primary-color: #42B983;
+  --toolbar-color: #ede9f1;
   --toolbar-highlight: rgba(45,82,171,.08);
-  --background-color: #fefbfd;
-  --surface-color: #ede9f1;
+  --background-color: #ffffff;
+  --surface-color: #f8f9fa;
   --divider: #e3e3e3;
   --base-font-size: 1rem;
   --font-md: calc(var(--base-font-size)*1.5);
@@ -118,6 +119,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 /* 暗色模式 */
 .dark, .dark-mode {
   --primary-color: #42B983;
+  --toolbar-color: #22232e;
   --toolbar-highlight: rgba(45,82,171,.08);
   --background-color: #191a23;
   --surface-color: #22232e;

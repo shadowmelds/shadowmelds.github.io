@@ -5,13 +5,14 @@ export class MdPageComponent {
     content: string;
     year: string;
     id: number;
+    markdowns;
 
     onInit(): void {
         let url = window.location.hash
         this.year = url.substring(url.lastIndexOf('#/') + 2, url.lastIndexOf('/'))
         this.id = parseInt(url.substring(url.lastIndexOf('/') + 1, url.length))
         this.loadMarkdowns("/src/assets/json/markdowns.json")
-        window.addEventListener('hashchange', this.myRender)
+        window.addEventListener('hashchange', this.myRender.bind(this))
     }
 
     loadMarkdowns(url) {
@@ -28,24 +29,25 @@ export class MdPageComponent {
             xmlHttp.send();
             xmlHttp.onload = () => {
                 if (xmlHttp.status === 200) {
-                    this.getId(xmlHttp.responseText)
+                    this.getMarkdownId(xmlHttp.responseText)
                 }
             }
         }
     }
 
-    getId(json): void {
-        let markdowns = JSON.parse(json)
+    getMarkdownId(json) {
 
-        console.log(markdowns['markdowns'][this.year])
+        if (json != null) {this.markdowns = JSON.parse(json)}
+
+        console.log(this.markdowns['markdowns'][this.year])
         if (this.year === "2021" && this.id === 0) {
-            this.initMarkdown('/src/assets/markdown/shadowmeld_info.md');
-            document.getElementById('tab-about').classList.add('current');
-            document.getElementById('tab-blog').classList.remove('current');
+            // document.getElementById('tab-about').classList.add('current');
+            // document.getElementById('tab-blog').classList.remove('current');
+            // this.initMarkdown('/src/assets/markdown/shadowmeld_info.md');
         } else {
             document.getElementById('tab-about').classList.remove('current');
             document.getElementById('tab-blog').classList.add('current');
-            this.initMarkdown(markdowns['baseUrl'] + markdowns['markdowns'][this.year][this.id].url);
+            this.initMarkdown(this.markdowns['baseUrl'] + this.markdowns['markdowns'][this.year][this.id].url);
         }
     }
 
@@ -115,10 +117,12 @@ export class MdPageComponent {
         };
     }
 
-    myRender(): void {
+    myRender(this) {
         let url = window.location.hash
-        let id = url.substring(url.lastIndexOf('/'), url.length)
-        this.getId(id)
+        this.year = url.substring(url.lastIndexOf('#/') + 2, url.lastIndexOf('/'));
+        this.id = parseInt(url.substring(url.lastIndexOf('/') + 1, url.length));
+        console.log(`ID = ${this.id }`);
+        this.getMarkdownId(null);
     }
 
     initDir(): void {

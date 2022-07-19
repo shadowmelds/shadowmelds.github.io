@@ -191,15 +191,21 @@
   padding: 0;
   vertical-align: baseline;
   text-decoration: none;
-  border-bottom: 2px solid;
   word-break: break-word;
   color: var(--primary-color);
   cursor: pointer;
   font-weight: normal;
   box-sizing: border-box;
-  line-height: 2rem;
+  line-height: 1.75rem;
   word-spacing: 0.05rem;
   font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+}
+.md-content a:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
 }
 
 .md-content ul {
@@ -239,7 +245,7 @@
 }
 
 .md-content p, .md-content ul, .md-content ol {
-  line-height: 2rem;
+  line-height: 1.75rem;
   word-spacing: 0.05rem;
 }
 
@@ -264,7 +270,7 @@
   vertical-align: middle;
   margin: 0 2px;
   border-radius: 3px;
-  line-height: 2rem;
+  line-height: 1.75rem;
   background-color: var(--code-background);
   color: var(--primary-color);
   border: 1px solid var(--border-color);
@@ -551,6 +557,17 @@ pre::-webkit-scrollbar-track {
   color: #222222;
 }
 
+@media only screen and (min-width: 768px) {
+  .md-content code {
+    line-height: 2rem;
+  }
+  .md-content p, .md-content ul, .md-content ol {
+    line-height: 2rem;
+  }
+  .md-content a {
+    line-height: 2rem;
+  }
+}
 .blog-content {
   min-width: fit-content;
 }
@@ -592,7 +609,7 @@ pre::-webkit-scrollbar-track {
 .dir .dir-cta {
   border-width: 2px;
   box-shadow: 0 0 0 0.125em var(--border-color);
-  padding: 1em 1em;
+  padding: 1rem 0;
   border-radius: 0.5em;
   display: inline-block;
   overflow: auto;
@@ -604,9 +621,15 @@ pre::-webkit-scrollbar-track {
 }
 .dir .dir-cta ul a {
   text-decoration: none;
-  display: block;
-  padding: 0.4em;
+  display: inline-block;
+  margin: 0 0.8rem;
+  padding: 0.6em 1rem;
+  font-size: 14px;
+  border-radius: 16px;
   color: var(--text-primary);
+}
+.dir .dir-cta ul a:hover {
+  background-color: var(--toolbar-highlight);
 }
 
 .placeholder {

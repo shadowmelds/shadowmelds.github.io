@@ -10,7 +10,7 @@ var MdPageComponent = /** @class */ (function () {
         this.year = url.substring(url.lastIndexOf('#/') + 2, url.lastIndexOf('/'));
         this.id = parseInt(url.substring(url.lastIndexOf('/') + 1, url.length));
         this.loadMarkdowns("/src/assets/json/markdowns.json");
-        window.addEventListener('hashchange', this.myRender);
+        window.addEventListener('hashchange', this.myRender.bind(this));
     };
     MdPageComponent.prototype.loadMarkdowns = function (url) {
         var _this = this;
@@ -27,23 +27,25 @@ var MdPageComponent = /** @class */ (function () {
             xmlHttp.send();
             xmlHttp.onload = function () {
                 if (xmlHttp.status === 200) {
-                    _this.getId(xmlHttp.responseText);
+                    _this.getMarkdownId(xmlHttp.responseText);
                 }
             };
         }
     };
-    MdPageComponent.prototype.getId = function (json) {
-        var markdowns = JSON.parse(json);
-        console.log(markdowns['markdowns'][this.year]);
+    MdPageComponent.prototype.getMarkdownId = function (json) {
+        if (json != null) {
+            this.markdowns = JSON.parse(json);
+        }
+        console.log(this.markdowns['markdowns'][this.year]);
         if (this.year === "2021" && this.id === 0) {
-            this.initMarkdown('/src/assets/markdown/shadowmeld_info.md');
-            document.getElementById('tab-about').classList.add('current');
-            document.getElementById('tab-blog').classList.remove('current');
+            // document.getElementById('tab-about').classList.add('current');
+            // document.getElementById('tab-blog').classList.remove('current');
+            // this.initMarkdown('/src/assets/markdown/shadowmeld_info.md');
         }
         else {
             document.getElementById('tab-about').classList.remove('current');
             document.getElementById('tab-blog').classList.add('current');
-            this.initMarkdown(markdowns['baseUrl'] + markdowns['markdowns'][this.year][this.id].url);
+            this.initMarkdown(this.markdowns['baseUrl'] + this.markdowns['markdowns'][this.year][this.id].url);
         }
     };
     MdPageComponent.prototype.initMarkdown = function (url) {
@@ -109,8 +111,10 @@ var MdPageComponent = /** @class */ (function () {
     };
     MdPageComponent.prototype.myRender = function () {
         var url = window.location.hash;
-        var id = url.substring(url.lastIndexOf('/'), url.length);
-        this.getId(id);
+        this.year = url.substring(url.lastIndexOf('#/') + 2, url.lastIndexOf('/'));
+        this.id = parseInt(url.substring(url.lastIndexOf('/') + 1, url.length));
+        console.log("ID = ".concat(this.id));
+        this.getMarkdownId(null);
     };
     MdPageComponent.prototype.initDir = function () {
         // 加载目录

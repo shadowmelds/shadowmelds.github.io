@@ -237,15 +237,22 @@
   padding: 0;
   vertical-align: baseline;
   text-decoration: none;
-  border-bottom: 2px solid;
   word-break: break-word;
   color: var(--primary-color);
   cursor: pointer;
   font-weight: normal;
   box-sizing: border-box;
-  line-height: 2rem;
+  line-height: 1.75rem;
   word-spacing: 0.05rem;
   font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+
+  &:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+  }
 }
 
 .md-content ul {
@@ -298,7 +305,7 @@
 
 .md-content p, .md-content ul, .md-content ol {
   //font-family: ".萍方-简", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
-  line-height: 2rem;
+  line-height: 1.75rem;
   word-spacing: 0.05rem;
 }
 
@@ -323,7 +330,7 @@
   vertical-align: middle;
   margin: 0 2px;
   border-radius: 3px;
-  line-height: 2rem;
+  line-height: 1.75rem;
   background-color: var(--code-background);
   color: var(--primary-color);
   border: 1px solid var(--border-color);
@@ -704,4 +711,22 @@ pre::-webkit-scrollbar-track {
 .md-content span.modal-close:hover,
 .md-content span.modal-close:focus {
   color: #222222;
+}
+
+
+//普通桌面端
+@media only screen and (min-width: 768px) {
+
+  .md-content code {
+    line-height: 2rem;
+  }
+
+  .md-content p, .md-content ul, .md-content ol {
+    line-height: 2rem;
+  }
+
+  .md-content a {
+    line-height: 2rem;
+  }
+
 }

@@ -133,7 +133,7 @@
             },
             {
                 "id": 7,
-                "title": "软件开发设计模式",
+                "title": "软件开发-设计模式",
                 "content": "本文将使用 Koltin 列出常用设计模式",
                 "url": "/design_pattern.md",
                 "image": "/images/design_pattern.jpg",
