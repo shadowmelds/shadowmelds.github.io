@@ -3,7 +3,7 @@
     "photos": [
         {
             "photoUrl": "/photos/001.jpg",
-            "description": "第一次排出这么好看的照片，还是用的百元联想手机拍的",
+            "description": "第一次拍出这么好看的照片，还是用的百元联想手机拍的",
             "date": "2017-03-15"
         },
         {
@@ -135,6 +135,16 @@
             "photoUrl": "/photos/027.jpg",
             "description": "早晨第一班地铁",
             "date": "2019-10-01"
+        },
+        {
+            "photoUrl": "/photos/028.jpg",
+            "description": "其实住在新搬来的这个房间每天都能看到窗外的晚霞，只是我不太喜欢看见隔栋楼离得太近",
+            "date": "2022-06-28"
+        },
+        {
+            "photoUrl": "/photos/029.jpg",
+            "description": "天空是白色混着蓝色",
+            "date": "2022-06-22"
         }
     ]
 }

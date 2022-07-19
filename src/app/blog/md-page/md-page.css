@@ -108,7 +108,7 @@
 .md-content {
   font-size: 1rem;
   margin: 0 auto;
-  padding: 30px 15px 40px;
+  padding: 30px 0 40px;
   color: var(--text-secondary);
 }
 
@@ -190,13 +190,14 @@
   margin: 1.2em 0;
   padding: 0;
   vertical-align: baseline;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 2px solid;
   word-break: break-word;
   color: var(--primary-color);
   cursor: pointer;
   font-weight: normal;
   box-sizing: border-box;
-  line-height: 1.6rem;
+  line-height: 2rem;
   word-spacing: 0.05rem;
   font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
 }
@@ -238,7 +239,7 @@
 }
 
 .md-content p, .md-content ul, .md-content ol {
-  line-height: 1.6rem;
+  line-height: 2rem;
   word-spacing: 0.05rem;
 }
 
@@ -260,10 +261,10 @@
   font-weight: normal;
   font-size: 14px;
   word-break: break-word;
-  line-height: 1;
   vertical-align: middle;
   margin: 0 2px;
   border-radius: 3px;
+  line-height: 2rem;
   background-color: var(--code-background);
   color: var(--primary-color);
   border: 1px solid var(--border-color);
@@ -282,6 +283,78 @@
   counter-increment: my-badass-counter;
 }
 
+body {
+  --su-base: 1;
+  --su-static1: 1px;
+  --su-static2: 2px;
+  --su-static4: 4px;
+  --su-static6: 6px;
+  --su-static8: 8px;
+  --su-static12: 12px;
+  --su-static16: 16px;
+  --su-static24: 24px;
+  --su-static32: 32px;
+  --su-static48: 48px;
+  --su-static64: 64px;
+  --su-static96: 96px;
+  --su-static128: 128px;
+  --su1: clamp(var(--su-static1), calc(var(--su-static1) * var(--su-base)), calc(var(--su-static1) * var(--su-base)));
+  --su2: calc(var(--su-static2) * var(--su-base));
+  --su4: calc(var(--su-static4) * var(--su-base));
+  --su6: calc(var(--su-static6) * var(--su-base));
+  --su8: calc(var(--su-static8) * var(--su-base));
+  --su12: calc(var(--su-static12) * var(--su-base));
+  --su16: calc(var(--su-static16) * var(--su-base));
+  --su24: calc(var(--su-static24) * var(--su-base));
+  --su32: calc(var(--su-static32) * var(--su-base));
+  --su48: calc(var(--su-static48) * var(--su-base));
+  --su64: calc(var(--su-static64) * var(--su-base));
+  --su96: calc(var(--su-static96) * var(--su-base));
+  --su128: calc(var(--su-static128) * var(--su-base));
+}
+
+pre.s-code-block::-webkit-scrollbar {
+  width: calc(var(--su-static12) - var(--su-static2));
+  height: calc(var(--su-static12) - var(--su-static2));
+  background-color: transparent;
+}
+
+pre::-webkit-scrollbar {
+  width: calc(var(--su-static12) - var(--su-static2));
+  height: calc(var(--su-static12) - var(--su-static2));
+  background-color: transparent;
+}
+
+pre.s-code-block::-webkit-scrollbar-corner {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+pre::-webkit-scrollbar-corner {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+pre.s-code-block::-webkit-scrollbar-thumb {
+  border-radius: calc(var(--su-static12) - var(--su-static2));
+  background-color: var(--scrollbar);
+}
+
+pre::-webkit-scrollbar-thumb {
+  border-radius: calc(var(--su-static12) - var(--su-static2));
+  background-color: var(--scrollbar);
+}
+
+pre.s-code-block::-webkit-scrollbar-track {
+  border-radius: calc(var(--su-static12) - var(--su-static2));
+  background-color: transparent;
+}
+
+pre::-webkit-scrollbar-track {
+  border-radius: calc(var(--su-static12) - var(--su-static2));
+  background-color: transparent;
+}
+
 .md-content pre code {
   font-family: "Roboto Mono", sans-serif, monospace;
   font-weight: 400;
@@ -291,6 +364,7 @@
   line-height: 1.5;
   white-space: pre;
   padding: 2.2em 1.4rem;
+  margin: 0;
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
@@ -456,51 +530,6 @@
 
 .md-content table.hljs-ln tr td.hljs-ln-code {
   padding-left: 10px;
-}
-
-.md-content ::-webkit-scrollbar {
-  background-color: #EAEAEA;
-  width: 14px;
-  height: 14px;
-  border: none;
-}
-
-.md-content ::-webkit-scrollbar-corner {
-  background-color: #EAEAEA;
-}
-
-.md-content ::-webkit-scrollbar-button {
-  /* This selector affects the styling of both the up & down and left & right buttons of a scrollbar */
-  height: 14px;
-  width: 14px;
-  background-color: #EAEAEA;
-}
-
-.md-content ::-webkit-scrollbar-button:hover {
-  background-color: #D0D0D0;
-}
-
-.md-content ::-webkit-scrollbar-button:active {
-  background-color: #B2B2B2;
-}
-
-.md-content ::-webkit-scrollbar-track {
-  /* This selector affects the styling of the area in the scrollbar between the two buttons */
-  background-color: #EAEAEA;
-}
-
-.md-content ::-webkit-scrollbar-thumb {
-  /* This selector affects the styling of draggable element of the scollbar */
-  border: none;
-  background-color: #DADADA;
-}
-
-.md-content ::-webkit-scrollbar-thumb:hover {
-  background-color: #D0D0D0;
-}
-
-.md-content ::-webkit-scrollbar-thumb:active {
-  background-color: #B2B2B2;
 }
 
 .md-content ::selection {

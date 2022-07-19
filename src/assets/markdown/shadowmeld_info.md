@@ -26,7 +26,7 @@ PS：2022年7月17日 更新
 
 - [守望先锋](https://ow.blizzard.cn/home)
 
- 最高2400分 C、N
+最高2400分 C、N
 
 #### 最喜欢的 Youtuber
 

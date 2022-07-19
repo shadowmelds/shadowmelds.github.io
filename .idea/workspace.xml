@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="新增博文数量显示">
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/design_pattern.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/markdown/images/design_pattern.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/photos/029.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mdpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mdpage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/markdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/markdown.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/md-page/md-page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/global/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/markdown/commands.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/commands.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/markdown/compose_flip_clock.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/compose_flip_clock.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/markdowns.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/markdowns.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/photos.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/photos.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/markdown/enjoy_linux_gnome.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/enjoy_linux_gnome.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/markdown/fix_node_sass_install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/fix_node_sass_install.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/markdown/ow_import.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/ow_import.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/markdown/pc_problem.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/pc_problem.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/markdown/shadowmeld_info.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/shadowmeld_info.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/markdown/uses.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/uses.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,14 +155,7 @@
       <workItem from="1658068005494" duration="2836000" />
       <workItem from="1658103620839" duration="348000" />
       <workItem from="1658145515940" duration="1182000" />
-      <workItem from="1658146723017" duration="4897000" />
-    </task>
-    <task id="LOCAL-00016" summary="commit">
-      <created>1651074364392</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1651074364392</updated>
+      <workItem from="1658146723017" duration="9408000" />
     </task>
     <task id="LOCAL-00017" summary="commit">
       <created>1651074719591</created>
@@ -504,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658103951983</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="新增博文数量显示">
+      <created>1658151672292</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1658151672292</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

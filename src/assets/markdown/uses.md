@@ -12,6 +12,7 @@
 我个人用的是Windows 11 系统。并使用Windows Terminal作为终端应用。
 
 - [WebStorm](https://www.jetbrains.com/webstorm/)，[IntelliJ IDEA](https://www.jetbrains.com/idea/) 和 [AndroidStudio](https://developer.android.com/studio)
+- [Blender](https://www.blender.org/)
 - [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) 字体
 
 ### 💻 硬件

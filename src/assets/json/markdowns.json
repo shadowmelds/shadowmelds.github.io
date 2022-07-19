@@ -4,8 +4,9 @@
         "软件体验",
         "杂七杂八",
         "Android | UI",
-        "Blender教程",
-        "开发工具"
+        "Blender",
+        "开发工具",
+        "软件开发知识"
     ],
     "years": [
         "2020",
@@ -116,7 +117,7 @@
                 "image": "/images/ow_import.jpg",
                 "date": "2022.5.12",
                 "tags": [
-                    "Blender教程"
+                    "Blender"
                 ]
             },
             {
@@ -128,6 +129,17 @@
                 "date": "2022.7.18",
                 "tags": [
                     "杂七杂八"
+                ]
+            },
+            {
+                "id": 7,
+                "title": "软件开发设计模式",
+                "content": "本文将使用 Koltin 列出常用设计模式",
+                "url": "/design_pattern.md",
+                "image": "/images/design_pattern.jpg",
+                "date": "2022.7.19",
+                "tags": [
+                    "软件开发知识"
                 ]
             }
         ]
