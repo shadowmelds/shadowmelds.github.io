@@ -106,10 +106,18 @@
 }
 
 .md-content {
-  font-size: 1rem;
+  line-height: 1.7142857143;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  font-family: Google Sans, Source Sans Pro, Helvetica Neue, Arial, sans-serif;
   margin: 0 auto;
   padding: 30px 0 40px;
   color: var(--text-secondary);
+}
+.md-content code {
+  line-height: 1.7142857143;
+  font-size: 13px;
+  letter-spacing: 0.25px;
 }
 
 .md-content kbd {
@@ -148,15 +156,18 @@
 }
 
 .md-content h1 {
-  font-size: 2.8rem;
   margin-top: 1rem;
-  line-height: 4rem;
+  line-height: 1.25;
+  font-size: 32px;
+  letter-spacing: 0;
 }
 
 .md-content h2 {
   margin-top: 48px;
   margin-bottom: 16px;
-  font-size: 1.7rem;
+  line-height: 1.4;
+  font-size: 20px;
+  letter-spacing: 0;
 }
 
 .md-content h3 {
@@ -169,8 +180,10 @@
 .md-content h4 {
   margin-top: 36px;
   margin-bottom: 16px;
-  font-size: 1.1em;
   font-weight: bold;
+  color: #202124;
+  font-size: 1.1111111111rem;
+  line-height: 26px;
 }
 
 .md-content h5 {
@@ -196,7 +209,6 @@
   cursor: pointer;
   font-weight: normal;
   box-sizing: border-box;
-  line-height: 1.75rem;
   word-spacing: 0.05rem;
   font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
 }
@@ -211,8 +223,6 @@
 .md-content ul {
   padding-left: 2.5rem;
   counter-reset: items;
-  line-height: 1.6rem;
-  word-spacing: 0.05rem;
   display: block;
   list-style-type: disc;
 }
@@ -220,15 +230,10 @@
 .md-content ol {
   padding-left: 1.5rem;
   counter-reset: items;
-  line-height: 1.6rem;
-  word-spacing: 0.05rem;
   display: block;
 }
 
 .md-content li {
-  font-size: 0.9rem;
-  line-height: 1.6rem;
-  word-spacing: 0.05rem;
   margin: 1.2em 0;
 }
 
@@ -242,11 +247,6 @@
 }
 .md-content li .md-content ul, .md-content li .md-content ol {
   margin-left: 16px;
-}
-
-.md-content p, .md-content ul, .md-content ol {
-  line-height: 1.75rem;
-  word-spacing: 0.05rem;
 }
 
 .md-content pre {
@@ -265,15 +265,14 @@
 .md-content code {
   font-family: "Roboto Mono", Source Sans Pro, Helvetica Neue, Arial, sans-serif;
   font-weight: normal;
-  font-size: 14px;
   word-break: break-word;
   vertical-align: middle;
   margin: 0 2px;
   border-radius: 3px;
-  line-height: 1.75rem;
   background-color: var(--code-background);
   color: var(--primary-color);
   border: 1px solid var(--border-color);
+  padding: 0.2em 0.5em 0.2em;
 }
 .md-content code ol {
   list-style: none;
@@ -558,14 +557,29 @@ pre::-webkit-scrollbar-track {
 }
 
 @media only screen and (min-width: 768px) {
+  .md-content {
+    line-height: 1.8;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+  }
   .md-content code {
-    line-height: 2rem;
+    line-height: 1.8;
+    font-size: 15px;
+    letter-spacing: 0.25px;
   }
-  .md-content p, .md-content ul, .md-content ol {
-    line-height: 2rem;
+  .md-content h1 {
+    line-height: 1.1785714286;
+    font-size: 56px;
+    letter-spacing: -0.5px;
   }
-  .md-content a {
-    line-height: 2rem;
+  .md-content h2 {
+    line-height: 1.25;
+    font-size: 32px;
+    letter-spacing: 0;
+  }
+  .md-content h4 {
+    font-size: 1.2222222222rem;
+    line-height: 30px;
   }
 }
 .blog-content {

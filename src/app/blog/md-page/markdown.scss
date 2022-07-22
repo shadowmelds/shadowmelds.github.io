@@ -133,11 +133,19 @@
 
 }
 
-.md-content {
-  font-size: 1rem;
+.md-content  {
+  line-height: 1.7142857143;
+  font-size: 14px;
+  letter-spacing: .25px;
+  font-family: Google Sans,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
   margin: 0 auto;
   padding: 30px 0 40px;
   color: var(--text-secondary);
+  code {
+    line-height: 1.7142857143;
+    font-size: 13px;
+    letter-spacing: .25px;
+  }
 }
 .md-content kbd {
   padding: 0 .29412em;
@@ -165,15 +173,6 @@
 .md-content strong {
   font-weight: bold;
 }
-//.md-content h1, .md-content h2, .md-content h3, .md-content h4, .md-content h5, .md-content h6 {
-//  //font-family: ".萍方-简", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
-//  -webkit-font-smoothing: initial;
-//  color: #cc0f35;
-//  line-height: 1.35;
-//  font-variant-numeric: lining-nums;
-//  font-weight: 600;
-//  padding: 0;
-//}
 
 .md-content p {
   //font-family: ".萍方-简", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
@@ -184,24 +183,23 @@
 }
 
 .md-content h1 {
-  font-size: 2.8rem;
+  //font-size: 2.8rem;
+  //line-height: 4rem;
   margin-top: 1rem;
-  line-height: 4rem;
-}
 
-//.md-content h1::after {
-//  content: "";
-//  display: block;
-//  font-size: 3em;
-//  height: 1px;
-//  position: relative;
-//  right: 16px;
-//}
+  line-height: 1.25;
+  font-size: 32px;
+  letter-spacing: 0;
+}
 
 .md-content h2 {
   margin-top: 48px;
   margin-bottom: 16px;
-  font-size: 1.7rem;
+  //font-size: 1.7rem;
+
+  line-height: 1.4;
+  font-size: 20px;
+  letter-spacing: 0;
 }
 
 .md-content h3 {
@@ -214,8 +212,12 @@
 .md-content h4 {
   margin-top: 36px;
   margin-bottom: 16px;
-  font-size: 1.1em;
+  //font-size: 1.1em;
   font-weight: bold;
+
+  color: #202124;
+  font-size: 1.1111111111rem;
+  line-height: 26px;
 }
 
 .md-content h5 {
@@ -242,7 +244,6 @@
   cursor: pointer;
   font-weight: normal;
   box-sizing: border-box;
-  line-height: 1.75rem;
   word-spacing: 0.05rem;
   font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
 
@@ -258,24 +259,17 @@
 .md-content ul {
   padding-left: 2.5rem;
   counter-reset: items;
-  line-height: 1.6rem;
-  word-spacing: 0.05rem;
   display: block;
   list-style-type: disc;
 }
 .md-content ol {
   padding-left: 1.5rem;
   counter-reset: items;
-  line-height: 1.6rem;
-  word-spacing: 0.05rem;
   display: block;
 }
 
 .md-content li {
   //font-family: ".萍方-简", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
-  font-size: 0.9rem;
-  line-height: 1.6rem;
-  word-spacing: 0.05rem;
   margin: 1.2em 0;
 }
 
@@ -291,22 +285,8 @@
   font-display: block;
 }
 
-//.md-content ul li::before {
-//  counter-increment: items;
-//  //content: counter(items) ". ";
-//  font-family: "icomoon";
-//  content: "\e900\00A0";
-//  font-weight: 900;
-//}
-
 .md-content li .md-content ul, .md-content li .md-content ol {
   margin-left: 16px;
-}
-
-.md-content p, .md-content ul, .md-content ol {
-  //font-family: ".萍方-简", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
-  line-height: 1.75rem;
-  word-spacing: 0.05rem;
 }
 
 .md-content pre {
@@ -325,15 +305,14 @@
 .md-content code {
   font-family: 'Roboto Mono',Source Sans Pro,Helvetica Neue,Arial,sans-serif;
   font-weight: normal;
-  font-size: 14px;
   word-break: break-word;
   vertical-align: middle;
   margin: 0 2px;
   border-radius: 3px;
-  line-height: 1.75rem;
   background-color: var(--code-background);
   color: var(--primary-color);
   border: 1px solid var(--border-color);
+  padding: 0.2em 0.5em 0.2em;
 
   ol {
     list-style: none;
@@ -625,75 +604,6 @@ pre::-webkit-scrollbar-track {
   padding-left: 10px;
 }
 
-//.md-content ::-webkit-scrollbar {
-//  background-color: #EAEAEA;
-//  width: 14px;
-//  height: 14px;
-//  border: none;
-//}
-//
-//.md-content ::-webkit-scrollbar-corner {
-//  background-color: #EAEAEA;
-//}
-//
-//.md-content ::-webkit-scrollbar-button {
-//  /* This selector affects the styling of both the up & down and left & right buttons of a scrollbar */
-//  height: 14px;
-//  width: 14px;
-//  background-color: #EAEAEA;
-//}
-//
-//.md-content ::-webkit-scrollbar-button:hover {
-//  background-color: #D0D0D0;
-//}
-//
-//.md-content ::-webkit-scrollbar-button:active {
-//  background-color: #B2B2B2;
-//}
-//
-//.md-content ::-webkit-scrollbar-track {
-//  /* This selector affects the styling of the area in the scrollbar between the two buttons */
-//  background-color: #EAEAEA;
-//}
-//
-//.md-content ::-webkit-scrollbar-thumb {
-//  /* This selector affects the styling of draggable element of the scollbar */
-//  border: none;
-//  background-color: #DADADA;
-//}
-//
-//.md-content ::-webkit-scrollbar-thumb:hover {
-//  background-color: #D0D0D0;
-//}
-//
-//.md-content ::-webkit-scrollbar-thumb:active {
-//  background-color: #B2B2B2;
-//}
-
-//::-webkit-scrollbar-button:horizontal:increment {
-//  background-image: url(right.svg);
-//  background-repeat: no-repeat;
-//  background-size: contain;
-//}
-//
-//::-webkit-scrollbar-button:horizontal:decrement {
-//  background-image: url(left.svg);
-//  background-repeat: no-repeat;
-//  background-size: contain;
-//}
-//
-//::-webkit-scrollbar-button:vertical:increment {
-//  background-image: url(down.svg);
-//  background-repeat: no-repeat;
-//  background-size: contain;
-//}
-//
-//::-webkit-scrollbar-button:vertical:decrement {
-//  background-image: url(up.svg);
-//  background-repeat: no-repeat;
-//  background-size: contain;
-//}
-
 .md-content ::selection {
   background: var(--primary-color);
   color: #EEEEEE;
@@ -717,16 +627,32 @@ pre::-webkit-scrollbar-track {
 //普通桌面端
 @media only screen and (min-width: 768px) {
 
-  .md-content code {
-    line-height: 2rem;
-  }
+  .md-content {
+    line-height: 1.8;
+    font-size: 16px;
+    letter-spacing: .25px;
 
-  .md-content p, .md-content ul, .md-content ol {
-    line-height: 2rem;
-  }
+    code {
+      line-height: 1.8;
+      font-size: 15px;
+      letter-spacing: .25px;
+    }
 
-  .md-content a {
-    line-height: 2rem;
-  }
+    h1 {
+      line-height: 1.1785714286;
+      font-size: 56px;
+      letter-spacing: -.5px;
+    }
 
+    h2 {
+      line-height: 1.25;
+      font-size: 32px;
+      letter-spacing: 0;
+    }
+
+    h4 {
+      font-size: 1.2222222222rem;
+      line-height: 30px
+    }
+  }
 }

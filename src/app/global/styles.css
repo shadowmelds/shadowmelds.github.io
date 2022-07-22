@@ -6,6 +6,10 @@
   font-weight: 400;
   src: local("Material Icons"), url(../../assets/fonts/material_fonts/MaterialIconsOutlined-Regular.otf);
 }
+@font-face {
+  font-family: "Google Sans";
+  src: url(/src/assets/fonts/sans.ttf);
+}
 body {
   margin: 0;
 }
