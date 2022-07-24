@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>影遁 | 关于</title>
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../application/styles.css">
+    <link rel="stylesheet" href="../../res/bulma/css/bulma.css">
+    <link rel="stylesheet" href="about-style.css">
+    <link rel="stylesheet" href="../application/base.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+    <script src="../../res/js/svg-inject.js"></script>
+    <script src="/dist/theme.js"></script>
+</head>
+<body>
+<div id="__next">
+    <header>
+        <div class="app-container">
+            <nav class="navbar">
+                <a class="navbar-title" href="../home">
+                    <img src="../../../assets/img/shadowmeld.png" alt="ShadowmeldIcon" class="logo">
+                    <span>这儿是影遁 🤪</span>
+                </a>
+
+                <!--            <img id="mobile-cta" class="mobile-menu" src="../assets/img/menu.svg" alt="Open Navigation">-->
+
+                <!--            <img id="mobile-exit" class="mobile-menu-exit" src="../assets/img/exit.svg" alt="Close Navigation">-->
+
+                <ul class="theme-mode">
+                    <li class="tab">
+                        <button id="switch-theme" name="Enable dark theme" title="启用深色主题" aria-label="启用深色主题" class="action-icon">
+                            <img id="light-mode" src="/src/assets/icons/light_mode_white_24dp.svg">
+                            <img id="dark-mode"  src="/src/assets/icons/dark_mode_black_24dp.svg">
+                        </button>
+                    </li>
+                    <li class="tab">
+                        <button id="mobile-cta" name="Expand menu" title="展开导航栏" aria-label="展开导航栏" class="action-icon css-16pk4gl mobile-menu"><svg viewBox="0 0 24 24" role="presentation" style="width: 1.5rem; height: 1.5rem;"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"></path></svg></button>
+                    </li>
+                </ul>
+
+                <ul class="tabs">
+                    <li class="tab current" id="tab-about"><a href="../blog/md-page#/2021/0"><span class="emoji">🙋</span>关于</a></li>
+                    <li class="tab" id="tab-blog"><a href="../blog"><span class="emoji">📝</span>博客</a></li>
+                    <li class="tab" id="tab-photo"><a href="../photo"><span class="emoji">🌄</span>相册</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="still-developing">
+            <div class="app-container">
+                <div class="developing-card-cta card">
+                    <div id="preview">
+                        <h2>本页面正在开发中.. </h2>
+                    </div>
+                    <p>尽请期待 😂😂</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer app-footer">
+        <div class="app-container">
+            <div class="flex-horizontal" id="flex-horizontal">
+                <div class="social-logo-layout" id="social-logo-layout">
+                    <a id="icon" href="" target="_blank">
+                        <img class="social-logo" src="" onload="SVGInject(this)" alt="{{value.name}}">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content has-text-centered">
+            <p>
+                友链 · <a href="https://lollipoppp.com/" target="_blank">Lollipop</a>
+            </p>
+        </div>
+    </footer>
+</div>
+
+<script src="/dist/base.js"></script>
+
+</body>
+</html>

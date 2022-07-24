@@ -3,12 +3,13 @@ var path = require('path');
 module.exports = {
     //mode: "development", // 因为在脚本指定了打包模式，所以无需设置
     entry: {
-        home: ['./src/app/home/home.js', './src/app/index.js', './src/app/home/skill-bar.js', './src/app/home/skill-button.js', './src/app/home/project-tiles.js'],
-        blog: ['./src/app/blog/blog.js'],
-        mdpage: ['./src/app/blog/md-page/md-page.js'],
-        base: ['./src/app/global/base.js', './src/app/global/jump-icons.js'],
-        photo: ['./src/app/photo/photo.js'],
-        theme: ['./src/app/global/theme.js']
+        home: ['./src/app/ui/home/home.js', './src/app/index.js', './src/app/ui/home/skill-bar.js', './src/app/ui/home/skill-button.js', './src/app/ui/home/project-tiles.js'],
+        blog: ['./src/app/ui/blog/blog.js'],
+        mdpage: ['./src/app/ui/blog/md-page/md-page.js'],
+        base: ['./src/app/ui/application/base.js', './src/app/ui/application/jump-icons.js'],
+        photo: ['./src/app/ui/photo/photo.js'],
+        theme: ['./src/app/ui/application/theme.js'],
+        util: ['./src/app/ui/application/http-request-util.js']
     },
     output: {
         path: path.resolve(__dirname, "./dist"),

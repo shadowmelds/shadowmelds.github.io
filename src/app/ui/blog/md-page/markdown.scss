@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+// Markdown <code> Light/Dark mode.
+
+.light {
+
+  .hljs {
+    color: #37474f;
+    background: #f8f9fa;
+  }
+
+  .md-content pre code {
+    color: #37474f;
+    background: #f8f9fa;
+  }
+
+  .hljs-number,
+  .hljs-literal,
+  .hljs-symbol,
+  .hljs-bullet {
+    color: #c5221f;
+  }
+
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-deletion {
+    color: #1967d2;
+  }
+
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-link {
+    color: #629755;
+  }
+
+  .hljs-comment,
+  .hljs-quote {
+    color: #b80672;
+  }
+
+  .hljs-meta {
+    color: #c5221f;
+  }
+
+  .hljs-string,
+  .hljs-attribute,
+  .hljs-addition {
+    color: #188038;
+  }
+
+  .hljs-section,
+  .hljs-title,
+  .hljs-type {
+    color: #9334e6;
+  }
+
+  .hljs-name,
+  .hljs-selector-id,
+  .hljs-selector-class {
+    color: #e8bf6a;
+  }
+
+  .hljs-emphasis {
+    font-style: italic;
+  }
+
+  .hljs-strong {
+    font-weight: bold;
+  }
+}
+.dark {
+
+  .hljs {
+    color: #a9b7c6;
+    background: #22232e;
+  }
+
+  .md-content pre code {
+    color: #a9b7c6;
+  }
+
+  .hljs-number,
+  .hljs-literal,
+  .hljs-symbol,
+  .hljs-bullet {
+    color: #f3be2d;
+  }
+
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-deletion {
+    color: #78d9ec;
+  }
+
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-link {
+    color: #629755;
+  }
+
+  .hljs-comment,
+  .hljs-quote {
+    color: #ff8bcb;
+  }
+
+  .hljs-meta {
+    color: #fbc02d;
+  }
+
+  .hljs-string,
+  .hljs-attribute,
+  .hljs-addition {
+    color: #9ccc65;
+  }
+
+  .hljs-section,
+  .hljs-title,
+  .hljs-type {
+    color: #d7aefb;
+  }
+
+  .hljs-name,
+  .hljs-selector-id,
+  .hljs-selector-class {
+    color: #e8bf6a;
+  }
+
+  .hljs-emphasis {
+    font-style: italic;
+  }
+
+  .hljs-strong {
+    font-weight: bold;
+  }
+
+}
+
+// Global Theme
+.md-content  {
+  line-height: 1.7142857143;
+  font-size: 14px;
+  letter-spacing: .25px;
+  font-family: Google Sans,Source Sans Pro,Helvetica Neue,Arial,sans-serif,icomoon;
+  margin: 0 auto;
+  padding: 30px 0 40px;
+  color: var(--text-secondary);
+
+  &::selection {
+    background: var(--primary-color);
+    color: #EEEEEE;
+  }
+
+  // 代码标题
+  .code_title {
+    padding:6px 1rem;
+    margin: 32px 0 0 0;
+    display: flex;
+    border: 1px solid var(--border-color);
+    border-radius: 8px 8px 0 0;
+    border-bottom-style:none;
+    color: var(--text-primary);
+    background-color: var(--item-color);
+    align-items: center;
+
+    &::after {
+      content: "\00A0:";
+    }
+
+    img {
+      width: 26px;
+      height: 26px;
+      margin-right: .8rem;
+    }
+  }
+
+  // <kbd> 定义键盘文本。它表示文本是从键盘上键入的。
+  kbd {
+    padding: 0 .29412em;
+    border-radius: .3rem;
+    border: .1rem solid #c9c9c9;
+    border-bottom-color: #bcbcbc;
+    background-color: #fcfcfc;
+    color: #555;
+    font-size: 85%;
+    box-shadow: 0 0.1rem 0 #b0b0b0;
+    word-break: break-word;
+  }
+
+  // 数学公式
+  .MathJax span {
+    display: inline;
+    position: static;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    vertical-align: 0;
+    line-height: normal;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  // 粗体
+  strong {
+    font-weight: bold;
+  }
+
+  // 段落
+  p {
+    padding: 0;
+    margin: 1.2em 0;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    margin-top: 1rem;
+    line-height: 1.25;
+    font-size: 32px;
+    letter-spacing: 0;
+  }
+
+  h2 {
+    margin-top: 56px;
+    margin-bottom: 16px;
+    line-height: 1.4;
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  h3 {
+    margin-top: 50px;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    margin-top: 42px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 1.1111111111rem;
+    line-height: 26px;
+  }
+
+  h5 {
+    margin-top: 42px;
+    margin-bottom: 16px;
+    font-size: 1.08em;
+    font-weight: bold;
+  }
+
+  h6 {
+    margin-top: 36px;
+    margin-bottom: 16px;
+    font-size: 1em;
+  }
+
+  // 链接
+  a {
+    //color: #40ccab;
+    margin: 1.2em 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    word-break: break-word;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-weight: normal;
+    box-sizing: border-box;
+    word-spacing: 0.05rem;
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+
+    &:hover {
+      cursor: pointer;
+      color: var(--primary-color);
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 2px;
+    }
+  }
+
+  // 无序列表
+  ul {
+    padding-left: 2.5rem;
+    counter-reset: items;
+    display: block;
+    list-style-type: disc;
+  }
+
+  // 有序列表
+  ol {
+    padding-left: 1.5rem;
+    counter-reset: items;
+    display: block;
+  }
+
+  // 列表Item
+  li {
+    margin: 12px 0;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  // 代码容器
+  pre {
+    display: block;
+    overflow-y: hidden;
+    overflow-x: auto;
+    margin: 0 0 32px 0;
+    padding: 0 0;
+    border: 1px solid var(--border-color);
+    border-radius: 0 0 8px 8px;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    // 代码
+    code {
+      font-family: "Roboto Mono", sans-serif, monospace;
+      font-weight: 400;
+      display: block;
+      overflow-x: auto;
+      border: none;
+      line-height: 1.5;
+      white-space: pre;
+      padding: 2.2em 1.4rem;
+      margin: 0;
+      -moz-tab-size: 4;
+      -o-tab-size: 4;
+      tab-size: 4;
+    }
+  }
+
+  // 字段高亮
+  code {
+    line-height: 1.7142857143;
+    font-size: 13px;
+    letter-spacing: .25px;
+    font-family: 'Roboto Mono',Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    word-break: break-word;
+    vertical-align: middle;
+    margin: 0 2px;
+    border-radius: 3px;
+    background-color: var(--code-background);
+    color: var(--primary-color);
+    border: 1px solid var(--border-color);
+    padding: 0.2em 0.5em 0.2em;
+
+    ol {
+      list-style: none;
+      padding-left: 0;
+      counter-reset: my-badass-counter;
+
+      li {
+        margin: 0;
+      }
+    }
+    ol > li:before {
+      content: counter(my-badass-counter);
+      padding-right: 2em;
+      counter-increment: my-badass-counter;
+    }
+  }
+
+  // 侧边栏
+  aside {
+    display: block;
+    float: right;
+    width: 390px;
+  }
+
+  // 块级引用
+  blockquote {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 4px solid var(--theme-color,#42b983);
+    color: #858585;
+    margin: 2em 0;
+    padding-left: 20px;
+
+    p {
+      color: var(--text-primary);
+      font-weight: normal;
+      margin-left: 0;
+      line-height: 1.6rem;
+      word-spacing: 0.05rem;
+    }
+  }
+
+  // 分割线
+  hr {
+    border: none;
+    border-bottom: 1px solid #eee;
+    margin: 2em 0;
+    height: 1px;
+  }
+
+  // 表格
+  table {
+    padding: 0;
+    margin: 1rem 0.5rem;
+    border-collapse: collapse;
+
+    &.hljs-ln tr,
+    &.hljs-ln tr td {
+      border: none;
+      background-color: transparent;
+    }
+
+    &.hljs-ln tr td.hljs-ln-code {
+      padding-left: 10px;
+    }
+
+    td.hljs-ln-numbers {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+      text-align: center;
+      color: #AAA;
+      border-right: 1px solid #DDD;
+      vertical-align: top;
+      padding-right: 5px;
+      white-space: nowrap;
+    }
+
+    tr {
+      border-top: 1px solid #ddd;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+
+      &:nth-child(2n) {
+        background-color: #FFF;
+      }
+
+      th {
+        font-weight: 100;
+        background-color: #F1F1F1;
+        border: 1px solid #ddd;
+        margin: 0;
+        padding: 6px 13px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+
+      td {
+        border: 1px solid #ddd;
+        margin: 0;
+        padding: 6px 13px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  li, ul, ol {
+    margin-left: 16px;
+  }
+
+  // Other
+  .img-package {
+    text-align: center;
+  }
+
+  img.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .emoji_zero,
+  .emoji_one,
+  .emoji_two,
+  .emoji_three,
+  .emoji_four,
+  .emoji_five,
+  .emoji_six,
+  .emoji_seven,
+  .emoji_eight,
+  .emoji_nine {
+    margin-left: 5px;
+    margin-right: 8px;
+  }
+
+  div {
+    &.mermaid-diagram {
+      margin: 16px 0 16px 0;
+      overflow-y: hidden;
+    }
+
+    &.preview-hint {
+      opacity: 0.5;
+      margin-top: 30%;
+      margin-bottom: 30%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &.wavedrom-diagram,
+    &.plantuml-diagram,
+    &.flowchart-diagram{
+      padding: 0px 5px 0px 5px;
+      margin: 16px 0px 16px 0px;
+      width: fit-content;
+      overflow: hidden;
+    }
+  }
+
+  .modal-box {
+    background-color: rgb(234, 234, 234);
+    background-color: rgba(234, 234, 234, 0.95);
+  }
+
+  span {
+    &.modal-close {
+      color: #666666;
+    }
+
+    &.modal-close:hover,
+    &.modal-close:focus {
+      color: #222222;
+    }
+
+    &.img-caption {
+      min-width: 20%;
+      max-width: 80%;
+      display: inline-block;
+      padding: 10px;
+      margin: 0 auto;
+      border-bottom: 1px solid #c0c0c0;
+      color: #6c6c6c;
+      text-align: center;
+      line-height: 1.5;
+    }
+  }
+}
+
+// 代码滚动条
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+//普通桌面端
+@media only screen and (min-width: 768px) {
+
+  .md-content {
+    line-height: 1.8;
+    font-size: 16px;
+    letter-spacing: .25px;
+
+    code {
+      line-height: 1.8;
+      font-size: 15px;
+      letter-spacing: .25px;
+    }
+
+    h1 {
+      line-height: 1.1785714286;
+      font-size: 56px;
+      letter-spacing: -.5px;
+    }
+
+    h2 {
+      line-height: 1.25;
+      font-size: 32px;
+      letter-spacing: 0;
+    }
+
+    h4 {
+      font-size: 1.2222222222rem;
+      line-height: 30px
+    }
+
+    h5 {
+      font-size: 1.16rem;
+    }
+  }
+}

@@ -21,19 +21,20 @@
 
 ## 1. 初始步骤
 
-设置 root 密码
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">设置 root 密码</p>
+
 ```
 sudo passwd root
 ```
 
-更新软件
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">更新软件</p>
 
 ```
 sudo apt-get update
 sudo apt-get upgrade
 ```
 
-安装 screenfetch & 查看系统信息
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">安装 screenfetch & 查看系统信息</p>
 
 ```
 sudo apt install screenfetch -y
@@ -51,6 +52,8 @@ screenfetch
 解压文件到 /opt/clash 目录下。
 
 创建快捷方式clash.desktop到 /usr/share/applications 下
+
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
 
 ```
 #!/usr/bin/env xdg-open
@@ -70,7 +73,8 @@ Categories=Application;
 
 [Clash Linux 客户端](https://github.com/Dreamacro/clash/releases) 通常下载clash-linux-amd64.tar.gz
 
-在用户目录下创建 clash 文件夹。
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">在用户目录下创建 clash 文件夹</p>
+
 ```
 cd && mkdir clash
 ```
@@ -78,6 +82,8 @@ cd && mkdir clash
 下载适合的 Clash 二进制文件并解压重命名为 clash
 
 在终端 cd 到 Clash 二进制文件所在的目录，执行下载 Clash 配置文件
+
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
 
 ```
 wget -O config.yaml https://stc-anycast.com/link/QQh80WgTTPxfawwu?client=clash&log-level=info
@@ -98,7 +104,7 @@ Host: 127.0.0.1，端口: 9090
 
 #### 解决时间不一致问题
 
-Windows下用PowerShell执行：
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Windows下用PowerShell执行：</p>
 
 ```
 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
@@ -106,21 +112,22 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 
 #### 安装DDC/CI control 控制显示器的屏幕亮度
 
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
+
 ```
 sudo apt install ddccontrol gddccontrol ddccontrol-db i2c-tools
 ```
 
 #### 文件管理器视频文件预览：
 
-1. 安装 ffmpegthumbnailer
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">1. 安装 ffmpegthumbnailer</p>
 
 ```
 sudo apt install ffmpegthumbnailer
 rm -r ~/.cache/thumbnails
 ```
 
-2. 重启电脑
-
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">2. 重启电脑</p>
 
 ```
 sudo apt install gstreamer1.0-libav
@@ -130,13 +137,15 @@ rm -r ~/.cache/thumbnails/fail
 
 #### 「如果需要」外部硬盘从只读改为读写，需要重启：
 
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
+
 ```
 sudo mount -o rw,remount /dev/nvme1n1
 ```
 
 #### 「如果需要」开机自动挂载硬盘：
 
-创建rc.local 
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">创建rc.local </p>
 
 ```
 sudo gedit /etc/systemd/system/rc-local.service
@@ -162,6 +171,8 @@ sudo gedit /etc/systemd/system/rc-local.service
 sudo systemctl enable rc-local.service
 ```
 
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
+
 ```
 chmod +x /etc/init.d/rc.local
 
@@ -176,6 +187,8 @@ mount /dev/nvme1n1p2 /media/shadowmeld/disk
 ## 4. 视觉提升
 
 #### 「如果需要」安装 GNOME41
+
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -202,6 +215,8 @@ sudo reboot
 Bigsur主题 https://github.com/vinceliuice/WhiteSur-gtk-theme
 下载解压后运行：
 
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
+
 ```
 ./install.sh -i ubuntu
 ```
@@ -209,6 +224,8 @@ Bigsur主题 https://github.com/vinceliuice/WhiteSur-gtk-theme
 美化开机启动项选择：
 https://www.gnome-look.org/p/1307852/
 下载解压后：
+
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
 
 ```
 sudo ./install.sh
@@ -229,7 +246,7 @@ sudo ./install.sh
 
 https://www.oracle.com/java/technologies/javase-downloads.html
 
-下载x64 Compressed Archive .tar.gz
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">下载x64 Compressed Archive .tar.gz</p>
 
 ```
 mkdir /opt/java
@@ -253,18 +270,21 @@ Node 官网已经把 linux 下载版本更改为已编译好的版本了，我�
 
 解压文件的 bin 目录底下包含了 node、npm 等命令，我们可以使用 ln 命令来设置软连接：
 
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
+
 ```
 ln -s /home/shadowmeld/opt/node-v16.13.2-linux-x64/bin/npm   /usr/local/bin/ 
 ln -s /home/shadowmeld/opt/node-v16.13.2-linux-x64/bin/node   /usr/local/bin/
 ```
 
-检查
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">检查</p>
 
 ```
 npm -v
 node -v
 ```
-更改npm 全局模块安装目录
+
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">更改npm 全局模块安装目录</p>
 
 ```
 mkdir ~/.npm-global
@@ -280,7 +300,8 @@ source ~/.profile
 
 使用fcitx：搜狗中文下不支持 / 
 
-安装Google输入法
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">安装Google输入法</p>
+
 ```
 sudo apt-get install fcitx-googlepinyin
 ```
@@ -296,6 +317,8 @@ sudo apt-get install fcitx-googlepinyin
 #### 安装 TIM 微信
 
 1. 安装 Wine 7.0
+
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
 
 ```
 // 安装Official Wine仓库
@@ -318,7 +341,8 @@ wine --version
 
 2. 安装最新的 winetricks
 
-在 ~/ 下
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">在 ~/ 下</p>
+
 ```
 sudo apt install cabextract
 sudo apt-get remove winetricks
@@ -328,6 +352,8 @@ sudo mv -v winetricks /usr/local/bin
 ```
 
 3. 安装
+
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
 
 ```
 wine WechatSetup.exe
@@ -354,13 +380,13 @@ StartupWMClass=tim.exe
 
 注意使用这个[deepin-wine](https://github.com/zq1997/deepin-wine)的安装路径在：`/home/shadowmeld/.deepinwine/deepin-wine6-stable/bin`
 
-调整微信的dpi
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">调整微信的dpi</p>
 
 ```
 env WINEPREFIX=/home/shadowmeld/.deepinwine/Deepin-WeChat ~/.deepinwine/deepin-wine6-stable/bin/wine winecfg
 ```
 
-调整TIM的dpi
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">调整TIM的dpi</p>
 
 ```
 env WINEPREFIX=/home/shadowmeld/.deepinwine/Deepin-TIM ~/.deepinwine/deepin-wine6-stable/bin/wine winecfg
@@ -372,11 +398,14 @@ env WINEPREFIX=/home/shadowmeld/.deepinwine/Deepin-TIM ~/.deepinwine/deepin-wine
 
 1. 查看是否安装了gcc
 
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
+
 ```
 gcc -v
 ```
 
-若没有安装，则输入下面的命令，直接把包括gcc在内很多开发工具包一同安装
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">若没有安装，则输入下面的命令，直接把包括gcc在内很多开发工具包一同安装</p>
+
 
 ```
 sudo apt-get install build-essential
@@ -384,7 +413,7 @@ sudo apt-get install build-essential
 
 2. 禁用nouveau驱动
 
-编辑 /etc/modprobe.d/blacklist-nouveau.conf 文件，添加以下内容：
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">编辑 /etc/modprobe.d/blacklist-nouveau.conf 文件，添加以下内容</p>
 
 ```
 blacklist nouveau
@@ -394,7 +423,7 @@ alias nouveau off
 alias lbm-nouveau off
 ```
 
-关闭nouveau：
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">关闭nouveau</p>
 
 ```
 echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf
@@ -402,7 +431,7 @@ echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf
 
 如果失去图形界面可以使用 Ctrl + F1~F6 进入命令行界面
 
-完成后，重新生成内核并重启：
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">完成后，重新生成内核并重启</p>
 
 ```
 sudo update-initramfs -u
@@ -413,11 +442,13 @@ sudo reboot
 
 使用命令`ubuntu-drivers devices`获取可用驱动信息，如果命令不存在自己安装一下。
 
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
+
 ```
 sudo apt-get install -y ubuntu-drivers-common
 ```
 
-输出为（不同电脑依据配置输出不同，我这里还有报错但是不影响）
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">输出为（不同电脑依据配置输出不同，我这里还有报错但是不影响）</p>
 
 ```
 ERROR:root:could not open aplay -l
@@ -441,7 +472,8 @@ driver   : xserver-xorg-video-nouveau - distro free builtin
 ```
 
 从上述信息中找到driver，后面找recommend，发现了系统推荐安装的驱动程序nvidia-driver-470。
-执行命令安装驱动：
+
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">执行命令安装驱动</p>
 
 ```
 sudo apt install nvidia-driver-470
@@ -452,7 +484,8 @@ sudo apt install nvidia-driver-470
 4. 「如果需要」安装cuda
 
 在 [https://developer.nvidia.com/cuda-toolkit-archive](https://developer.nvidia.com/cuda-toolkit-archive) 中找到相应的版本。这里我们选用11.4的版本，采用runfile的安装形式。
-直接输入以下命令：
+
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">直接输入以下命令</p>
 
 ```
 wget https://developer.download.nvidia.com/compute/cuda/11.4.0/local_installers/cuda_11.4.0_470.42.01_linux.run
@@ -466,13 +499,13 @@ sudo sh cuda_11.4.0_470.42.01_linux.run
 
 Ubuntu 20.04 A start job is running for wait for network to be Configured 解决办法:
 
-1. 编辑配置文件：
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">编辑配置文件</p>
 
 ```
 vim /etc/systemd/system/network-online.target.wants/systemd-networkd-wait-online.service
 ```
 
-修改内容：
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">修改内容</p>
 
 ```
 [Service]
@@ -481,13 +514,13 @@ ExecStart=/lib/systemd/systemd-networkd-wait-online
 RemainAfterExit=yes
 ```
 
-下方加入：
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">下方加入</p>
 
 ```
 TimeoutStartSec=2sec
 ```
 
-修改后示例：
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">修改后示例</p>
 
 ```
 [Service]
@@ -505,14 +538,15 @@ Ctrl + F7
 临时切换成命令行界面
 Ctrl + F1~F6
 
-开机默认进入命令行模式
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">开机默认进入命令行模式</p>
 
 ```
 sudo systemctl set-default multi-user.target
 reboot
 ```
 
-开机默认进入图形界面模式
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">开机默认进入图形界面模式</p>
+
 ```
 sudo systemctl set-default graphical.target
 reboot

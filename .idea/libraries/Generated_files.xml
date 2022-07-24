@@ -2,34 +2,40 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/src/app/blog/blog-timeline.js" />
-        <item url="file://$PROJECT_DIR$/src/app/blog/blog.js" />
-        <item url="file://$PROJECT_DIR$/src/app/blog/md-page/md-page.js" />
         <item url="file://$PROJECT_DIR$/src/app/data/photo.js" />
         <item url="file://$PROJECT_DIR$/src/app/data/skill.js" />
-        <item url="file://$PROJECT_DIR$/src/app/global/base.js" />
-        <item url="file://$PROJECT_DIR$/src/app/global/jump-icons.js" />
-        <item url="file://$PROJECT_DIR$/src/app/global/theme.js" />
-        <item url="file://$PROJECT_DIR$/src/app/home/project-tiles.js" />
-        <item url="file://$PROJECT_DIR$/src/app/home/skill-bar.js" />
-        <item url="file://$PROJECT_DIR$/src/app/home/skill-button.js" />
-        <item url="file://$PROJECT_DIR$/src/app/photo/photo.js" />
+        <item url="file://$PROJECT_DIR$/src/app/data/social.js" />
+        <item url="file://$PROJECT_DIR$/src/app/ui/application/HttpRequestUtil.js" />
+        <item url="file://$PROJECT_DIR$/src/app/ui/application/base.js" />
+        <item url="file://$PROJECT_DIR$/src/app/ui/application/http-request-util.js" />
+        <item url="file://$PROJECT_DIR$/src/app/ui/application/jump-icons.js" />
+        <item url="file://$PROJECT_DIR$/src/app/ui/application/theme.js" />
+        <item url="file://$PROJECT_DIR$/src/app/ui/blog/blog-timeline.js" />
+        <item url="file://$PROJECT_DIR$/src/app/ui/blog/blog.js" />
+        <item url="file://$PROJECT_DIR$/src/app/ui/blog/md-page/md-page.js" />
+        <item url="file://$PROJECT_DIR$/src/app/ui/home/project-tiles.js" />
+        <item url="file://$PROJECT_DIR$/src/app/ui/home/skill-bar.js" />
+        <item url="file://$PROJECT_DIR$/src/app/ui/home/skill-button.js" />
+        <item url="file://$PROJECT_DIR$/src/app/ui/photo/photo.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/src/app/blog/blog-timeline.js" />
-      <root url="file://$PROJECT_DIR$/src/app/blog/blog.js" />
-      <root url="file://$PROJECT_DIR$/src/app/blog/md-page/md-page.js" />
       <root url="file://$PROJECT_DIR$/src/app/data/photo.js" />
       <root url="file://$PROJECT_DIR$/src/app/data/skill.js" />
-      <root url="file://$PROJECT_DIR$/src/app/global/base.js" />
-      <root url="file://$PROJECT_DIR$/src/app/global/jump-icons.js" />
-      <root url="file://$PROJECT_DIR$/src/app/global/theme.js" />
-      <root url="file://$PROJECT_DIR$/src/app/home/home.js" />
-      <root url="file://$PROJECT_DIR$/src/app/home/project-tiles.js" />
-      <root url="file://$PROJECT_DIR$/src/app/home/skill-bar.js" />
-      <root url="file://$PROJECT_DIR$/src/app/home/skill-button.js" />
-      <root url="file://$PROJECT_DIR$/src/app/photo/photo.js" />
+      <root url="file://$PROJECT_DIR$/src/app/data/social.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/application/HttpRequestUtil.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/application/base.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/application/http-request-util.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/application/jump-icons.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/application/theme.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/blog/blog-timeline.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/blog/blog.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/blog/md-page/md-page.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/home/home.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/home/project-tiles.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/home/skill-bar.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/home/skill-button.js" />
+      <root url="file://$PROJECT_DIR$/src/app/ui/photo/photo.js" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

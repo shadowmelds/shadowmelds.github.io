@@ -25,7 +25,7 @@
 
 所以有了上面这个简易的原理图后，撸代码实现就很清晰了，首先当然是绘制出四个不同的块的初始的样子，首先新建一个FlipClockComponent.kt用来负责显示这样一个简单的翻页小组件。
 
-**FlipClockComponent.kt**
+<p class="code_title">📄 FlipClockComponent</p>
 
 ```kotlin
 @Composable
@@ -269,7 +269,7 @@ fun FlipClockComponent(
 
 ![效果图](/src/assets/markdown/images/Screenshot_20220110-20442.png "简易原理图")
 
-新建**ClockScreen.kt**
+<p class="code_title">📄 ClockScreen</p>
 
 ```kotlin
 @Composable
@@ -299,6 +299,8 @@ fun ClockScreen(
 
 实际上就是简单添加两个按钮，然后把刚才写好的`FlipClockComponent`显示出来，然后在Activity里显示这个ClockScreen：
 
+<p class="code_title">📄 MainActivity</p>
+
 ```kotlin
 override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
@@ -316,7 +318,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 现在可以来看看ViewModel部分了，因为两个按钮的点击事件里分辨调用了ViewModel里的`onNext()` 以及 `onPrevious()`方法：
 
-新建**ClockViewModel.kt**
+<p class="code_title">📄 ClockViewModel</p>
 
 ```kotlin
 /**

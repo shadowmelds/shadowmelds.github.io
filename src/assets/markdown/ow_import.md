@@ -50,6 +50,8 @@ datatool D:\OverwatchData\Overwatch extract-maps "D:\OverwatchData\Datatool outp
 
 首先用Windows 命令行工具进入DataTool的目录，我这里是`D:\OverwatchData\toolchain-release` 。你可以打开`CMD`或者`Windows Terminal`，运行
 
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
+
 ```
 D:
 cd D:\OverwatchData\toolchain-release
@@ -57,6 +59,8 @@ cd D:\OverwatchData\toolchain-release
 ![进入DataTool目录](/src/assets/markdown/images/20220512205228.png)
 
 1. 首先要做的是使用list-heroes模式列出所有角色及其能力，因为DataTool需要使用与角色/地图列表中出现的名称完全相同的名称。
+
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
 
 ```
 datatool D:\OverwatchData\Overwatch list-heroes
@@ -80,6 +84,8 @@ datatool D:\OverwatchData\Overwatch list-heroes
     - 喷漆的工作原理完全相同，但让我们尝试只提取夏季运动会喷雾剂。`datatool D:\OverwatchData\Overwatch extract-unlocks "D:\OverwatchData\Datatool output" "天使|Spray=(event=summer games)"`
 
 ### 2.2 常用的几个命令
+
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Terminal</p>
 
 ```
 导出默认皮肤并带骨骼动画：datatool D:\OverwatchData\Overwatch extract-unlocks "D:\OverwatchData\Datatool output" "回声|skin=默认" --extract-refpose
@@ -110,7 +116,8 @@ datatool D:\OverwatchData\Overwatch list-heroes
 
 ### 3.1 使用DataTool 提取龙族天使模型
 
-导出模型以及亮眼表现的特写
+
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">导出模型以及亮眼表现的特写</p>
 
 ```
 datatool D:\OverwatchData\Overwatch extract-unlocks "D:\OverwatchData\Datatool output" "天使|skin=龙族天使" --extract-refpose

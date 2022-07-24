@@ -2,7 +2,7 @@
 
 ## Android Studio
 
-关于 Android Studio : R. jar:进程无法访问该文件，因为它正被另一个进程使用
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">关于 Android Studio : R. jar:进程无法访问该文件，因为它正被另一个进程使用</p>
 
 ```
 taskkill /im java.exe /f
@@ -10,13 +10,15 @@ taskkill /im java.exe /f
 
 ## Git
 
-Git 设置用户名和邮箱
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Git 设置用户名和邮箱</p>
+
 ```
 git config --global user.name shadowmelds
 git config --global user.email hujincan15369@Gmail.com
 ```
 
-Git 常用命令
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">Git 常用命令</p>
+
 ```
 查看项目状态
 git status
@@ -30,7 +32,7 @@ git config --global --add safe.directory 'Path'
 
 ## NodeJS
 
-NodeJS 更改源
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">NodeJS 更改源</p>
 
 ```
 查看现有源：
@@ -46,7 +48,7 @@ npm cache clean -f
 npm i -g mirror-config-china --registry=https://registry.npm.taobao.org -f
 ```
 
-管理NodeJS版本
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">管理NodeJS版本</p>
 
 ```
 安装n
@@ -61,7 +63,7 @@ n v4.4.7
 
 ```
 
-补充常用 npm 命令
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">补充常用 npm 命令</p>
 
 ```
 npm -v          #显示版本，检查npm 是否正确安装。
@@ -83,7 +85,7 @@ npm update -g express  #升级全局安装的express模块
 npm uninstall express  #删除指定的模块
 ```
 
-更改 Linux/Mac npm 默认目录解决全局权限错误
+<p class="code_title"><img class="code_title_icon" src="/src/assets/icons/terminal.png">更改 Linux/Mac npm 默认目录解决全局权限错误</p>
 
 ```
 1. 在命令行的主目录中，为全局安装创建一个目录：
