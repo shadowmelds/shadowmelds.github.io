@@ -179,6 +179,9 @@ main {
   font-weight: bold;
   background-color: var(--toolbar-highlight);
 }
+.navbar ul.menu-btn-exit {
+  display: flex;
+}
 .navbar a.navbar-title {
   text-align: center;
   display: inline-flex;

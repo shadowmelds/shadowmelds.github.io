@@ -189,34 +189,40 @@ main {
   }
 
   // TabLayout
-  ul.tabs {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    gap: 0.5rem;
-    justify-content: flex-start;
-    display: none;
+  ul {
+    &.tabs {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      gap: 0.5rem;
+      justify-content: flex-start;
+      display: none;
 
-    li {
-      display: inline-block;
+      li {
+        display: inline-block;
 
-      a {
-        color: var(--text-secondary);
-        font-size: 1rem;
-        margin: 0 .2em;
-        padding: 0.7em 1em;
-        text-decoration: none;
-        transition: all 0.25s ease-in-out;
-        pointer-events: auto;
-        border-radius: 8px;
-        border: none;
-        box-sizing: border-box;
-        display: inline-flex;
+        a {
+          color: var(--text-secondary);
+          font-size: 1rem;
+          margin: 0 .2em;
+          padding: 0.7em 1em;
+          text-decoration: none;
+          transition: all 0.25s ease-in-out;
+          pointer-events: auto;
+          border-radius: 8px;
+          border: none;
+          box-sizing: border-box;
+          display: inline-flex;
 
-        &:hover {
-          font-weight: bold;
-          background-color: var(--toolbar-highlight);
+          &:hover {
+            font-weight: bold;
+            background-color: var(--toolbar-highlight);
+          }
         }
       }
+    }
+
+    &.menu-btn-exit {
+      display: flex;
     }
   }
 

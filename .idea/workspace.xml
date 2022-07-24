@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="内容更新">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/blog/blog-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/blog-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/blog/blog-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/blog-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/blog/blog-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/blog-style.scss" afterDir="false" />
-    </list>
+    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="内容更新" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,14 +151,7 @@
       <workItem from="1658623962639" duration="9608000" />
       <workItem from="1658664123850" duration="15311000" />
       <workItem from="1658681060318" duration="100000" />
-      <workItem from="1658681227664" duration="208000" />
-    </task>
-    <task id="LOCAL-00024" summary="commit">
-      <created>1651555823860</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1651555823860</updated>
+      <workItem from="1658681227664" duration="237000" />
     </task>
     <task id="LOCAL-00025" summary="commit">
       <created>1651586899706</created>
@@ -501,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658681082964</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="内容更新">
+      <created>1658681450271</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1658681450272</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
