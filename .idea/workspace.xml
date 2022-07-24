@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="内容更新">
-      <change beforePath="$PROJECT_DIR$/src/app/ui/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/base.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/base.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/base.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/base.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/base.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/http-request-util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/http-request-util.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/jump-icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/jump-icons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/jump-icons.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/jump-icons.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/jump-icons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/jump-icons.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/application/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/blog/md-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ui/photo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/photo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="内容更新" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,14 +149,7 @@
       <workItem from="1658542507409" duration="645000" />
       <workItem from="1658592738640" duration="1329000" />
       <workItem from="1658623962639" duration="9608000" />
-      <workItem from="1658664123850" duration="15192000" />
-    </task>
-    <task id="LOCAL-00022" summary="commit">
-      <created>1651504925253</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1651504925253</updated>
+      <workItem from="1658664123850" duration="15311000" />
     </task>
     <task id="LOCAL-00023" summary="commit">
       <created>1651505428062</created>
@@ -516,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658680545483</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="内容更新">
+      <created>1658680833292</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1658680833292</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
