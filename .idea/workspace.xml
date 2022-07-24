@@ -2,88 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="内容更新">
-      <change afterPath="$PROJECT_DIR$/src/app/ui/application/base.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/ui/application/base.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/ui/application/http-request-util.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/ui/application/jump-icons.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/ui/application/styles.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/markdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/md-page.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/terminal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mdpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mdpage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/photo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/about-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/about/about-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/about-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/about/about-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/about-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/about/about-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/blog-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/blog-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/blog-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/blog-timeline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-timeline.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/blog-timeline.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog-timeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/blog-timeline.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/blog.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/blog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/blog.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/androidstudio-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/androidstudio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/androidstudio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/markdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/markdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/markdown.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/markdown.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/markdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/md-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/md-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/md-page.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/md-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/blog/md-page/md-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/md-page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/data/social.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/application/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/base.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/application/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/base.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/application/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/base.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/application/base.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/jump-icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/application/jump-icons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/jump-icons.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/jump-icons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/application/jump-icons.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/application/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/styles.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/application/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/application/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/global/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/application/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/home/home-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/home/home-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/home/home-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/home/home.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/project-tiles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/home/project-tiles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/skill-bar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/home/skill-bar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/skill-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/home/skill-button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/skill-button.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/home/skill-button.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/skill-button.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/home/skill-button.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/photo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/photo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/photo/photo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/photo/photo-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/photo/photo-style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/photo/photo-style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/photo/photo-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/photo/photo-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/photo/photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/photo/photo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/photo/photo.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/photo/photo.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/photo/photo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/photo/photo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/res/js/svg-inject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/js/svg-inject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/json/markdowns.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/markdowns.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/markdown/commands.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/commands.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/markdown/compose_flip_clock.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/compose_flip_clock.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/markdown/design_pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/design_pattern.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/markdown/enjoy_linux_gnome.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/enjoy_linux_gnome.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/markdown/ow_import.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/ow_import.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/markdown/proxy_set.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/proxy_set.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/markdown/system_up.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/markdown/system_up.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/base.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/base.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/base.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/base.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/base.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/http-request-util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/http-request-util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/jump-icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/jump-icons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/jump-icons.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/jump-icons.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/jump-icons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/jump-icons.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/application/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/res/application/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/blog/md-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/photo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/photo/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,11 +79,11 @@
       <recent name="D:\Skills\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\markdown\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\app\res" />
       <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\app\ui" />
       <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\icons" />
       <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\app\global" />
       <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\assets\json" />
-      <recent name="D:\Skills\Develop\Frontend\ShadowmeldProjects\Active\shadowmeld-home\src\app\res" />
     </key>
   </component>
   <component name="RunManager">
@@ -233,14 +171,7 @@
       <workItem from="1658542507409" duration="645000" />
       <workItem from="1658592738640" duration="1329000" />
       <workItem from="1658623962639" duration="9608000" />
-      <workItem from="1658664123850" duration="14757000" />
-    </task>
-    <task id="LOCAL-00021" summary="commit">
-      <created>1651503667858</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1651503667858</updated>
+      <workItem from="1658664123850" duration="15192000" />
     </task>
     <task id="LOCAL-00022" summary="commit">
       <created>1651504925253</created>
@@ -578,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658503855361</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="内容更新">
+      <created>1658680545482</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1658680545483</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

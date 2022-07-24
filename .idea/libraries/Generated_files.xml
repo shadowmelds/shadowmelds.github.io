@@ -23,11 +23,6 @@
       <root url="file://$PROJECT_DIR$/src/app/data/photo.js" />
       <root url="file://$PROJECT_DIR$/src/app/data/skill.js" />
       <root url="file://$PROJECT_DIR$/src/app/data/social.js" />
-      <root url="file://$PROJECT_DIR$/src/app/ui/application/HttpRequestUtil.js" />
-      <root url="file://$PROJECT_DIR$/src/app/ui/application/base.js" />
-      <root url="file://$PROJECT_DIR$/src/app/ui/application/http-request-util.js" />
-      <root url="file://$PROJECT_DIR$/src/app/ui/application/jump-icons.js" />
-      <root url="file://$PROJECT_DIR$/src/app/ui/application/theme.js" />
       <root url="file://$PROJECT_DIR$/src/app/ui/blog/blog-timeline.js" />
       <root url="file://$PROJECT_DIR$/src/app/ui/blog/blog.js" />
       <root url="file://$PROJECT_DIR$/src/app/ui/blog/md-page/md-page.js" />
@@ -36,6 +31,11 @@
       <root url="file://$PROJECT_DIR$/src/app/ui/home/skill-bar.js" />
       <root url="file://$PROJECT_DIR$/src/app/ui/home/skill-button.js" />
       <root url="file://$PROJECT_DIR$/src/app/ui/photo/photo.js" />
+      <root url="file://$PROJECT_DIR$/src/app/res/application/HttpRequestUtil.js" />
+      <root url="file://$PROJECT_DIR$/src/app/res/application/theme.js" />
+      <root url="file://$PROJECT_DIR$/src/app/res/application/jump-icons.js" />
+      <root url="file://$PROJECT_DIR$/src/app/res/application/base.js" />
+      <root url="file://$PROJECT_DIR$/src/app/res/application/http-request-util.js" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
