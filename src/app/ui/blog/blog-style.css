@@ -160,6 +160,9 @@
 .blog .item:hover::after {
   opacity: 1;
 }
+.blog .item .title {
+  color: var(--text-primary);
+}
 .blog .boox {
   color: #333;
   height: auto;
