@@ -264,6 +264,10 @@ $card-shadow: 0 0.5em 1em -0.125em rgba(#000000, 0.2), 0 0px 0 1px rgba(#000000,
       transform: scale(1, 1);
     }
 
+    &:hover::after {
+      opacity: 1;
+    }
+
     .item:hover::after {
       opacity: 1;
     }
