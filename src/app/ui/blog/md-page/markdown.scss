@@ -137,8 +137,8 @@
 
 // Global Theme
 .md-content  {
-  line-height: 1.7142857143;
-  font-size: 14px;
+  line-height: 24px;
+  font-size: 16px;
   letter-spacing: .25px;
   font-family: Google Sans,Source Sans Pro,Helvetica Neue,Arial,sans-serif,icomoon;
   margin: 0 auto;
@@ -152,7 +152,7 @@
 
   // 代码标题
   .code_title {
-    padding:6px 1rem;
+    padding:6px .6rem;
     margin: 32px 0 0 0;
     display: flex;
     border: 1px solid var(--border-color);
@@ -169,7 +169,7 @@
     img {
       width: 26px;
       height: 26px;
-      margin-right: .8rem;
+      margin-right: .6rem;
     }
   }
 
@@ -279,7 +279,6 @@
 
   // 无序列表
   ul {
-    padding-left: 2.5rem;
     counter-reset: items;
     display: block;
     list-style-type: disc;
@@ -287,7 +286,6 @@
 
   // 有序列表
   ol {
-    padding-left: 1.5rem;
     counter-reset: items;
     display: block;
   }
@@ -469,7 +467,7 @@
   }
 
   li, ul, ol {
-    margin-left: 16px;
+    margin-left: 20px;
   }
 
   // Other

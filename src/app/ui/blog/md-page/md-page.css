@@ -106,8 +106,8 @@
 }
 
 .md-content {
-  line-height: 1.7142857143;
-  font-size: 14px;
+  line-height: 24px;
+  font-size: 16px;
   letter-spacing: 0.25px;
   font-family: Google Sans, Source Sans Pro, Helvetica Neue, Arial, sans-serif, icomoon;
   margin: 0 auto;
@@ -119,7 +119,7 @@
   color: #EEEEEE;
 }
 .md-content .code_title {
-  padding: 6px 1rem;
+  padding: 6px 0.6rem;
   margin: 32px 0 0 0;
   display: flex;
   border: 1px solid var(--border-color);
@@ -135,7 +135,7 @@
 .md-content .code_title img {
   width: 26px;
   height: 26px;
-  margin-right: 0.8rem;
+  margin-right: 0.6rem;
 }
 .md-content kbd {
   padding: 0 0.29412em;
@@ -224,13 +224,11 @@
   text-underline-offset: 2px;
 }
 .md-content ul {
-  padding-left: 2.5rem;
   counter-reset: items;
   display: block;
   list-style-type: disc;
 }
 .md-content ol {
-  padding-left: 1.5rem;
   counter-reset: items;
   display: block;
 }
@@ -380,7 +378,7 @@
   margin-top: 0;
 }
 .md-content li, .md-content ul, .md-content ol {
-  margin-left: 16px;
+  margin-left: 20px;
 }
 .md-content .img-package {
   text-align: center;
