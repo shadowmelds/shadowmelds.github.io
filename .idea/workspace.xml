@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="内容更新" />
+    <list default="true" id="dbe8f217-6480-4046-8411-989cffee62a5" name="Changes" comment="内容更新">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/blog/md-page/markdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/markdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/blog/md-page/md-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/blog/md-page/md-page.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,13 +159,8 @@
       <workItem from="1658681744221" duration="274000" />
       <workItem from="1658706514013" duration="1081000" />
       <workItem from="1658710237667" duration="2516000" />
-    </task>
-    <task id="LOCAL-00028" summary="新增博客目录">
-      <created>1651679295148</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1651679295148</updated>
+      <workItem from="1658713670900" duration="237000" />
+      <workItem from="1658714686118" duration="130000" />
     </task>
     <task id="LOCAL-00029" summary="新增博客目录">
       <created>1651679890831</created>
@@ -499,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658713060237</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="内容更新">
+      <created>1658713859562</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1658713859562</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
